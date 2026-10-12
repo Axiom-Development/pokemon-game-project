@@ -57,9 +57,10 @@ export function RunSummary({ state, onPlayAgain, onChangeMode }: RunSummaryProps
           </div>
         </dl>
 
-        {state.history.length > 0 ? (
+        {counted.length > 0 ? (
           <ol className="summary__seen" aria-label="Pokémon this run">
-            {state.history.map((h, i) => {
+            {/* A Pokémon cut off by the Timed clock wasn't a miss, so it isn't listed. */}
+            {counted.map((h, i) => {
               const p = data.byId.get(h.pokemonId);
               if (!p) return null;
               const good = h.outcome === "correct";

@@ -10,7 +10,7 @@ import type { GameData } from "./GameData";
 import { buildHints } from "./hints";
 import { Deck } from "./random";
 import { buildRunConfig, type RunOptions } from "./rules";
-import { createRun, createRunReducer, isRunComplete, type RunState } from "./run";
+import { createRun, createRunReducer, isRunComplete, type RunAction, type RunState } from "./run";
 
 export type RevealStep = "hold" | "flash" | "named" | "done";
 
@@ -48,7 +48,7 @@ export function useRun(data: GameData, request: RunRequest, callbacks: RunCallba
     return { config, deck, first: deck.draw() };
   }, [data, request]);
 
-  const [state, dispatch] = useReducer(reducer, undefined, () =>
+  const [state, rawDispatch] = useReducer(reducer, undefined, () =>
     createRun(`run${request.id}`, setup.config, setup.first, Date.now(),
       setup.config.mode === "daily" ? request.dailyResume ?? undefined : undefined),
   );
@@ -59,6 +59,57 @@ export function useRun(data: GameData, request: RunRequest, callbacks: RunCallba
 
   const callbacksRef = useRef(callbacks);
   callbacksRef.current = callbacks;
+
+  /**
+   * Progress is saved at the moment an action happens, not in an effect after
+   * the next paint — otherwise a reload in that gap could lose a daily guess
+   * (and let it be retried) or drop a finished round from the stats.
+   */
+  const persist = useCallback(
+    (prev: RunState, next: RunState) => {
+      const r = next.round;
+      const cb = callbacksRef.current;
+      const daily = next.config.mode === "daily";
+      if (r.outcome && !prev.round.outcome) {
+        if (r.outcome !== "timeup") {
+          cb.onRound({
+            key: r.key,
+            pokemonId: r.pokemonId,
+            generation: data.byId.get(r.pokemonId)?.generation ?? 0,
+            correct: r.outcome === "correct",
+            guesses: r.guesses.length,
+            durationMs: r.answeredMs,
+          });
+        }
+        if (daily) {
+          cb.onDaily({
+            date: request.today,
+            pokemonId: r.pokemonId,
+            solved: r.outcome === "correct",
+            guesses: r.guesses.length,
+            hintsUsed: r.hintsUsed,
+            points: r.score?.total ?? 0,
+          });
+        }
+      } else if (daily && !r.outcome && (r.guesses !== prev.round.guesses || r.hintsUsed !== prev.round.hintsUsed)) {
+        cb.onDailyProgress({ date: request.today, guesses: r.guesses, hintsUsed: r.hintsUsed });
+      }
+    },
+    [data, request.today],
+  );
+
+  const dispatch = useCallback(
+    (action: RunAction) => {
+      const prev = stateRef.current;
+      const next = reducer(prev, action); // pure: identical to what useReducer will compute
+      if (next !== prev) {
+        stateRef.current = next;
+        persist(prev, next);
+      }
+      rawDispatch(action);
+    },
+    [reducer, persist],
+  );
 
   const pokemon: Pokemon = data.byId.get(state.round.pokemonId)!;
   const hints = useMemo(() => buildHints(pokemon, data.maxId), [pokemon, data.maxId]);
@@ -146,7 +197,7 @@ export function useRun(data: GameData, request: RunRequest, callbacks: RunCallba
     return () => timers.forEach((id) => window.clearTimeout(id));
   }, [state.phase, roundKey, config.rules.quickReveal, reducedMotion]);
 
-  // ---- Round resolution side effects (once per round key)
+  // ---- Round resolution sounds (once per round key; saving happens in dispatch)
   const handled = useRef(new Set<string>());
   useEffect(() => {
     const { round } = state;
@@ -158,38 +209,7 @@ export function useRun(data: GameData, request: RunRequest, callbacks: RunCallba
     } else if (round.outcome !== "timeup") {
       sfx.play("wrong");
     }
-    if (round.outcome !== "timeup") {
-      callbacksRef.current.onRound({
-        key: round.key,
-        pokemonId: round.pokemonId,
-        generation: pokemon.generation,
-        correct: round.outcome === "correct",
-        guesses: round.guesses.length,
-        durationMs: round.answeredMs,
-      });
-    }
-    if (config.mode === "daily") {
-      callbacksRef.current.onDaily({
-        date: request.today,
-        pokemonId: round.pokemonId,
-        solved: round.outcome === "correct",
-        guesses: round.guesses.length,
-        hintsUsed: round.hintsUsed,
-        points: round.score?.total ?? 0,
-      });
-    }
-  }, [state, pokemon, config.mode, request.today]);
-
-  // Daily: remember guesses/hints of the unfinished round.
-  useEffect(() => {
-    if (config.mode !== "daily" || state.round.outcome) return;
-    if (state.round.guesses.length === 0 && state.round.hintsUsed === 0) return;
-    callbacksRef.current.onDailyProgress({
-      date: request.today,
-      guesses: state.round.guesses,
-      hintsUsed: state.round.hintsUsed,
-    });
-  }, [config.mode, state.round.guesses, state.round.hintsUsed, state.round.outcome, request.today]);
+  }, [state]);
 
   // Wrong-guess buzz.
   useEffect(() => {

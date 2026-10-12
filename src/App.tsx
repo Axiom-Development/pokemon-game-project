@@ -170,12 +170,31 @@ function Game() {
     }));
   }, []);
 
+  // Written to storage straight away (not only via the save effects) so a
+  // reload right after answering can't lose the round.
+  const statsRef = useRef(stats);
+  statsRef.current = stats;
   const callbacks: RunCallbacks = useMemo(
     () => ({
-      onRound: (record) => setStats((s) => recordRound(s, record)),
-      onDaily: (result) => setDaily((d) => recordDaily(d, result)),
-      onDailyProgress: (progress) =>
-        setDaily((d) => (completedOn(d, progress.date) ? d : { ...d, progress })),
+      onRound: (record) => {
+        const next = recordRound(statsRef.current, record);
+        statsRef.current = next;
+        saveStats(next);
+        setStats(next);
+      },
+      onDaily: (result) => {
+        const next = recordDaily(dailyRef.current, result);
+        dailyRef.current = next;
+        saveDaily(next);
+        setDaily(next);
+      },
+      onDailyProgress: (progress) => {
+        if (completedOn(dailyRef.current, progress.date)) return;
+        const next = { ...dailyRef.current, progress };
+        dailyRef.current = next;
+        saveDaily(next);
+        setDaily(next);
+      },
     }),
     [],
   );

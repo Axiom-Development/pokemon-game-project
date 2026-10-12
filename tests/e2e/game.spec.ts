@@ -53,7 +53,7 @@ test("silhouette hides the answer until the reveal", async ({ page }) => {
   await guess(page, mon.name);
   await expect(page.locator(".stage__name")).toHaveText(`It's ${mon.name}!`);
   await expect(img).toHaveAttribute("alt", mon.name);
-  expect(await img.evaluate((el) => getComputedStyle(el).filter)).toBe("none");
+  await expect.poll(() => img.evaluate((el) => getComputedStyle(el).filter)).toBe("none");
 });
 
 test("classic: wrong, unknown and correct answers @mobile", async ({ page }) => {
