@@ -1,0 +1,265 @@
+/* ---- App shell ---- */
+.app {
+  min-height: 100dvh;
+  padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom));
+}
+
+.main {
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--s5) var(--s4) var(--s6);
+  outline: none;
+}
+
+@media (max-width: 720px) {
+  .main {
+    padding: var(--s3) var(--s3) var(--s5);
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--s3);
+  top: -60px;
+  z-index: 100;
+  padding: var(--s2) var(--s3);
+  background: var(--yellow);
+  border: var(--line);
+  border-radius: var(--r-sm);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.skip-link:focus {
+  top: var(--s2);
+}
+
+/* ---- Top bar: Pokédex-blue with a yellow pinstripe ---- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--blue);
+  border-bottom: var(--line);
+  box-shadow: inset 0 -5px 0 var(--yellow), inset 0 -8px 0 var(--blue-deep);
+  padding-bottom: 8px;
+}
+
+.topbar__inner {
+  max-width: var(--content-max);
+  height: var(--header-h);
+  margin: 0 auto;
+  padding: 0 var(--s4);
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  text-decoration: none;
+  flex: none;
+}
+
+.brand__text {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--yellow);
+  -webkit-text-stroke: 5px var(--blue-night);
+  paint-order: stroke fill;
+  text-shadow: 0 2px 0 var(--ink);
+  white-space: nowrap;
+}
+
+.score {
+  display: flex;
+  align-items: stretch;
+  border: var(--line);
+  border-radius: var(--r-sm);
+  background: var(--cream);
+  box-shadow: var(--lift-sm);
+  overflow: hidden;
+}
+
+.score__item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+}
+
+.score__item--streak {
+  border-left: 2px solid var(--ink);
+  background: var(--white);
+}
+
+.score__label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.score__value {
+  font-size: 1.15rem;
+  font-variant-numeric: tabular-nums;
+  min-width: 2ch;
+}
+
+.nav {
+  display: flex;
+  gap: var(--s1);
+  margin-left: auto;
+}
+
+.nav__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 var(--s3);
+  border: 2px solid transparent;
+  border-radius: var(--r-sm);
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav__item:hover {
+  background: var(--blue-deep);
+}
+
+.nav__item[aria-current="page"] {
+  background: var(--yellow);
+  color: var(--ink);
+  border-color: var(--ink);
+  box-shadow: var(--lift-sm);
+}
+
+@media (max-width: 960px) {
+  .nav__item span {
+    display: none;
+  }
+  .nav__item {
+    padding: 0 10px;
+  }
+}
+
+/* Phones: brand + score up top, menu docked at the bottom like a handheld. */
+@media (max-width: 720px) {
+  .topbar__inner {
+    padding: 0 var(--s3);
+    gap: var(--s2);
+    justify-content: space-between;
+  }
+
+  .brand__text {
+    font-size: 1.15rem;
+    -webkit-text-stroke-width: 4px;
+  }
+
+  /* The stage already says it; keep the bar for score while playing. */
+  .topbar__inner:has(.score) .brand__text {
+    display: none;
+  }
+
+  .brand__text span {
+    display: inline;
+  }
+
+  .score__item {
+    padding: 2px 8px;
+  }
+
+  .nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    height: calc(var(--nav-h) + env(safe-area-inset-bottom));
+    padding: 6px var(--s2) calc(6px + env(safe-area-inset-bottom));
+    margin: 0;
+    background: var(--blue);
+    border-top: var(--line);
+    box-shadow: inset 0 4px 0 var(--yellow), inset 0 7px 0 var(--blue-deep);
+    padding-top: 10px;
+    justify-content: space-around;
+  }
+
+  .nav__item {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    min-height: 44px;
+    padding: 2px 0;
+    font-size: 0.7rem;
+  }
+
+  .nav__item span {
+    display: block;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand__text {
+    display: none;
+  }
+}
+
+/* ---- Boot / error ---- */
+.boot {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: var(--s4);
+}
+
+.boot__loading {
+  font-size: 1.2rem;
+}
+
+.boot__box {
+  max-width: 420px;
+  display: grid;
+  gap: var(--s3);
+  font-weight: 600;
+}
+
+.boot__detail {
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  margin-bottom: var(--s4);
+  padding: var(--s2) var(--s3);
+  background: var(--yellow-soft);
+  border: var(--line);
+  border-radius: var(--r-sm);
+  font-weight: 600;
+}
+
+.screen-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--blue-deep);
+  margin-bottom: var(--s4);
+}
+
+.with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}

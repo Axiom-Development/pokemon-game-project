@@ -1,0 +1,86 @@
+/*
+ * Design tokens.
+ * Base palette is the classic Pokémon set; tints are derived for rays and
+ * pressed states only.
+ */
+:root {
+  --yellow: #ffcb05;
+  --yellow-soft: #ffe27a;
+  --yellow-dark: #c79a00;
+  --blue: #2a75bb;
+  --blue-deep: #3c5aa6;
+  --blue-ray: #4a90d0;
+  --blue-night: #22427f;
+  --red: #ee1515;
+  --red-dark: #cc0000;
+  --cream: #fff9e6;
+  --cream-deep: #f6ebc8;
+  --ink: #222224;
+  --ink-soft: #55555c;
+  --white: #ffffff;
+  --good: #1f7a3a;
+  --good-bg: #e3f4e5;
+  --bad: #b00f0f;
+  --bad-bg: #fde6e4;
+
+  --font-display: "Lilita One", "Arial Rounded MT Bold", "Arial Black", sans-serif;
+  --font-ui: "Rubik Variable", "Trebuchet MS", system-ui, sans-serif;
+  /* Pixel face for numbers and readouts only — never for running text. */
+  --font-pixel: "Silkscreen", ui-monospace, "Courier New", monospace;
+
+  /* Borders: thick ink outlines, as in the handheld menus. */
+  --bw: 3px;
+  --line: var(--bw) solid var(--ink);
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 14px;
+  /* Flat offset shadow — "printed sticker", not a soft glow. */
+  --lift: 0 4px 0 var(--ink);
+  --lift-sm: 0 2px 0 var(--ink);
+
+  /* Spacing scale (4px grid, with an intentional jump at the large end). */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 36px;
+
+  --ease-pop: cubic-bezier(0.2, 1.6, 0.4, 1);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --header-h: 60px;
+  --nav-h: 0px;
+  --content-max: 1080px;
+
+  color-scheme: light;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --header-h: 52px;
+    --nav-h: 62px;
+  }
+}
+
+/* Type colours used by the franchise's own UI. */
+:root {
+  --t-normal: #a8a878;
+  --t-fire: #f08030;
+  --t-water: #6890f0;
+  --t-electric: #f8d030;
+  --t-grass: #78c850;
+  --t-ice: #98d8d8;
+  --t-fighting: #c03028;
+  --t-poison: #a040a0;
+  --t-ground: #e0c068;
+  --t-flying: #a890f0;
+  --t-psychic: #f85888;
+  --t-bug: #a8b820;
+  --t-rock: #b8a038;
+  --t-ghost: #705898;
+  --t-dragon: #7038f8;
+  --t-dark: #705848;
+  --t-steel: #b8b8d0;
+  --t-fairy: #ee99ac;
+}

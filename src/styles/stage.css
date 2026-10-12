@@ -1,0 +1,262 @@
+/* ------------------------------------------------------------------
+ * The stage: anime title-card rays, silhouette and reveal.
+ * ------------------------------------------------------------------ */
+.stage {
+  --ray-a: var(--blue);
+  --ray-b: var(--blue-ray);
+  --art-x: 66%;
+  --art-y: 54%;
+  position: relative;
+  height: clamp(300px, 54svh, 540px);
+  overflow: hidden;
+  isolation: isolate;
+  border: var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--lift);
+  background: var(--ray-a);
+  user-select: none;
+}
+
+.stage--revealed {
+  --ray-a: var(--yellow);
+  --ray-b: var(--yellow-soft);
+}
+
+.stage[data-step="hold"],
+.stage[data-step="flash"],
+.stage[data-step="named"] {
+  cursor: pointer;
+}
+
+/* Oversized so the rays still cover the frame while rotating. */
+.stage__rays {
+  position: absolute;
+  left: var(--art-x);
+  top: var(--art-y);
+  width: 300vmax;
+  height: 300vmax;
+  translate: -50% -50%;
+  z-index: -1;
+  background: repeating-conic-gradient(var(--ray-a) 0deg 9deg, var(--ray-b) 9deg 18deg);
+}
+
+/* Anticipation: the rays wind two stripe periods (36°), so the loop back is invisible. */
+.stage[data-step="hold"] .stage__rays {
+  rotate: 36deg;
+  transition: rotate 520ms cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+.stage__title {
+  position: absolute;
+  left: 4%;
+  top: 9%;
+  z-index: 2;
+  max-width: 40%;
+  font-size: clamp(2.1rem, 5.4vw, 4.2rem);
+  rotate: -5deg;
+  transform-origin: left center;
+}
+
+.stage__title span {
+  display: block;
+}
+
+.stage__art {
+  position: absolute;
+  inset: 5% 3% 5% 38%;
+}
+
+.stage__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  /* Pure black silhouette; the alpha channel keeps the exact outline. */
+  filter: brightness(0);
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+.stage--revealed .stage__img {
+  filter: none;
+}
+
+/* The colour swap happens under the flash, not before it. */
+.stage[data-step="flash"] .stage__img {
+  transition: filter 0s linear 80ms;
+}
+
+.stage__flash {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: var(--white);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.stage[data-step="flash"] .stage__flash {
+  animation: stage-flash 260ms ease-out both;
+}
+
+@keyframes stage-flash {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.stage__name {
+  position: absolute;
+  left: 4%;
+  bottom: 9%;
+  z-index: 4;
+  max-width: 92%;
+  font-size: clamp(2.2rem, 5.6vw, 4rem);
+  rotate: -3deg;
+  transform-origin: left bottom;
+  animation: stage-name 320ms var(--ease-pop) both;
+}
+
+@keyframes stage-name {
+  from {
+    opacity: 0;
+    scale: 0.55;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.stage__hud {
+  position: absolute;
+  top: var(--s3);
+  right: var(--s3);
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--s2);
+}
+
+.hud-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 10px;
+  background: var(--cream);
+  border: var(--line);
+  border-radius: var(--r-sm);
+  box-shadow: var(--lift-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.hud-chip--time,
+.hud-chip--count {
+  font-family: var(--font-pixel);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.hud-chip--urgent {
+  background: var(--red);
+  color: var(--white);
+}
+
+.hud-lives {
+  gap: 2px;
+}
+
+.stage__skip {
+  position: absolute;
+  right: var(--s3);
+  bottom: var(--s3);
+  z-index: 6;
+}
+
+.stage__error {
+  position: absolute;
+  inset: auto var(--s4) var(--s4) var(--s4);
+  z-index: 6;
+  display: grid;
+  gap: var(--s3);
+  font-weight: 600;
+}
+
+.stage__error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+}
+
+/* Small screens: title on top, Pokémon underneath. */
+@media (max-width: 720px) {
+  .stage {
+    --art-x: 50%;
+    --art-y: 60%;
+    height: clamp(260px, 46svh, 420px);
+  }
+
+  .stage__title {
+    left: var(--s3);
+    top: var(--s3);
+    max-width: 58%;
+    font-size: clamp(1.6rem, 7.6vw, 2.4rem);
+    -webkit-text-stroke-width: 6px;
+    text-shadow: 0 3px 0 var(--ink);
+  }
+
+  .stage__art {
+    inset: 24% 8% 5% 8%;
+  }
+
+  .stage__name {
+    left: 50%;
+    bottom: 6%;
+    translate: -50% 0;
+    rotate: -2deg;
+    transform-origin: center bottom;
+    width: 94%;
+    max-width: none;
+    text-align: center;
+    font-size: clamp(1.7rem, 8vw, 2.6rem);
+    -webkit-text-stroke-width: 6px;
+    text-shadow: 0 3px 0 var(--ink);
+  }
+
+  .stage__hud {
+    top: var(--s2);
+    right: var(--s2);
+    gap: var(--s1);
+    max-width: 44%;
+  }
+
+  .hud-chip__sub {
+    display: none;
+  }
+
+  .hud-chip {
+    min-height: 30px;
+    font-size: 0.95rem;
+    padding: 0 7px;
+  }
+}
+
+/* Phones held sideways: put the art beside the title and keep the box visible. */
+@media (max-height: 520px) and (orientation: landscape) {
+  .stage {
+    height: calc(100svh - var(--header-h) - var(--nav-h) - 48px);
+    min-height: 220px;
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "status": "pass",
+  "summary": {
+    "csv_rows": 1025,
+    "pokemon_in_dataset": 1025,
+    "errors": 0,
+    "warnings": 0,
+    "errors_by_category": {},
+    "warnings_by_category": {}
+  },
+  "info": {
+    "sources": {
+      "dataset": {
+        "file": "Data Set - NOT NORMALISED - pokemon.csv",
+        "sha256": "fec544f2b50a7e9a19ae9f422596a989d2e73d7adbf30d513fbade8555695bfc"
+      },
+      "artwork": {
+        "file": "images.zip",
+        "sha256": "c8cc8665de43d9ae726e279cc9e45401eafdeddf933eeb336db74447fd98f37c"
+      }
+    },
+    "csv_schema": [
+      {
+        "column": "pokedex_number",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 1025,
+        "expected": true
+      },
+      {
+        "column": "name",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 1025,
+        "expected": true
+      },
+      {
+        "column": "slug",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 1025,
+        "expected": true
+      },
+      {
+        "column": "genus",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 715,
+        "expected": true
+      },
+      {
+        "column": "generation",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 9,
+        "expected": true
+      },
+      {
+        "column": "type_1",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 18,
+        "expected": true
+      },
+      {
+        "column": "type_2",
+        "inferred_type": "text",
+        "empty_values": 499,
+        "unique_values": 19,
+        "expected": true
+      },
+      {
+        "column": "hp",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 107,
+        "expected": true
+      },
+      {
+        "column": "attack",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 117,
+        "expected": true
+      },
+      {
+        "column": "defense",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 108,
+        "expected": true
+      },
+      {
+        "column": "special_attack",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 113,
+        "expected": true
+      },
+      {
+        "column": "special_defense",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 103,
+        "expected": true
+      },
+      {
+        "column": "speed",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 119,
+        "expected": true
+      },
+      {
+        "column": "height_m",
+        "inferred_type": "decimal",
+        "empty_values": 0,
+        "unique_values": 54,
+        "expected": true
+      },
+      {
+        "column": "weight_kg",
+        "inferred_type": "decimal",
+        "empty_values": 0,
+        "unique_values": 482,
+        "expected": true
+      },
+      {
+        "column": "base_experience",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 178,
+        "expected": true
+      },
+      {
+        "column": "capture_rate",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 38,
+        "expected": true
+      },
+      {
+        "column": "base_happiness",
+        "inferred_type": "integer",
+        "empty_values": 0,
+        "unique_values": 8,
+        "expected": true
+      },
+      {
+        "column": "is_baby",
+        "inferred_type": "boolean",
+        "empty_values": 0,
+        "unique_values": 2,
+        "expected": true
+      },
+      {
+        "column": "is_legendary",
+        "inferred_type": "boolean",
+        "empty_values": 0,
+        "unique_values": 2,
+        "expected": true
+      },
+      {
+        "column": "is_mythical",
+        "inferred_type": "boolean",
+        "empty_values": 0,
+        "unique_values": 2,
+        "expected": true
+      },
+      {
+        "column": "image_url",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 1025,
+        "expected": true
+      },
+      {
+        "column": "image_path",
+        "inferred_type": "text",
+        "empty_values": 0,
+        "unique_values": 1025,
+        "expected": true
+      }
+    ],
+    "csv_rows": 1025,
+    "pokedex_range": [
+      1,
+      1025
+    ],
+    "archive_files_extracted": 1025,
+    "archive_files_ignored": [],
+    "artwork_directories": {
+      "images": 1025
+    },
+    "artwork_extensions": {
+      ".png": 1025
+    },
+    "match_methods": {
+      "csv_image_path": 1025
+    },
+    "images": {
+      "images_used": 1025,
+      "dimensions": {
+        "475x475": 1025
+      },
+      "with_alpha": 1025,
+      "without_alpha": 0,
+      "interlaced": 0,
+      "color_types": {
+        "6": 1025
+      }
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

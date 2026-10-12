@@ -1,0 +1,5127 @@
+[
+ {
+  "pokedex_number": 1,
+  "source": "images/0001_bulbasaur.png",
+  "asset": "assets/pokemon/7233d8d8b03b5fa9.png"
+ },
+ {
+  "pokedex_number": 2,
+  "source": "images/0002_ivysaur.png",
+  "asset": "assets/pokemon/82013427ae4ef328.png"
+ },
+ {
+  "pokedex_number": 3,
+  "source": "images/0003_venusaur.png",
+  "asset": "assets/pokemon/106d0040aa775f95.png"
+ },
+ {
+  "pokedex_number": 4,
+  "source": "images/0004_charmander.png",
+  "asset": "assets/pokemon/0c8e36e321cbd657.png"
+ },
+ {
+  "pokedex_number": 5,
+  "source": "images/0005_charmeleon.png",
+  "asset": "assets/pokemon/6de10f11330f19b5.png"
+ },
+ {
+  "pokedex_number": 6,
+  "source": "images/0006_charizard.png",
+  "asset": "assets/pokemon/b6d5b8ee9fb05dc6.png"
+ },
+ {
+  "pokedex_number": 7,
+  "source": "images/0007_squirtle.png",
+  "asset": "assets/pokemon/37cda7bf8ad6f425.png"
+ },
+ {
+  "pokedex_number": 8,
+  "source": "images/0008_wartortle.png",
+  "asset": "assets/pokemon/5fc6739ca9f7c5c0.png"
+ },
+ {
+  "pokedex_number": 9,
+  "source": "images/0009_blastoise.png",
+  "asset": "assets/pokemon/ba0a6b633e7a5d5a.png"
+ },
+ {
+  "pokedex_number": 10,
+  "source": "images/0010_caterpie.png",
+  "asset": "assets/pokemon/49eb7f6c88d65d65.png"
+ },
+ {
+  "pokedex_number": 11,
+  "source": "images/0011_metapod.png",
+  "asset": "assets/pokemon/945f2aca4d6ae55a.png"
+ },
+ {
+  "pokedex_number": 12,
+  "source": "images/0012_butterfree.png",
+  "asset": "assets/pokemon/0d412d9b32b8064f.png"
+ },
+ {
+  "pokedex_number": 13,
+  "source": "images/0013_weedle.png",
+  "asset": "assets/pokemon/d8cf2e85a0b1b741.png"
+ },
+ {
+  "pokedex_number": 14,
+  "source": "images/0014_kakuna.png",
+  "asset": "assets/pokemon/75eb591f2c404af5.png"
+ },
+ {
+  "pokedex_number": 15,
+  "source": "images/0015_beedrill.png",
+  "asset": "assets/pokemon/87bec9bd0348a95d.png"
+ },
+ {
+  "pokedex_number": 16,
+  "source": "images/0016_pidgey.png",
+  "asset": "assets/pokemon/cabe3212d06ce9c5.png"
+ },
+ {
+  "pokedex_number": 17,
+  "source": "images/0017_pidgeotto.png",
+  "asset": "assets/pokemon/85d27fddfceb90c4.png"
+ },
+ {
+  "pokedex_number": 18,
+  "source": "images/0018_pidgeot.png",
+  "asset": "assets/pokemon/0f2cf5f30ee821f8.png"
+ },
+ {
+  "pokedex_number": 19,
+  "source": "images/0019_rattata.png",
+  "asset": "assets/pokemon/6e8702f59cde0376.png"
+ },
+ {
+  "pokedex_number": 20,
+  "source": "images/0020_raticate.png",
+  "asset": "assets/pokemon/d352b859c791d1da.png"
+ },
+ {
+  "pokedex_number": 21,
+  "source": "images/0021_spearow.png",
+  "asset": "assets/pokemon/4dd0fce599e94beb.png"
+ },
+ {
+  "pokedex_number": 22,
+  "source": "images/0022_fearow.png",
+  "asset": "assets/pokemon/e34e7a7e619118ee.png"
+ },
+ {
+  "pokedex_number": 23,
+  "source": "images/0023_ekans.png",
+  "asset": "assets/pokemon/00d8d5e6ec30c6f6.png"
+ },
+ {
+  "pokedex_number": 24,
+  "source": "images/0024_arbok.png",
+  "asset": "assets/pokemon/f1e38593fba1de6e.png"
+ },
+ {
+  "pokedex_number": 25,
+  "source": "images/0025_pikachu.png",
+  "asset": "assets/pokemon/759ceafdb4b8d637.png"
+ },
+ {
+  "pokedex_number": 26,
+  "source": "images/0026_raichu.png",
+  "asset": "assets/pokemon/e5671c5f00695fa6.png"
+ },
+ {
+  "pokedex_number": 27,
+  "source": "images/0027_sandshrew.png",
+  "asset": "assets/pokemon/6d1a14b1b658a37e.png"
+ },
+ {
+  "pokedex_number": 28,
+  "source": "images/0028_sandslash.png",
+  "asset": "assets/pokemon/071c435e09ac9145.png"
+ },
+ {
+  "pokedex_number": 29,
+  "source": "images/0029_nidoran-f.png",
+  "asset": "assets/pokemon/1fa164a62793e12d.png"
+ },
+ {
+  "pokedex_number": 30,
+  "source": "images/0030_nidorina.png",
+  "asset": "assets/pokemon/c4063d0461782ecf.png"
+ },
+ {
+  "pokedex_number": 31,
+  "source": "images/0031_nidoqueen.png",
+  "asset": "assets/pokemon/811093801d0b6a93.png"
+ },
+ {
+  "pokedex_number": 32,
+  "source": "images/0032_nidoran-m.png",
+  "asset": "assets/pokemon/4216cc685bdb6115.png"
+ },
+ {
+  "pokedex_number": 33,
+  "source": "images/0033_nidorino.png",
+  "asset": "assets/pokemon/b90aea26f69bc308.png"
+ },
+ {
+  "pokedex_number": 34,
+  "source": "images/0034_nidoking.png",
+  "asset": "assets/pokemon/b018c1967dd92a29.png"
+ },
+ {
+  "pokedex_number": 35,
+  "source": "images/0035_clefairy.png",
+  "asset": "assets/pokemon/4190637ae539df3c.png"
+ },
+ {
+  "pokedex_number": 36,
+  "source": "images/0036_clefable.png",
+  "asset": "assets/pokemon/7a3c310640c4ba66.png"
+ },
+ {
+  "pokedex_number": 37,
+  "source": "images/0037_vulpix.png",
+  "asset": "assets/pokemon/cded4e96e175c05c.png"
+ },
+ {
+  "pokedex_number": 38,
+  "source": "images/0038_ninetales.png",
+  "asset": "assets/pokemon/e60b06bf0aa8b23a.png"
+ },
+ {
+  "pokedex_number": 39,
+  "source": "images/0039_jigglypuff.png",
+  "asset": "assets/pokemon/2d8fa64258727708.png"
+ },
+ {
+  "pokedex_number": 40,
+  "source": "images/0040_wigglytuff.png",
+  "asset": "assets/pokemon/8150678a4be49542.png"
+ },
+ {
+  "pokedex_number": 41,
+  "source": "images/0041_zubat.png",
+  "asset": "assets/pokemon/249cd65089f552f5.png"
+ },
+ {
+  "pokedex_number": 42,
+  "source": "images/0042_golbat.png",
+  "asset": "assets/pokemon/ad93bff798afe2f1.png"
+ },
+ {
+  "pokedex_number": 43,
+  "source": "images/0043_oddish.png",
+  "asset": "assets/pokemon/035edf8e0e79148c.png"
+ },
+ {
+  "pokedex_number": 44,
+  "source": "images/0044_gloom.png",
+  "asset": "assets/pokemon/bc4fdbeac96c93a0.png"
+ },
+ {
+  "pokedex_number": 45,
+  "source": "images/0045_vileplume.png",
+  "asset": "assets/pokemon/9c2b9e9a3b91e240.png"
+ },
+ {
+  "pokedex_number": 46,
+  "source": "images/0046_paras.png",
+  "asset": "assets/pokemon/7e46da94be6cd2fd.png"
+ },
+ {
+  "pokedex_number": 47,
+  "source": "images/0047_parasect.png",
+  "asset": "assets/pokemon/ba02844ee4b17f52.png"
+ },
+ {
+  "pokedex_number": 48,
+  "source": "images/0048_venonat.png",
+  "asset": "assets/pokemon/9cc1605ada7adf9f.png"
+ },
+ {
+  "pokedex_number": 49,
+  "source": "images/0049_venomoth.png",
+  "asset": "assets/pokemon/1558c135e597d8cb.png"
+ },
+ {
+  "pokedex_number": 50,
+  "source": "images/0050_diglett.png",
+  "asset": "assets/pokemon/f7e2775b5ec38e79.png"
+ },
+ {
+  "pokedex_number": 51,
+  "source": "images/0051_dugtrio.png",
+  "asset": "assets/pokemon/092f3ff577c722a4.png"
+ },
+ {
+  "pokedex_number": 52,
+  "source": "images/0052_meowth.png",
+  "asset": "assets/pokemon/893353baec0dd1ac.png"
+ },
+ {
+  "pokedex_number": 53,
+  "source": "images/0053_persian.png",
+  "asset": "assets/pokemon/b477fdc0d93c5545.png"
+ },
+ {
+  "pokedex_number": 54,
+  "source": "images/0054_psyduck.png",
+  "asset": "assets/pokemon/87110a75d9d9c67e.png"
+ },
+ {
+  "pokedex_number": 55,
+  "source": "images/0055_golduck.png",
+  "asset": "assets/pokemon/343e4f5bca573e0f.png"
+ },
+ {
+  "pokedex_number": 56,
+  "source": "images/0056_mankey.png",
+  "asset": "assets/pokemon/e9b4fcec480f05a6.png"
+ },
+ {
+  "pokedex_number": 57,
+  "source": "images/0057_primeape.png",
+  "asset": "assets/pokemon/b320fad058841c4a.png"
+ },
+ {
+  "pokedex_number": 58,
+  "source": "images/0058_growlithe.png",
+  "asset": "assets/pokemon/05f90f8fec5729ef.png"
+ },
+ {
+  "pokedex_number": 59,
+  "source": "images/0059_arcanine.png",
+  "asset": "assets/pokemon/4461b18982bbed0d.png"
+ },
+ {
+  "pokedex_number": 60,
+  "source": "images/0060_poliwag.png",
+  "asset": "assets/pokemon/cdec53c7b6558877.png"
+ },
+ {
+  "pokedex_number": 61,
+  "source": "images/0061_poliwhirl.png",
+  "asset": "assets/pokemon/06f1cf555b609f98.png"
+ },
+ {
+  "pokedex_number": 62,
+  "source": "images/0062_poliwrath.png",
+  "asset": "assets/pokemon/955dd03af636f66f.png"
+ },
+ {
+  "pokedex_number": 63,
+  "source": "images/0063_abra.png",
+  "asset": "assets/pokemon/e1c271b81c1e1424.png"
+ },
+ {
+  "pokedex_number": 64,
+  "source": "images/0064_kadabra.png",
+  "asset": "assets/pokemon/831d284a281c0d61.png"
+ },
+ {
+  "pokedex_number": 65,
+  "source": "images/0065_alakazam.png",
+  "asset": "assets/pokemon/8f1dfebe7855bf08.png"
+ },
+ {
+  "pokedex_number": 66,
+  "source": "images/0066_machop.png",
+  "asset": "assets/pokemon/699145a859f7aa94.png"
+ },
+ {
+  "pokedex_number": 67,
+  "source": "images/0067_machoke.png",
+  "asset": "assets/pokemon/6c8151497d31a596.png"
+ },
+ {
+  "pokedex_number": 68,
+  "source": "images/0068_machamp.png",
+  "asset": "assets/pokemon/5d124f441d6690e1.png"
+ },
+ {
+  "pokedex_number": 69,
+  "source": "images/0069_bellsprout.png",
+  "asset": "assets/pokemon/9e1a107b671e88f6.png"
+ },
+ {
+  "pokedex_number": 70,
+  "source": "images/0070_weepinbell.png",
+  "asset": "assets/pokemon/3de54d7cef951951.png"
+ },
+ {
+  "pokedex_number": 71,
+  "source": "images/0071_victreebel.png",
+  "asset": "assets/pokemon/47c1fff808f898e3.png"
+ },
+ {
+  "pokedex_number": 72,
+  "source": "images/0072_tentacool.png",
+  "asset": "assets/pokemon/f3d81b1b278ef105.png"
+ },
+ {
+  "pokedex_number": 73,
+  "source": "images/0073_tentacruel.png",
+  "asset": "assets/pokemon/14c5a462583b43fc.png"
+ },
+ {
+  "pokedex_number": 74,
+  "source": "images/0074_geodude.png",
+  "asset": "assets/pokemon/eb32b467700be75d.png"
+ },
+ {
+  "pokedex_number": 75,
+  "source": "images/0075_graveler.png",
+  "asset": "assets/pokemon/7f5baf80e6e8b381.png"
+ },
+ {
+  "pokedex_number": 76,
+  "source": "images/0076_golem.png",
+  "asset": "assets/pokemon/c9738e2d60f5df04.png"
+ },
+ {
+  "pokedex_number": 77,
+  "source": "images/0077_ponyta.png",
+  "asset": "assets/pokemon/a4e14c8e403f13cd.png"
+ },
+ {
+  "pokedex_number": 78,
+  "source": "images/0078_rapidash.png",
+  "asset": "assets/pokemon/62d6b8432e29da9f.png"
+ },
+ {
+  "pokedex_number": 79,
+  "source": "images/0079_slowpoke.png",
+  "asset": "assets/pokemon/e0802e526e073469.png"
+ },
+ {
+  "pokedex_number": 80,
+  "source": "images/0080_slowbro.png",
+  "asset": "assets/pokemon/78c59860688ec9c3.png"
+ },
+ {
+  "pokedex_number": 81,
+  "source": "images/0081_magnemite.png",
+  "asset": "assets/pokemon/dd5162b1fca0be48.png"
+ },
+ {
+  "pokedex_number": 82,
+  "source": "images/0082_magneton.png",
+  "asset": "assets/pokemon/1e68484d42c004af.png"
+ },
+ {
+  "pokedex_number": 83,
+  "source": "images/0083_farfetchd.png",
+  "asset": "assets/pokemon/19cb4412f5c6dd4b.png"
+ },
+ {
+  "pokedex_number": 84,
+  "source": "images/0084_doduo.png",
+  "asset": "assets/pokemon/c4081df08c813620.png"
+ },
+ {
+  "pokedex_number": 85,
+  "source": "images/0085_dodrio.png",
+  "asset": "assets/pokemon/87306fdddb9c21e7.png"
+ },
+ {
+  "pokedex_number": 86,
+  "source": "images/0086_seel.png",
+  "asset": "assets/pokemon/cbf86b4b4d959e22.png"
+ },
+ {
+  "pokedex_number": 87,
+  "source": "images/0087_dewgong.png",
+  "asset": "assets/pokemon/d3aea3f5a2aac5e9.png"
+ },
+ {
+  "pokedex_number": 88,
+  "source": "images/0088_grimer.png",
+  "asset": "assets/pokemon/1d032143f4d902a6.png"
+ },
+ {
+  "pokedex_number": 89,
+  "source": "images/0089_muk.png",
+  "asset": "assets/pokemon/bbc4d735100cbfdb.png"
+ },
+ {
+  "pokedex_number": 90,
+  "source": "images/0090_shellder.png",
+  "asset": "assets/pokemon/d1051fa793cf81c8.png"
+ },
+ {
+  "pokedex_number": 91,
+  "source": "images/0091_cloyster.png",
+  "asset": "assets/pokemon/4510ded0220c2b57.png"
+ },
+ {
+  "pokedex_number": 92,
+  "source": "images/0092_gastly.png",
+  "asset": "assets/pokemon/23c69f67ece1dd17.png"
+ },
+ {
+  "pokedex_number": 93,
+  "source": "images/0093_haunter.png",
+  "asset": "assets/pokemon/e21bab36fe663028.png"
+ },
+ {
+  "pokedex_number": 94,
+  "source": "images/0094_gengar.png",
+  "asset": "assets/pokemon/b6549b80537676fc.png"
+ },
+ {
+  "pokedex_number": 95,
+  "source": "images/0095_onix.png",
+  "asset": "assets/pokemon/4f2496aeb88de932.png"
+ },
+ {
+  "pokedex_number": 96,
+  "source": "images/0096_drowzee.png",
+  "asset": "assets/pokemon/a258c5bcd18bd37d.png"
+ },
+ {
+  "pokedex_number": 97,
+  "source": "images/0097_hypno.png",
+  "asset": "assets/pokemon/f874aa2fe043c036.png"
+ },
+ {
+  "pokedex_number": 98,
+  "source": "images/0098_krabby.png",
+  "asset": "assets/pokemon/d8c82af68675a957.png"
+ },
+ {
+  "pokedex_number": 99,
+  "source": "images/0099_kingler.png",
+  "asset": "assets/pokemon/437b0e360946693b.png"
+ },
+ {
+  "pokedex_number": 100,
+  "source": "images/0100_voltorb.png",
+  "asset": "assets/pokemon/1e56de55241bdef6.png"
+ },
+ {
+  "pokedex_number": 101,
+  "source": "images/0101_electrode.png",
+  "asset": "assets/pokemon/53ba2223c23ef051.png"
+ },
+ {
+  "pokedex_number": 102,
+  "source": "images/0102_exeggcute.png",
+  "asset": "assets/pokemon/20e609dac93de2c4.png"
+ },
+ {
+  "pokedex_number": 103,
+  "source": "images/0103_exeggutor.png",
+  "asset": "assets/pokemon/ce28697b48b415c2.png"
+ },
+ {
+  "pokedex_number": 104,
+  "source": "images/0104_cubone.png",
+  "asset": "assets/pokemon/88ead79f1c78f8de.png"
+ },
+ {
+  "pokedex_number": 105,
+  "source": "images/0105_marowak.png",
+  "asset": "assets/pokemon/223279b38408779c.png"
+ },
+ {
+  "pokedex_number": 106,
+  "source": "images/0106_hitmonlee.png",
+  "asset": "assets/pokemon/983cc4ce160b041e.png"
+ },
+ {
+  "pokedex_number": 107,
+  "source": "images/0107_hitmonchan.png",
+  "asset": "assets/pokemon/1b811ffdd00f97e7.png"
+ },
+ {
+  "pokedex_number": 108,
+  "source": "images/0108_lickitung.png",
+  "asset": "assets/pokemon/76a98212dff09ec6.png"
+ },
+ {
+  "pokedex_number": 109,
+  "source": "images/0109_koffing.png",
+  "asset": "assets/pokemon/fafb96d013ab7b44.png"
+ },
+ {
+  "pokedex_number": 110,
+  "source": "images/0110_weezing.png",
+  "asset": "assets/pokemon/2ea5a510c378b6fa.png"
+ },
+ {
+  "pokedex_number": 111,
+  "source": "images/0111_rhyhorn.png",
+  "asset": "assets/pokemon/6a7478554afcbb28.png"
+ },
+ {
+  "pokedex_number": 112,
+  "source": "images/0112_rhydon.png",
+  "asset": "assets/pokemon/8fabe62dab35c7f7.png"
+ },
+ {
+  "pokedex_number": 113,
+  "source": "images/0113_chansey.png",
+  "asset": "assets/pokemon/8233229237ea2084.png"
+ },
+ {
+  "pokedex_number": 114,
+  "source": "images/0114_tangela.png",
+  "asset": "assets/pokemon/57e96fb7a3e1a99f.png"
+ },
+ {
+  "pokedex_number": 115,
+  "source": "images/0115_kangaskhan.png",
+  "asset": "assets/pokemon/bc2424e71902a870.png"
+ },
+ {
+  "pokedex_number": 116,
+  "source": "images/0116_horsea.png",
+  "asset": "assets/pokemon/4b610c3adf68de8d.png"
+ },
+ {
+  "pokedex_number": 117,
+  "source": "images/0117_seadra.png",
+  "asset": "assets/pokemon/7c61fbb408242fdf.png"
+ },
+ {
+  "pokedex_number": 118,
+  "source": "images/0118_goldeen.png",
+  "asset": "assets/pokemon/38f84d1fa374a477.png"
+ },
+ {
+  "pokedex_number": 119,
+  "source": "images/0119_seaking.png",
+  "asset": "assets/pokemon/44ed5c483773144a.png"
+ },
+ {
+  "pokedex_number": 120,
+  "source": "images/0120_staryu.png",
+  "asset": "assets/pokemon/c6d201593a95accb.png"
+ },
+ {
+  "pokedex_number": 121,
+  "source": "images/0121_starmie.png",
+  "asset": "assets/pokemon/4e9cebb6042fd548.png"
+ },
+ {
+  "pokedex_number": 122,
+  "source": "images/0122_mr-mime.png",
+  "asset": "assets/pokemon/9c46e52050633b1c.png"
+ },
+ {
+  "pokedex_number": 123,
+  "source": "images/0123_scyther.png",
+  "asset": "assets/pokemon/0e983e7e52525853.png"
+ },
+ {
+  "pokedex_number": 124,
+  "source": "images/0124_jynx.png",
+  "asset": "assets/pokemon/c3bf3395798770b6.png"
+ },
+ {
+  "pokedex_number": 125,
+  "source": "images/0125_electabuzz.png",
+  "asset": "assets/pokemon/47e0902fb2d49e62.png"
+ },
+ {
+  "pokedex_number": 126,
+  "source": "images/0126_magmar.png",
+  "asset": "assets/pokemon/8dc68104e9a1c589.png"
+ },
+ {
+  "pokedex_number": 127,
+  "source": "images/0127_pinsir.png",
+  "asset": "assets/pokemon/badba34a0d5e77e7.png"
+ },
+ {
+  "pokedex_number": 128,
+  "source": "images/0128_tauros.png",
+  "asset": "assets/pokemon/04ba885a5e71dc1e.png"
+ },
+ {
+  "pokedex_number": 129,
+  "source": "images/0129_magikarp.png",
+  "asset": "assets/pokemon/df8fc8a1d11083f2.png"
+ },
+ {
+  "pokedex_number": 130,
+  "source": "images/0130_gyarados.png",
+  "asset": "assets/pokemon/41d17760b81321cc.png"
+ },
+ {
+  "pokedex_number": 131,
+  "source": "images/0131_lapras.png",
+  "asset": "assets/pokemon/ffd98849dee0a265.png"
+ },
+ {
+  "pokedex_number": 132,
+  "source": "images/0132_ditto.png",
+  "asset": "assets/pokemon/5f7be2f22d06658a.png"
+ },
+ {
+  "pokedex_number": 133,
+  "source": "images/0133_eevee.png",
+  "asset": "assets/pokemon/33ea993d3478ee92.png"
+ },
+ {
+  "pokedex_number": 134,
+  "source": "images/0134_vaporeon.png",
+  "asset": "assets/pokemon/3f4a86ef2ec064c9.png"
+ },
+ {
+  "pokedex_number": 135,
+  "source": "images/0135_jolteon.png",
+  "asset": "assets/pokemon/bf525c20b899e083.png"
+ },
+ {
+  "pokedex_number": 136,
+  "source": "images/0136_flareon.png",
+  "asset": "assets/pokemon/a11d3f021baf917f.png"
+ },
+ {
+  "pokedex_number": 137,
+  "source": "images/0137_porygon.png",
+  "asset": "assets/pokemon/28a6c05c13e2a1f1.png"
+ },
+ {
+  "pokedex_number": 138,
+  "source": "images/0138_omanyte.png",
+  "asset": "assets/pokemon/dd3980113e3ba2e0.png"
+ },
+ {
+  "pokedex_number": 139,
+  "source": "images/0139_omastar.png",
+  "asset": "assets/pokemon/3535ad249cda49c3.png"
+ },
+ {
+  "pokedex_number": 140,
+  "source": "images/0140_kabuto.png",
+  "asset": "assets/pokemon/92bd67e3f5f92a17.png"
+ },
+ {
+  "pokedex_number": 141,
+  "source": "images/0141_kabutops.png",
+  "asset": "assets/pokemon/b651eaec19c1e8ae.png"
+ },
+ {
+  "pokedex_number": 142,
+  "source": "images/0142_aerodactyl.png",
+  "asset": "assets/pokemon/5427b0a9ac5dbf1f.png"
+ },
+ {
+  "pokedex_number": 143,
+  "source": "images/0143_snorlax.png",
+  "asset": "assets/pokemon/1afd32e5f6053a50.png"
+ },
+ {
+  "pokedex_number": 144,
+  "source": "images/0144_articuno.png",
+  "asset": "assets/pokemon/d85d2a2dd08e8f0d.png"
+ },
+ {
+  "pokedex_number": 145,
+  "source": "images/0145_zapdos.png",
+  "asset": "assets/pokemon/6435d62ab354ac4b.png"
+ },
+ {
+  "pokedex_number": 146,
+  "source": "images/0146_moltres.png",
+  "asset": "assets/pokemon/f4d46f40e4fc984e.png"
+ },
+ {
+  "pokedex_number": 147,
+  "source": "images/0147_dratini.png",
+  "asset": "assets/pokemon/0172fb6a0c44d0e7.png"
+ },
+ {
+  "pokedex_number": 148,
+  "source": "images/0148_dragonair.png",
+  "asset": "assets/pokemon/9a650c967983f076.png"
+ },
+ {
+  "pokedex_number": 149,
+  "source": "images/0149_dragonite.png",
+  "asset": "assets/pokemon/4bd7549caa15eac4.png"
+ },
+ {
+  "pokedex_number": 150,
+  "source": "images/0150_mewtwo.png",
+  "asset": "assets/pokemon/d99adeb9b4523073.png"
+ },
+ {
+  "pokedex_number": 151,
+  "source": "images/0151_mew.png",
+  "asset": "assets/pokemon/9991aee5181178b6.png"
+ },
+ {
+  "pokedex_number": 152,
+  "source": "images/0152_chikorita.png",
+  "asset": "assets/pokemon/b4831391f48fa1ee.png"
+ },
+ {
+  "pokedex_number": 153,
+  "source": "images/0153_bayleef.png",
+  "asset": "assets/pokemon/a3c96f2b55450c45.png"
+ },
+ {
+  "pokedex_number": 154,
+  "source": "images/0154_meganium.png",
+  "asset": "assets/pokemon/fc2b42d8c484a48d.png"
+ },
+ {
+  "pokedex_number": 155,
+  "source": "images/0155_cyndaquil.png",
+  "asset": "assets/pokemon/fa3633c757f9b7e1.png"
+ },
+ {
+  "pokedex_number": 156,
+  "source": "images/0156_quilava.png",
+  "asset": "assets/pokemon/6020f7f5dc72b18b.png"
+ },
+ {
+  "pokedex_number": 157,
+  "source": "images/0157_typhlosion.png",
+  "asset": "assets/pokemon/04230d9302910d2a.png"
+ },
+ {
+  "pokedex_number": 158,
+  "source": "images/0158_totodile.png",
+  "asset": "assets/pokemon/42ba1233588c7f70.png"
+ },
+ {
+  "pokedex_number": 159,
+  "source": "images/0159_croconaw.png",
+  "asset": "assets/pokemon/7d3a2648568cc7e1.png"
+ },
+ {
+  "pokedex_number": 160,
+  "source": "images/0160_feraligatr.png",
+  "asset": "assets/pokemon/dbf82434fe9635c3.png"
+ },
+ {
+  "pokedex_number": 161,
+  "source": "images/0161_sentret.png",
+  "asset": "assets/pokemon/a37f05401cceee01.png"
+ },
+ {
+  "pokedex_number": 162,
+  "source": "images/0162_furret.png",
+  "asset": "assets/pokemon/999ec6f2a902e12e.png"
+ },
+ {
+  "pokedex_number": 163,
+  "source": "images/0163_hoothoot.png",
+  "asset": "assets/pokemon/09c3eaf3258b935c.png"
+ },
+ {
+  "pokedex_number": 164,
+  "source": "images/0164_noctowl.png",
+  "asset": "assets/pokemon/8f886322cd6bc428.png"
+ },
+ {
+  "pokedex_number": 165,
+  "source": "images/0165_ledyba.png",
+  "asset": "assets/pokemon/4ca8479d8d3c73c8.png"
+ },
+ {
+  "pokedex_number": 166,
+  "source": "images/0166_ledian.png",
+  "asset": "assets/pokemon/2b9663fe5c126596.png"
+ },
+ {
+  "pokedex_number": 167,
+  "source": "images/0167_spinarak.png",
+  "asset": "assets/pokemon/8b4c42335475db70.png"
+ },
+ {
+  "pokedex_number": 168,
+  "source": "images/0168_ariados.png",
+  "asset": "assets/pokemon/7f84c37209cbd24f.png"
+ },
+ {
+  "pokedex_number": 169,
+  "source": "images/0169_crobat.png",
+  "asset": "assets/pokemon/ab9a6777cf7b3d2a.png"
+ },
+ {
+  "pokedex_number": 170,
+  "source": "images/0170_chinchou.png",
+  "asset": "assets/pokemon/f3a8197677bd1573.png"
+ },
+ {
+  "pokedex_number": 171,
+  "source": "images/0171_lanturn.png",
+  "asset": "assets/pokemon/61f724d93824b8e0.png"
+ },
+ {
+  "pokedex_number": 172,
+  "source": "images/0172_pichu.png",
+  "asset": "assets/pokemon/39eb139858374ae6.png"
+ },
+ {
+  "pokedex_number": 173,
+  "source": "images/0173_cleffa.png",
+  "asset": "assets/pokemon/2bd707f962433943.png"
+ },
+ {
+  "pokedex_number": 174,
+  "source": "images/0174_igglybuff.png",
+  "asset": "assets/pokemon/5b3e852ac3e41f1a.png"
+ },
+ {
+  "pokedex_number": 175,
+  "source": "images/0175_togepi.png",
+  "asset": "assets/pokemon/f07f20755be62327.png"
+ },
+ {
+  "pokedex_number": 176,
+  "source": "images/0176_togetic.png",
+  "asset": "assets/pokemon/bd8ac297d94c65cf.png"
+ },
+ {
+  "pokedex_number": 177,
+  "source": "images/0177_natu.png",
+  "asset": "assets/pokemon/4e7a5538754d0051.png"
+ },
+ {
+  "pokedex_number": 178,
+  "source": "images/0178_xatu.png",
+  "asset": "assets/pokemon/08b3d80e60b1f9b4.png"
+ },
+ {
+  "pokedex_number": 179,
+  "source": "images/0179_mareep.png",
+  "asset": "assets/pokemon/f9d95e43ad479c67.png"
+ },
+ {
+  "pokedex_number": 180,
+  "source": "images/0180_flaaffy.png",
+  "asset": "assets/pokemon/39572f2fc6c17350.png"
+ },
+ {
+  "pokedex_number": 181,
+  "source": "images/0181_ampharos.png",
+  "asset": "assets/pokemon/6642ebe7d357c229.png"
+ },
+ {
+  "pokedex_number": 182,
+  "source": "images/0182_bellossom.png",
+  "asset": "assets/pokemon/f0c32f31a131a376.png"
+ },
+ {
+  "pokedex_number": 183,
+  "source": "images/0183_marill.png",
+  "asset": "assets/pokemon/62720e91f61a10ea.png"
+ },
+ {
+  "pokedex_number": 184,
+  "source": "images/0184_azumarill.png",
+  "asset": "assets/pokemon/a55c0d5b890fb2bc.png"
+ },
+ {
+  "pokedex_number": 185,
+  "source": "images/0185_sudowoodo.png",
+  "asset": "assets/pokemon/fa70608fde7e526c.png"
+ },
+ {
+  "pokedex_number": 186,
+  "source": "images/0186_politoed.png",
+  "asset": "assets/pokemon/a204b4f908fb2b31.png"
+ },
+ {
+  "pokedex_number": 187,
+  "source": "images/0187_hoppip.png",
+  "asset": "assets/pokemon/42608c8b1e7b34fb.png"
+ },
+ {
+  "pokedex_number": 188,
+  "source": "images/0188_skiploom.png",
+  "asset": "assets/pokemon/8f7e0933c8559860.png"
+ },
+ {
+  "pokedex_number": 189,
+  "source": "images/0189_jumpluff.png",
+  "asset": "assets/pokemon/8fe1f68c299f4322.png"
+ },
+ {
+  "pokedex_number": 190,
+  "source": "images/0190_aipom.png",
+  "asset": "assets/pokemon/9853c16d00558b61.png"
+ },
+ {
+  "pokedex_number": 191,
+  "source": "images/0191_sunkern.png",
+  "asset": "assets/pokemon/ab8e30164fb66c62.png"
+ },
+ {
+  "pokedex_number": 192,
+  "source": "images/0192_sunflora.png",
+  "asset": "assets/pokemon/b5fc62e50ad5b674.png"
+ },
+ {
+  "pokedex_number": 193,
+  "source": "images/0193_yanma.png",
+  "asset": "assets/pokemon/b2ae867ffdb4ed3f.png"
+ },
+ {
+  "pokedex_number": 194,
+  "source": "images/0194_wooper.png",
+  "asset": "assets/pokemon/25911b07e4a73988.png"
+ },
+ {
+  "pokedex_number": 195,
+  "source": "images/0195_quagsire.png",
+  "asset": "assets/pokemon/20433eb75bbed9a1.png"
+ },
+ {
+  "pokedex_number": 196,
+  "source": "images/0196_espeon.png",
+  "asset": "assets/pokemon/d0e74b02adc3df07.png"
+ },
+ {
+  "pokedex_number": 197,
+  "source": "images/0197_umbreon.png",
+  "asset": "assets/pokemon/8d7f18f7b323269d.png"
+ },
+ {
+  "pokedex_number": 198,
+  "source": "images/0198_murkrow.png",
+  "asset": "assets/pokemon/90e6a334b36fbbb0.png"
+ },
+ {
+  "pokedex_number": 199,
+  "source": "images/0199_slowking.png",
+  "asset": "assets/pokemon/ef4c791a9ea73ca8.png"
+ },
+ {
+  "pokedex_number": 200,
+  "source": "images/0200_misdreavus.png",
+  "asset": "assets/pokemon/9fb3dece7e8806b8.png"
+ },
+ {
+  "pokedex_number": 201,
+  "source": "images/0201_unown.png",
+  "asset": "assets/pokemon/02393c5c089c34c1.png"
+ },
+ {
+  "pokedex_number": 202,
+  "source": "images/0202_wobbuffet.png",
+  "asset": "assets/pokemon/bc01c0ffa904e948.png"
+ },
+ {
+  "pokedex_number": 203,
+  "source": "images/0203_girafarig.png",
+  "asset": "assets/pokemon/609bda15c6f95c65.png"
+ },
+ {
+  "pokedex_number": 204,
+  "source": "images/0204_pineco.png",
+  "asset": "assets/pokemon/48078a0434875e74.png"
+ },
+ {
+  "pokedex_number": 205,
+  "source": "images/0205_forretress.png",
+  "asset": "assets/pokemon/1ae19ac7d15ccb9b.png"
+ },
+ {
+  "pokedex_number": 206,
+  "source": "images/0206_dunsparce.png",
+  "asset": "assets/pokemon/f436ed25196d0b19.png"
+ },
+ {
+  "pokedex_number": 207,
+  "source": "images/0207_gligar.png",
+  "asset": "assets/pokemon/f2909b1c54309db3.png"
+ },
+ {
+  "pokedex_number": 208,
+  "source": "images/0208_steelix.png",
+  "asset": "assets/pokemon/cd82cb87b4ad5034.png"
+ },
+ {
+  "pokedex_number": 209,
+  "source": "images/0209_snubbull.png",
+  "asset": "assets/pokemon/5995fb0afe6d9512.png"
+ },
+ {
+  "pokedex_number": 210,
+  "source": "images/0210_granbull.png",
+  "asset": "assets/pokemon/4a504ce6a6732827.png"
+ },
+ {
+  "pokedex_number": 211,
+  "source": "images/0211_qwilfish.png",
+  "asset": "assets/pokemon/057c61e2c121bf3a.png"
+ },
+ {
+  "pokedex_number": 212,
+  "source": "images/0212_scizor.png",
+  "asset": "assets/pokemon/67765e304fa03042.png"
+ },
+ {
+  "pokedex_number": 213,
+  "source": "images/0213_shuckle.png",
+  "asset": "assets/pokemon/7528e530f09996ae.png"
+ },
+ {
+  "pokedex_number": 214,
+  "source": "images/0214_heracross.png",
+  "asset": "assets/pokemon/227abfbedbdfec11.png"
+ },
+ {
+  "pokedex_number": 215,
+  "source": "images/0215_sneasel.png",
+  "asset": "assets/pokemon/742454f21cf734e5.png"
+ },
+ {
+  "pokedex_number": 216,
+  "source": "images/0216_teddiursa.png",
+  "asset": "assets/pokemon/cb1fc3b5e82dcdce.png"
+ },
+ {
+  "pokedex_number": 217,
+  "source": "images/0217_ursaring.png",
+  "asset": "assets/pokemon/f837913ff732ee69.png"
+ },
+ {
+  "pokedex_number": 218,
+  "source": "images/0218_slugma.png",
+  "asset": "assets/pokemon/7fe217428878ff1a.png"
+ },
+ {
+  "pokedex_number": 219,
+  "source": "images/0219_magcargo.png",
+  "asset": "assets/pokemon/939f81d2ab85931c.png"
+ },
+ {
+  "pokedex_number": 220,
+  "source": "images/0220_swinub.png",
+  "asset": "assets/pokemon/b214675c75d553f6.png"
+ },
+ {
+  "pokedex_number": 221,
+  "source": "images/0221_piloswine.png",
+  "asset": "assets/pokemon/a3edaa6dada4b21b.png"
+ },
+ {
+  "pokedex_number": 222,
+  "source": "images/0222_corsola.png",
+  "asset": "assets/pokemon/fd8622de4bad5a95.png"
+ },
+ {
+  "pokedex_number": 223,
+  "source": "images/0223_remoraid.png",
+  "asset": "assets/pokemon/d819224764fc512f.png"
+ },
+ {
+  "pokedex_number": 224,
+  "source": "images/0224_octillery.png",
+  "asset": "assets/pokemon/b68bf71caf74ebe2.png"
+ },
+ {
+  "pokedex_number": 225,
+  "source": "images/0225_delibird.png",
+  "asset": "assets/pokemon/6725c18d803ec8a4.png"
+ },
+ {
+  "pokedex_number": 226,
+  "source": "images/0226_mantine.png",
+  "asset": "assets/pokemon/ade677c9930b4ded.png"
+ },
+ {
+  "pokedex_number": 227,
+  "source": "images/0227_skarmory.png",
+  "asset": "assets/pokemon/3c9de3ea5ba32172.png"
+ },
+ {
+  "pokedex_number": 228,
+  "source": "images/0228_houndour.png",
+  "asset": "assets/pokemon/1a2c2859e415d3b6.png"
+ },
+ {
+  "pokedex_number": 229,
+  "source": "images/0229_houndoom.png",
+  "asset": "assets/pokemon/9e1244e7f417cbb7.png"
+ },
+ {
+  "pokedex_number": 230,
+  "source": "images/0230_kingdra.png",
+  "asset": "assets/pokemon/35a530d0da4ae6df.png"
+ },
+ {
+  "pokedex_number": 231,
+  "source": "images/0231_phanpy.png",
+  "asset": "assets/pokemon/4e502cba58595924.png"
+ },
+ {
+  "pokedex_number": 232,
+  "source": "images/0232_donphan.png",
+  "asset": "assets/pokemon/51d0ce9cb3ad8c9d.png"
+ },
+ {
+  "pokedex_number": 233,
+  "source": "images/0233_porygon2.png",
+  "asset": "assets/pokemon/51a1e7d524907604.png"
+ },
+ {
+  "pokedex_number": 234,
+  "source": "images/0234_stantler.png",
+  "asset": "assets/pokemon/6fa21c9a95c131b9.png"
+ },
+ {
+  "pokedex_number": 235,
+  "source": "images/0235_smeargle.png",
+  "asset": "assets/pokemon/a94fb226e3784250.png"
+ },
+ {
+  "pokedex_number": 236,
+  "source": "images/0236_tyrogue.png",
+  "asset": "assets/pokemon/abe87fad83d18e8c.png"
+ },
+ {
+  "pokedex_number": 237,
+  "source": "images/0237_hitmontop.png",
+  "asset": "assets/pokemon/06759f90d221808c.png"
+ },
+ {
+  "pokedex_number": 238,
+  "source": "images/0238_smoochum.png",
+  "asset": "assets/pokemon/9b68e606733b30fd.png"
+ },
+ {
+  "pokedex_number": 239,
+  "source": "images/0239_elekid.png",
+  "asset": "assets/pokemon/3cca5e07f0378ad1.png"
+ },
+ {
+  "pokedex_number": 240,
+  "source": "images/0240_magby.png",
+  "asset": "assets/pokemon/9604255d91b92c4f.png"
+ },
+ {
+  "pokedex_number": 241,
+  "source": "images/0241_miltank.png",
+  "asset": "assets/pokemon/5ac1933e5bd53e7c.png"
+ },
+ {
+  "pokedex_number": 242,
+  "source": "images/0242_blissey.png",
+  "asset": "assets/pokemon/cd1cfc181c33fc1c.png"
+ },
+ {
+  "pokedex_number": 243,
+  "source": "images/0243_raikou.png",
+  "asset": "assets/pokemon/3d7d4b163d74c2dc.png"
+ },
+ {
+  "pokedex_number": 244,
+  "source": "images/0244_entei.png",
+  "asset": "assets/pokemon/b5e6bdd788e7e099.png"
+ },
+ {
+  "pokedex_number": 245,
+  "source": "images/0245_suicune.png",
+  "asset": "assets/pokemon/e72657f300c9b1db.png"
+ },
+ {
+  "pokedex_number": 246,
+  "source": "images/0246_larvitar.png",
+  "asset": "assets/pokemon/fef8aa8f19faa550.png"
+ },
+ {
+  "pokedex_number": 247,
+  "source": "images/0247_pupitar.png",
+  "asset": "assets/pokemon/4b883b60848833c3.png"
+ },
+ {
+  "pokedex_number": 248,
+  "source": "images/0248_tyranitar.png",
+  "asset": "assets/pokemon/080b69438af4483e.png"
+ },
+ {
+  "pokedex_number": 249,
+  "source": "images/0249_lugia.png",
+  "asset": "assets/pokemon/6977890cdd83d4b5.png"
+ },
+ {
+  "pokedex_number": 250,
+  "source": "images/0250_ho-oh.png",
+  "asset": "assets/pokemon/e5742142da852da5.png"
+ },
+ {
+  "pokedex_number": 251,
+  "source": "images/0251_celebi.png",
+  "asset": "assets/pokemon/31384fd45c2663c1.png"
+ },
+ {
+  "pokedex_number": 252,
+  "source": "images/0252_treecko.png",
+  "asset": "assets/pokemon/eecfd2507ad6a4d3.png"
+ },
+ {
+  "pokedex_number": 253,
+  "source": "images/0253_grovyle.png",
+  "asset": "assets/pokemon/743a3fbf0bdaeac4.png"
+ },
+ {
+  "pokedex_number": 254,
+  "source": "images/0254_sceptile.png",
+  "asset": "assets/pokemon/f0d143504a9da150.png"
+ },
+ {
+  "pokedex_number": 255,
+  "source": "images/0255_torchic.png",
+  "asset": "assets/pokemon/2725e8ffcf7bc5b2.png"
+ },
+ {
+  "pokedex_number": 256,
+  "source": "images/0256_combusken.png",
+  "asset": "assets/pokemon/181995b21ba821c4.png"
+ },
+ {
+  "pokedex_number": 257,
+  "source": "images/0257_blaziken.png",
+  "asset": "assets/pokemon/56fc2d08ad58031f.png"
+ },
+ {
+  "pokedex_number": 258,
+  "source": "images/0258_mudkip.png",
+  "asset": "assets/pokemon/9c53813ed963d5df.png"
+ },
+ {
+  "pokedex_number": 259,
+  "source": "images/0259_marshtomp.png",
+  "asset": "assets/pokemon/64da6402a0c9610f.png"
+ },
+ {
+  "pokedex_number": 260,
+  "source": "images/0260_swampert.png",
+  "asset": "assets/pokemon/c812815f91ebfb09.png"
+ },
+ {
+  "pokedex_number": 261,
+  "source": "images/0261_poochyena.png",
+  "asset": "assets/pokemon/873bbafdcd5dcdec.png"
+ },
+ {
+  "pokedex_number": 262,
+  "source": "images/0262_mightyena.png",
+  "asset": "assets/pokemon/f904be2a76a93854.png"
+ },
+ {
+  "pokedex_number": 263,
+  "source": "images/0263_zigzagoon.png",
+  "asset": "assets/pokemon/2587bc54bd69a091.png"
+ },
+ {
+  "pokedex_number": 264,
+  "source": "images/0264_linoone.png",
+  "asset": "assets/pokemon/4afba50af747202c.png"
+ },
+ {
+  "pokedex_number": 265,
+  "source": "images/0265_wurmple.png",
+  "asset": "assets/pokemon/0b81417a4de9266c.png"
+ },
+ {
+  "pokedex_number": 266,
+  "source": "images/0266_silcoon.png",
+  "asset": "assets/pokemon/9a8ad85d56916da3.png"
+ },
+ {
+  "pokedex_number": 267,
+  "source": "images/0267_beautifly.png",
+  "asset": "assets/pokemon/a5081fe9c6035b63.png"
+ },
+ {
+  "pokedex_number": 268,
+  "source": "images/0268_cascoon.png",
+  "asset": "assets/pokemon/5c9b3f7056d1286b.png"
+ },
+ {
+  "pokedex_number": 269,
+  "source": "images/0269_dustox.png",
+  "asset": "assets/pokemon/750fa6d53f77ac75.png"
+ },
+ {
+  "pokedex_number": 270,
+  "source": "images/0270_lotad.png",
+  "asset": "assets/pokemon/8378d411ee6523d1.png"
+ },
+ {
+  "pokedex_number": 271,
+  "source": "images/0271_lombre.png",
+  "asset": "assets/pokemon/ca30abe3288aaf11.png"
+ },
+ {
+  "pokedex_number": 272,
+  "source": "images/0272_ludicolo.png",
+  "asset": "assets/pokemon/db0a324516baeb12.png"
+ },
+ {
+  "pokedex_number": 273,
+  "source": "images/0273_seedot.png",
+  "asset": "assets/pokemon/839bc66a78737cba.png"
+ },
+ {
+  "pokedex_number": 274,
+  "source": "images/0274_nuzleaf.png",
+  "asset": "assets/pokemon/8e06562f9a10c94b.png"
+ },
+ {
+  "pokedex_number": 275,
+  "source": "images/0275_shiftry.png",
+  "asset": "assets/pokemon/ad9e7f2fc5db93d1.png"
+ },
+ {
+  "pokedex_number": 276,
+  "source": "images/0276_taillow.png",
+  "asset": "assets/pokemon/8e8947c3171eecab.png"
+ },
+ {
+  "pokedex_number": 277,
+  "source": "images/0277_swellow.png",
+  "asset": "assets/pokemon/555f18276aae56f5.png"
+ },
+ {
+  "pokedex_number": 278,
+  "source": "images/0278_wingull.png",
+  "asset": "assets/pokemon/7871854a74aff973.png"
+ },
+ {
+  "pokedex_number": 279,
+  "source": "images/0279_pelipper.png",
+  "asset": "assets/pokemon/fcfd21fd7c13cae9.png"
+ },
+ {
+  "pokedex_number": 280,
+  "source": "images/0280_ralts.png",
+  "asset": "assets/pokemon/1e0887c0375c0085.png"
+ },
+ {
+  "pokedex_number": 281,
+  "source": "images/0281_kirlia.png",
+  "asset": "assets/pokemon/bb7f41bef577c3f4.png"
+ },
+ {
+  "pokedex_number": 282,
+  "source": "images/0282_gardevoir.png",
+  "asset": "assets/pokemon/ac40b3e87de95706.png"
+ },
+ {
+  "pokedex_number": 283,
+  "source": "images/0283_surskit.png",
+  "asset": "assets/pokemon/c27a80d78a1d76fb.png"
+ },
+ {
+  "pokedex_number": 284,
+  "source": "images/0284_masquerain.png",
+  "asset": "assets/pokemon/c3eb8f234c148612.png"
+ },
+ {
+  "pokedex_number": 285,
+  "source": "images/0285_shroomish.png",
+  "asset": "assets/pokemon/2ae36069b07ecdc3.png"
+ },
+ {
+  "pokedex_number": 286,
+  "source": "images/0286_breloom.png",
+  "asset": "assets/pokemon/5659f40bc559caa4.png"
+ },
+ {
+  "pokedex_number": 287,
+  "source": "images/0287_slakoth.png",
+  "asset": "assets/pokemon/d4a40e6e3cc231f6.png"
+ },
+ {
+  "pokedex_number": 288,
+  "source": "images/0288_vigoroth.png",
+  "asset": "assets/pokemon/d4862bed65044d10.png"
+ },
+ {
+  "pokedex_number": 289,
+  "source": "images/0289_slaking.png",
+  "asset": "assets/pokemon/69e69d22d4d42ab6.png"
+ },
+ {
+  "pokedex_number": 290,
+  "source": "images/0290_nincada.png",
+  "asset": "assets/pokemon/bb8d9184b3e45a17.png"
+ },
+ {
+  "pokedex_number": 291,
+  "source": "images/0291_ninjask.png",
+  "asset": "assets/pokemon/a424ade564e1c83a.png"
+ },
+ {
+  "pokedex_number": 292,
+  "source": "images/0292_shedinja.png",
+  "asset": "assets/pokemon/0ece4e3d340fb15c.png"
+ },
+ {
+  "pokedex_number": 293,
+  "source": "images/0293_whismur.png",
+  "asset": "assets/pokemon/b475fd7985467d23.png"
+ },
+ {
+  "pokedex_number": 294,
+  "source": "images/0294_loudred.png",
+  "asset": "assets/pokemon/c96b5ae3b2d36fde.png"
+ },
+ {
+  "pokedex_number": 295,
+  "source": "images/0295_exploud.png",
+  "asset": "assets/pokemon/8c2511cb20d17c18.png"
+ },
+ {
+  "pokedex_number": 296,
+  "source": "images/0296_makuhita.png",
+  "asset": "assets/pokemon/b3a5a626610014d5.png"
+ },
+ {
+  "pokedex_number": 297,
+  "source": "images/0297_hariyama.png",
+  "asset": "assets/pokemon/c03f745b6ce5bb73.png"
+ },
+ {
+  "pokedex_number": 298,
+  "source": "images/0298_azurill.png",
+  "asset": "assets/pokemon/9fecd669dd7fce18.png"
+ },
+ {
+  "pokedex_number": 299,
+  "source": "images/0299_nosepass.png",
+  "asset": "assets/pokemon/ec3e58e9a6a736d3.png"
+ },
+ {
+  "pokedex_number": 300,
+  "source": "images/0300_skitty.png",
+  "asset": "assets/pokemon/a21399f95e3eb4b7.png"
+ },
+ {
+  "pokedex_number": 301,
+  "source": "images/0301_delcatty.png",
+  "asset": "assets/pokemon/1163f2a8d75a2cf2.png"
+ },
+ {
+  "pokedex_number": 302,
+  "source": "images/0302_sableye.png",
+  "asset": "assets/pokemon/69c4e511be37f3fb.png"
+ },
+ {
+  "pokedex_number": 303,
+  "source": "images/0303_mawile.png",
+  "asset": "assets/pokemon/c8486e58e6ab7214.png"
+ },
+ {
+  "pokedex_number": 304,
+  "source": "images/0304_aron.png",
+  "asset": "assets/pokemon/53959466cbafc39f.png"
+ },
+ {
+  "pokedex_number": 305,
+  "source": "images/0305_lairon.png",
+  "asset": "assets/pokemon/9a1bf5ba5e86461f.png"
+ },
+ {
+  "pokedex_number": 306,
+  "source": "images/0306_aggron.png",
+  "asset": "assets/pokemon/87852235e548c06e.png"
+ },
+ {
+  "pokedex_number": 307,
+  "source": "images/0307_meditite.png",
+  "asset": "assets/pokemon/b72327c934e20eae.png"
+ },
+ {
+  "pokedex_number": 308,
+  "source": "images/0308_medicham.png",
+  "asset": "assets/pokemon/b36a23b133cd1365.png"
+ },
+ {
+  "pokedex_number": 309,
+  "source": "images/0309_electrike.png",
+  "asset": "assets/pokemon/cc9d5db0f015b850.png"
+ },
+ {
+  "pokedex_number": 310,
+  "source": "images/0310_manectric.png",
+  "asset": "assets/pokemon/f09e58377f721f09.png"
+ },
+ {
+  "pokedex_number": 311,
+  "source": "images/0311_plusle.png",
+  "asset": "assets/pokemon/758059e4a0e491ba.png"
+ },
+ {
+  "pokedex_number": 312,
+  "source": "images/0312_minun.png",
+  "asset": "assets/pokemon/c59842a7a185c6f1.png"
+ },
+ {
+  "pokedex_number": 313,
+  "source": "images/0313_volbeat.png",
+  "asset": "assets/pokemon/a5eea4f4efa2b757.png"
+ },
+ {
+  "pokedex_number": 314,
+  "source": "images/0314_illumise.png",
+  "asset": "assets/pokemon/18eff6abadcf1296.png"
+ },
+ {
+  "pokedex_number": 315,
+  "source": "images/0315_roselia.png",
+  "asset": "assets/pokemon/dc8e96501870f32b.png"
+ },
+ {
+  "pokedex_number": 316,
+  "source": "images/0316_gulpin.png",
+  "asset": "assets/pokemon/a24301d69b269cdc.png"
+ },
+ {
+  "pokedex_number": 317,
+  "source": "images/0317_swalot.png",
+  "asset": "assets/pokemon/ed0fa1f27c05e80f.png"
+ },
+ {
+  "pokedex_number": 318,
+  "source": "images/0318_carvanha.png",
+  "asset": "assets/pokemon/4495997d1a74e058.png"
+ },
+ {
+  "pokedex_number": 319,
+  "source": "images/0319_sharpedo.png",
+  "asset": "assets/pokemon/fd36f8289de70fa6.png"
+ },
+ {
+  "pokedex_number": 320,
+  "source": "images/0320_wailmer.png",
+  "asset": "assets/pokemon/2d70ebc4aa2a8000.png"
+ },
+ {
+  "pokedex_number": 321,
+  "source": "images/0321_wailord.png",
+  "asset": "assets/pokemon/726cb2327e83383c.png"
+ },
+ {
+  "pokedex_number": 322,
+  "source": "images/0322_numel.png",
+  "asset": "assets/pokemon/07c2015cdaa7ae7e.png"
+ },
+ {
+  "pokedex_number": 323,
+  "source": "images/0323_camerupt.png",
+  "asset": "assets/pokemon/abd4b65d46f47ea8.png"
+ },
+ {
+  "pokedex_number": 324,
+  "source": "images/0324_torkoal.png",
+  "asset": "assets/pokemon/74cd3c62884521ee.png"
+ },
+ {
+  "pokedex_number": 325,
+  "source": "images/0325_spoink.png",
+  "asset": "assets/pokemon/42f09ac3dd3e0ca1.png"
+ },
+ {
+  "pokedex_number": 326,
+  "source": "images/0326_grumpig.png",
+  "asset": "assets/pokemon/2a7b8b3cc8316eab.png"
+ },
+ {
+  "pokedex_number": 327,
+  "source": "images/0327_spinda.png",
+  "asset": "assets/pokemon/efc59a2a03ecc385.png"
+ },
+ {
+  "pokedex_number": 328,
+  "source": "images/0328_trapinch.png",
+  "asset": "assets/pokemon/3c60bbcfd98557bc.png"
+ },
+ {
+  "pokedex_number": 329,
+  "source": "images/0329_vibrava.png",
+  "asset": "assets/pokemon/439c762ea7dfe171.png"
+ },
+ {
+  "pokedex_number": 330,
+  "source": "images/0330_flygon.png",
+  "asset": "assets/pokemon/e6045dfd102cab11.png"
+ },
+ {
+  "pokedex_number": 331,
+  "source": "images/0331_cacnea.png",
+  "asset": "assets/pokemon/72e1caf764eb1c2d.png"
+ },
+ {
+  "pokedex_number": 332,
+  "source": "images/0332_cacturne.png",
+  "asset": "assets/pokemon/882441f1ceb05246.png"
+ },
+ {
+  "pokedex_number": 333,
+  "source": "images/0333_swablu.png",
+  "asset": "assets/pokemon/3b1a2c8430d1de1c.png"
+ },
+ {
+  "pokedex_number": 334,
+  "source": "images/0334_altaria.png",
+  "asset": "assets/pokemon/17e156e4c200d28f.png"
+ },
+ {
+  "pokedex_number": 335,
+  "source": "images/0335_zangoose.png",
+  "asset": "assets/pokemon/17cc03af687eb1c4.png"
+ },
+ {
+  "pokedex_number": 336,
+  "source": "images/0336_seviper.png",
+  "asset": "assets/pokemon/25692b80f80b0c57.png"
+ },
+ {
+  "pokedex_number": 337,
+  "source": "images/0337_lunatone.png",
+  "asset": "assets/pokemon/990f0dd9ff591022.png"
+ },
+ {
+  "pokedex_number": 338,
+  "source": "images/0338_solrock.png",
+  "asset": "assets/pokemon/13b51ea220335053.png"
+ },
+ {
+  "pokedex_number": 339,
+  "source": "images/0339_barboach.png",
+  "asset": "assets/pokemon/fcc373cd8c11ea5f.png"
+ },
+ {
+  "pokedex_number": 340,
+  "source": "images/0340_whiscash.png",
+  "asset": "assets/pokemon/7386de37c0bebcf2.png"
+ },
+ {
+  "pokedex_number": 341,
+  "source": "images/0341_corphish.png",
+  "asset": "assets/pokemon/c1c78fb02d72b531.png"
+ },
+ {
+  "pokedex_number": 342,
+  "source": "images/0342_crawdaunt.png",
+  "asset": "assets/pokemon/a8180763225d5789.png"
+ },
+ {
+  "pokedex_number": 343,
+  "source": "images/0343_baltoy.png",
+  "asset": "assets/pokemon/5af47dbf81b1f588.png"
+ },
+ {
+  "pokedex_number": 344,
+  "source": "images/0344_claydol.png",
+  "asset": "assets/pokemon/126ea31a4a4ae48a.png"
+ },
+ {
+  "pokedex_number": 345,
+  "source": "images/0345_lileep.png",
+  "asset": "assets/pokemon/47acde18083e1502.png"
+ },
+ {
+  "pokedex_number": 346,
+  "source": "images/0346_cradily.png",
+  "asset": "assets/pokemon/413f593ec103f4db.png"
+ },
+ {
+  "pokedex_number": 347,
+  "source": "images/0347_anorith.png",
+  "asset": "assets/pokemon/7773ec84f88ce362.png"
+ },
+ {
+  "pokedex_number": 348,
+  "source": "images/0348_armaldo.png",
+  "asset": "assets/pokemon/0c06a92d95657c83.png"
+ },
+ {
+  "pokedex_number": 349,
+  "source": "images/0349_feebas.png",
+  "asset": "assets/pokemon/7325cb2030fd5fcb.png"
+ },
+ {
+  "pokedex_number": 350,
+  "source": "images/0350_milotic.png",
+  "asset": "assets/pokemon/b64a73b400ab342e.png"
+ },
+ {
+  "pokedex_number": 351,
+  "source": "images/0351_castform.png",
+  "asset": "assets/pokemon/1b8c7552ca689af4.png"
+ },
+ {
+  "pokedex_number": 352,
+  "source": "images/0352_kecleon.png",
+  "asset": "assets/pokemon/6ca0b843dd452758.png"
+ },
+ {
+  "pokedex_number": 353,
+  "source": "images/0353_shuppet.png",
+  "asset": "assets/pokemon/0aef2f3dd73007a7.png"
+ },
+ {
+  "pokedex_number": 354,
+  "source": "images/0354_banette.png",
+  "asset": "assets/pokemon/87118eb5533d59b8.png"
+ },
+ {
+  "pokedex_number": 355,
+  "source": "images/0355_duskull.png",
+  "asset": "assets/pokemon/81b8641592a8b4d1.png"
+ },
+ {
+  "pokedex_number": 356,
+  "source": "images/0356_dusclops.png",
+  "asset": "assets/pokemon/964c615b806be3e3.png"
+ },
+ {
+  "pokedex_number": 357,
+  "source": "images/0357_tropius.png",
+  "asset": "assets/pokemon/71d042a0a4ba3955.png"
+ },
+ {
+  "pokedex_number": 358,
+  "source": "images/0358_chimecho.png",
+  "asset": "assets/pokemon/5153dadd3dc75ce5.png"
+ },
+ {
+  "pokedex_number": 359,
+  "source": "images/0359_absol.png",
+  "asset": "assets/pokemon/19f0b71d2bdd3cba.png"
+ },
+ {
+  "pokedex_number": 360,
+  "source": "images/0360_wynaut.png",
+  "asset": "assets/pokemon/af0fd308221a9d5e.png"
+ },
+ {
+  "pokedex_number": 361,
+  "source": "images/0361_snorunt.png",
+  "asset": "assets/pokemon/c820007a196c85ba.png"
+ },
+ {
+  "pokedex_number": 362,
+  "source": "images/0362_glalie.png",
+  "asset": "assets/pokemon/18569123d7c5a6bb.png"
+ },
+ {
+  "pokedex_number": 363,
+  "source": "images/0363_spheal.png",
+  "asset": "assets/pokemon/baf19f75b7bd9b0a.png"
+ },
+ {
+  "pokedex_number": 364,
+  "source": "images/0364_sealeo.png",
+  "asset": "assets/pokemon/b2a4ffd6cbc87a72.png"
+ },
+ {
+  "pokedex_number": 365,
+  "source": "images/0365_walrein.png",
+  "asset": "assets/pokemon/e7c9e34aa9a5e785.png"
+ },
+ {
+  "pokedex_number": 366,
+  "source": "images/0366_clamperl.png",
+  "asset": "assets/pokemon/ae3d72e46aeec43a.png"
+ },
+ {
+  "pokedex_number": 367,
+  "source": "images/0367_huntail.png",
+  "asset": "assets/pokemon/8ffe335a77643611.png"
+ },
+ {
+  "pokedex_number": 368,
+  "source": "images/0368_gorebyss.png",
+  "asset": "assets/pokemon/69a4dc90f81f2b5b.png"
+ },
+ {
+  "pokedex_number": 369,
+  "source": "images/0369_relicanth.png",
+  "asset": "assets/pokemon/a483b39369dc313d.png"
+ },
+ {
+  "pokedex_number": 370,
+  "source": "images/0370_luvdisc.png",
+  "asset": "assets/pokemon/2eac0f57d2075f5d.png"
+ },
+ {
+  "pokedex_number": 371,
+  "source": "images/0371_bagon.png",
+  "asset": "assets/pokemon/406d23c21e77d8f7.png"
+ },
+ {
+  "pokedex_number": 372,
+  "source": "images/0372_shelgon.png",
+  "asset": "assets/pokemon/6f126754e24d2c63.png"
+ },
+ {
+  "pokedex_number": 373,
+  "source": "images/0373_salamence.png",
+  "asset": "assets/pokemon/3d9f18c1a25e998e.png"
+ },
+ {
+  "pokedex_number": 374,
+  "source": "images/0374_beldum.png",
+  "asset": "assets/pokemon/f4900df265dbba1f.png"
+ },
+ {
+  "pokedex_number": 375,
+  "source": "images/0375_metang.png",
+  "asset": "assets/pokemon/d42429fe7214fae7.png"
+ },
+ {
+  "pokedex_number": 376,
+  "source": "images/0376_metagross.png",
+  "asset": "assets/pokemon/a871d3272f6da2fb.png"
+ },
+ {
+  "pokedex_number": 377,
+  "source": "images/0377_regirock.png",
+  "asset": "assets/pokemon/d896ee1fbc25a12c.png"
+ },
+ {
+  "pokedex_number": 378,
+  "source": "images/0378_regice.png",
+  "asset": "assets/pokemon/678630852e2cc90a.png"
+ },
+ {
+  "pokedex_number": 379,
+  "source": "images/0379_registeel.png",
+  "asset": "assets/pokemon/07e850f341619010.png"
+ },
+ {
+  "pokedex_number": 380,
+  "source": "images/0380_latias.png",
+  "asset": "assets/pokemon/2c184ea362a6c65e.png"
+ },
+ {
+  "pokedex_number": 381,
+  "source": "images/0381_latios.png",
+  "asset": "assets/pokemon/36410fb32ec67d3e.png"
+ },
+ {
+  "pokedex_number": 382,
+  "source": "images/0382_kyogre.png",
+  "asset": "assets/pokemon/a24962e9bd96fb84.png"
+ },
+ {
+  "pokedex_number": 383,
+  "source": "images/0383_groudon.png",
+  "asset": "assets/pokemon/bf6a4334d6a49af3.png"
+ },
+ {
+  "pokedex_number": 384,
+  "source": "images/0384_rayquaza.png",
+  "asset": "assets/pokemon/52fdacd461e20343.png"
+ },
+ {
+  "pokedex_number": 385,
+  "source": "images/0385_jirachi.png",
+  "asset": "assets/pokemon/f44127b482aeab34.png"
+ },
+ {
+  "pokedex_number": 386,
+  "source": "images/0386_deoxys.png",
+  "asset": "assets/pokemon/9957c0b49f1a1f5d.png"
+ },
+ {
+  "pokedex_number": 387,
+  "source": "images/0387_turtwig.png",
+  "asset": "assets/pokemon/2fd7dfbbd0a81fef.png"
+ },
+ {
+  "pokedex_number": 388,
+  "source": "images/0388_grotle.png",
+  "asset": "assets/pokemon/52d051e0036e2def.png"
+ },
+ {
+  "pokedex_number": 389,
+  "source": "images/0389_torterra.png",
+  "asset": "assets/pokemon/47396a17f77a4d05.png"
+ },
+ {
+  "pokedex_number": 390,
+  "source": "images/0390_chimchar.png",
+  "asset": "assets/pokemon/d5bb992a2b27c6f2.png"
+ },
+ {
+  "pokedex_number": 391,
+  "source": "images/0391_monferno.png",
+  "asset": "assets/pokemon/a203f075100983c3.png"
+ },
+ {
+  "pokedex_number": 392,
+  "source": "images/0392_infernape.png",
+  "asset": "assets/pokemon/0b23361c54a8c17f.png"
+ },
+ {
+  "pokedex_number": 393,
+  "source": "images/0393_piplup.png",
+  "asset": "assets/pokemon/8914c4beb5ca5f60.png"
+ },
+ {
+  "pokedex_number": 394,
+  "source": "images/0394_prinplup.png",
+  "asset": "assets/pokemon/920cc26f58e22677.png"
+ },
+ {
+  "pokedex_number": 395,
+  "source": "images/0395_empoleon.png",
+  "asset": "assets/pokemon/4d8697a9e331f7bc.png"
+ },
+ {
+  "pokedex_number": 396,
+  "source": "images/0396_starly.png",
+  "asset": "assets/pokemon/a8c6abe20b419b9d.png"
+ },
+ {
+  "pokedex_number": 397,
+  "source": "images/0397_staravia.png",
+  "asset": "assets/pokemon/6cf7451ddb15ddd5.png"
+ },
+ {
+  "pokedex_number": 398,
+  "source": "images/0398_staraptor.png",
+  "asset": "assets/pokemon/dd8f43d1a1cc9975.png"
+ },
+ {
+  "pokedex_number": 399,
+  "source": "images/0399_bidoof.png",
+  "asset": "assets/pokemon/8cbf9e0be8a6be97.png"
+ },
+ {
+  "pokedex_number": 400,
+  "source": "images/0400_bibarel.png",
+  "asset": "assets/pokemon/5fdc5bf835d7bbc2.png"
+ },
+ {
+  "pokedex_number": 401,
+  "source": "images/0401_kricketot.png",
+  "asset": "assets/pokemon/403ea102963e6ba0.png"
+ },
+ {
+  "pokedex_number": 402,
+  "source": "images/0402_kricketune.png",
+  "asset": "assets/pokemon/308ae4dd37265988.png"
+ },
+ {
+  "pokedex_number": 403,
+  "source": "images/0403_shinx.png",
+  "asset": "assets/pokemon/1477253c6b2141e6.png"
+ },
+ {
+  "pokedex_number": 404,
+  "source": "images/0404_luxio.png",
+  "asset": "assets/pokemon/45dfad21297f36bf.png"
+ },
+ {
+  "pokedex_number": 405,
+  "source": "images/0405_luxray.png",
+  "asset": "assets/pokemon/02e63bb1b1682340.png"
+ },
+ {
+  "pokedex_number": 406,
+  "source": "images/0406_budew.png",
+  "asset": "assets/pokemon/eeb74c195cba3fa7.png"
+ },
+ {
+  "pokedex_number": 407,
+  "source": "images/0407_roserade.png",
+  "asset": "assets/pokemon/a98c33e6125b7be2.png"
+ },
+ {
+  "pokedex_number": 408,
+  "source": "images/0408_cranidos.png",
+  "asset": "assets/pokemon/293bfc387ea5a1f4.png"
+ },
+ {
+  "pokedex_number": 409,
+  "source": "images/0409_rampardos.png",
+  "asset": "assets/pokemon/5a4bccdfd1accec3.png"
+ },
+ {
+  "pokedex_number": 410,
+  "source": "images/0410_shieldon.png",
+  "asset": "assets/pokemon/fcd732bec8f33d1f.png"
+ },
+ {
+  "pokedex_number": 411,
+  "source": "images/0411_bastiodon.png",
+  "asset": "assets/pokemon/9cc46414e2386e78.png"
+ },
+ {
+  "pokedex_number": 412,
+  "source": "images/0412_burmy.png",
+  "asset": "assets/pokemon/2eec6ff0f5abdbfb.png"
+ },
+ {
+  "pokedex_number": 413,
+  "source": "images/0413_wormadam.png",
+  "asset": "assets/pokemon/87c2839c633d6894.png"
+ },
+ {
+  "pokedex_number": 414,
+  "source": "images/0414_mothim.png",
+  "asset": "assets/pokemon/5e4957036fa48a98.png"
+ },
+ {
+  "pokedex_number": 415,
+  "source": "images/0415_combee.png",
+  "asset": "assets/pokemon/8b06817a93487422.png"
+ },
+ {
+  "pokedex_number": 416,
+  "source": "images/0416_vespiquen.png",
+  "asset": "assets/pokemon/68d39288c3547d8d.png"
+ },
+ {
+  "pokedex_number": 417,
+  "source": "images/0417_pachirisu.png",
+  "asset": "assets/pokemon/d3269db04b8a06db.png"
+ },
+ {
+  "pokedex_number": 418,
+  "source": "images/0418_buizel.png",
+  "asset": "assets/pokemon/4e4af2b7d8176c37.png"
+ },
+ {
+  "pokedex_number": 419,
+  "source": "images/0419_floatzel.png",
+  "asset": "assets/pokemon/742807441dc085e5.png"
+ },
+ {
+  "pokedex_number": 420,
+  "source": "images/0420_cherubi.png",
+  "asset": "assets/pokemon/2d0e496f28604392.png"
+ },
+ {
+  "pokedex_number": 421,
+  "source": "images/0421_cherrim.png",
+  "asset": "assets/pokemon/12b4ebf311c808c5.png"
+ },
+ {
+  "pokedex_number": 422,
+  "source": "images/0422_shellos.png",
+  "asset": "assets/pokemon/67317a20ffcc2f90.png"
+ },
+ {
+  "pokedex_number": 423,
+  "source": "images/0423_gastrodon.png",
+  "asset": "assets/pokemon/1868547dc6fb222a.png"
+ },
+ {
+  "pokedex_number": 424,
+  "source": "images/0424_ambipom.png",
+  "asset": "assets/pokemon/0b0388e41759e6f4.png"
+ },
+ {
+  "pokedex_number": 425,
+  "source": "images/0425_drifloon.png",
+  "asset": "assets/pokemon/f50858028962e83d.png"
+ },
+ {
+  "pokedex_number": 426,
+  "source": "images/0426_drifblim.png",
+  "asset": "assets/pokemon/710b81c371eb88bf.png"
+ },
+ {
+  "pokedex_number": 427,
+  "source": "images/0427_buneary.png",
+  "asset": "assets/pokemon/634800bca0ec5c1e.png"
+ },
+ {
+  "pokedex_number": 428,
+  "source": "images/0428_lopunny.png",
+  "asset": "assets/pokemon/f2aaf542f2c6392e.png"
+ },
+ {
+  "pokedex_number": 429,
+  "source": "images/0429_mismagius.png",
+  "asset": "assets/pokemon/75b8d062e335e922.png"
+ },
+ {
+  "pokedex_number": 430,
+  "source": "images/0430_honchkrow.png",
+  "asset": "assets/pokemon/d8d80fa2ded92845.png"
+ },
+ {
+  "pokedex_number": 431,
+  "source": "images/0431_glameow.png",
+  "asset": "assets/pokemon/96bb3a590e415506.png"
+ },
+ {
+  "pokedex_number": 432,
+  "source": "images/0432_purugly.png",
+  "asset": "assets/pokemon/985be776014e3c65.png"
+ },
+ {
+  "pokedex_number": 433,
+  "source": "images/0433_chingling.png",
+  "asset": "assets/pokemon/331e51bed3217b1e.png"
+ },
+ {
+  "pokedex_number": 434,
+  "source": "images/0434_stunky.png",
+  "asset": "assets/pokemon/85c2f784c2c17551.png"
+ },
+ {
+  "pokedex_number": 435,
+  "source": "images/0435_skuntank.png",
+  "asset": "assets/pokemon/a2400385722f865a.png"
+ },
+ {
+  "pokedex_number": 436,
+  "source": "images/0436_bronzor.png",
+  "asset": "assets/pokemon/58bf0b092d36c213.png"
+ },
+ {
+  "pokedex_number": 437,
+  "source": "images/0437_bronzong.png",
+  "asset": "assets/pokemon/e5e5291df6abbbbc.png"
+ },
+ {
+  "pokedex_number": 438,
+  "source": "images/0438_bonsly.png",
+  "asset": "assets/pokemon/d6f43f432c996ccb.png"
+ },
+ {
+  "pokedex_number": 439,
+  "source": "images/0439_mime-jr.png",
+  "asset": "assets/pokemon/5332660babf15d7a.png"
+ },
+ {
+  "pokedex_number": 440,
+  "source": "images/0440_happiny.png",
+  "asset": "assets/pokemon/c7a44b2ae7955251.png"
+ },
+ {
+  "pokedex_number": 441,
+  "source": "images/0441_chatot.png",
+  "asset": "assets/pokemon/440240725e0b6f54.png"
+ },
+ {
+  "pokedex_number": 442,
+  "source": "images/0442_spiritomb.png",
+  "asset": "assets/pokemon/96fe269ba07f74ff.png"
+ },
+ {
+  "pokedex_number": 443,
+  "source": "images/0443_gible.png",
+  "asset": "assets/pokemon/4120a741e9d6fda1.png"
+ },
+ {
+  "pokedex_number": 444,
+  "source": "images/0444_gabite.png",
+  "asset": "assets/pokemon/9e0521ca9a5eda27.png"
+ },
+ {
+  "pokedex_number": 445,
+  "source": "images/0445_garchomp.png",
+  "asset": "assets/pokemon/c9122fe26666487f.png"
+ },
+ {
+  "pokedex_number": 446,
+  "source": "images/0446_munchlax.png",
+  "asset": "assets/pokemon/5b4a9e2674871a34.png"
+ },
+ {
+  "pokedex_number": 447,
+  "source": "images/0447_riolu.png",
+  "asset": "assets/pokemon/5f5b983173bc197f.png"
+ },
+ {
+  "pokedex_number": 448,
+  "source": "images/0448_lucario.png",
+  "asset": "assets/pokemon/8c5064f1d4a37c8b.png"
+ },
+ {
+  "pokedex_number": 449,
+  "source": "images/0449_hippopotas.png",
+  "asset": "assets/pokemon/112d60fe9cfb4357.png"
+ },
+ {
+  "pokedex_number": 450,
+  "source": "images/0450_hippowdon.png",
+  "asset": "assets/pokemon/b4e107152d0b2a7a.png"
+ },
+ {
+  "pokedex_number": 451,
+  "source": "images/0451_skorupi.png",
+  "asset": "assets/pokemon/127072f50aaa33d5.png"
+ },
+ {
+  "pokedex_number": 452,
+  "source": "images/0452_drapion.png",
+  "asset": "assets/pokemon/7e796c40975f208a.png"
+ },
+ {
+  "pokedex_number": 453,
+  "source": "images/0453_croagunk.png",
+  "asset": "assets/pokemon/783bf4e85e31a2e6.png"
+ },
+ {
+  "pokedex_number": 454,
+  "source": "images/0454_toxicroak.png",
+  "asset": "assets/pokemon/20036cc1e28705cb.png"
+ },
+ {
+  "pokedex_number": 455,
+  "source": "images/0455_carnivine.png",
+  "asset": "assets/pokemon/47747c2f8e409ded.png"
+ },
+ {
+  "pokedex_number": 456,
+  "source": "images/0456_finneon.png",
+  "asset": "assets/pokemon/7ccc6a78a36c39bb.png"
+ },
+ {
+  "pokedex_number": 457,
+  "source": "images/0457_lumineon.png",
+  "asset": "assets/pokemon/027709b40b31a91c.png"
+ },
+ {
+  "pokedex_number": 458,
+  "source": "images/0458_mantyke.png",
+  "asset": "assets/pokemon/12bb33a0d2aa90f5.png"
+ },
+ {
+  "pokedex_number": 459,
+  "source": "images/0459_snover.png",
+  "asset": "assets/pokemon/12f79eae0bce9906.png"
+ },
+ {
+  "pokedex_number": 460,
+  "source": "images/0460_abomasnow.png",
+  "asset": "assets/pokemon/105bfb2ee8162a69.png"
+ },
+ {
+  "pokedex_number": 461,
+  "source": "images/0461_weavile.png",
+  "asset": "assets/pokemon/11d5a85c9948d2ab.png"
+ },
+ {
+  "pokedex_number": 462,
+  "source": "images/0462_magnezone.png",
+  "asset": "assets/pokemon/34a5f7a06d772cdf.png"
+ },
+ {
+  "pokedex_number": 463,
+  "source": "images/0463_lickilicky.png",
+  "asset": "assets/pokemon/5503085a1f171390.png"
+ },
+ {
+  "pokedex_number": 464,
+  "source": "images/0464_rhyperior.png",
+  "asset": "assets/pokemon/039ec0c6aaae4ddd.png"
+ },
+ {
+  "pokedex_number": 465,
+  "source": "images/0465_tangrowth.png",
+  "asset": "assets/pokemon/cae35ea5c0cf6604.png"
+ },
+ {
+  "pokedex_number": 466,
+  "source": "images/0466_electivire.png",
+  "asset": "assets/pokemon/38c6c1a1df6c3b5f.png"
+ },
+ {
+  "pokedex_number": 467,
+  "source": "images/0467_magmortar.png",
+  "asset": "assets/pokemon/e8f57b864f93c74c.png"
+ },
+ {
+  "pokedex_number": 468,
+  "source": "images/0468_togekiss.png",
+  "asset": "assets/pokemon/d89c7b73cb9c288c.png"
+ },
+ {
+  "pokedex_number": 469,
+  "source": "images/0469_yanmega.png",
+  "asset": "assets/pokemon/d4d7b871bd520cef.png"
+ },
+ {
+  "pokedex_number": 470,
+  "source": "images/0470_leafeon.png",
+  "asset": "assets/pokemon/3cb145cfafe87da6.png"
+ },
+ {
+  "pokedex_number": 471,
+  "source": "images/0471_glaceon.png",
+  "asset": "assets/pokemon/bc7c93a32e133f9e.png"
+ },
+ {
+  "pokedex_number": 472,
+  "source": "images/0472_gliscor.png",
+  "asset": "assets/pokemon/9e902ab70836789a.png"
+ },
+ {
+  "pokedex_number": 473,
+  "source": "images/0473_mamoswine.png",
+  "asset": "assets/pokemon/51dff25e8e46efbf.png"
+ },
+ {
+  "pokedex_number": 474,
+  "source": "images/0474_porygon-z.png",
+  "asset": "assets/pokemon/d703eea8a609c907.png"
+ },
+ {
+  "pokedex_number": 475,
+  "source": "images/0475_gallade.png",
+  "asset": "assets/pokemon/ae5db3774ea3c639.png"
+ },
+ {
+  "pokedex_number": 476,
+  "source": "images/0476_probopass.png",
+  "asset": "assets/pokemon/060e2fc21301e762.png"
+ },
+ {
+  "pokedex_number": 477,
+  "source": "images/0477_dusknoir.png",
+  "asset": "assets/pokemon/42700105023f31c4.png"
+ },
+ {
+  "pokedex_number": 478,
+  "source": "images/0478_froslass.png",
+  "asset": "assets/pokemon/ab2ee1564be21553.png"
+ },
+ {
+  "pokedex_number": 479,
+  "source": "images/0479_rotom.png",
+  "asset": "assets/pokemon/aac3908d8eff725c.png"
+ },
+ {
+  "pokedex_number": 480,
+  "source": "images/0480_uxie.png",
+  "asset": "assets/pokemon/cab78c6b5d5d41cd.png"
+ },
+ {
+  "pokedex_number": 481,
+  "source": "images/0481_mesprit.png",
+  "asset": "assets/pokemon/3e23dea0804de277.png"
+ },
+ {
+  "pokedex_number": 482,
+  "source": "images/0482_azelf.png",
+  "asset": "assets/pokemon/c6835c0bf3159160.png"
+ },
+ {
+  "pokedex_number": 483,
+  "source": "images/0483_dialga.png",
+  "asset": "assets/pokemon/34d234eef4714349.png"
+ },
+ {
+  "pokedex_number": 484,
+  "source": "images/0484_palkia.png",
+  "asset": "assets/pokemon/2c7827e8ecdf1819.png"
+ },
+ {
+  "pokedex_number": 485,
+  "source": "images/0485_heatran.png",
+  "asset": "assets/pokemon/46a39ce0a782e218.png"
+ },
+ {
+  "pokedex_number": 486,
+  "source": "images/0486_regigigas.png",
+  "asset": "assets/pokemon/1bd2cee31f5de6c6.png"
+ },
+ {
+  "pokedex_number": 487,
+  "source": "images/0487_giratina.png",
+  "asset": "assets/pokemon/a43e1563cf09e86f.png"
+ },
+ {
+  "pokedex_number": 488,
+  "source": "images/0488_cresselia.png",
+  "asset": "assets/pokemon/e2c3f093ae567405.png"
+ },
+ {
+  "pokedex_number": 489,
+  "source": "images/0489_phione.png",
+  "asset": "assets/pokemon/0230d5a9428ab1dd.png"
+ },
+ {
+  "pokedex_number": 490,
+  "source": "images/0490_manaphy.png",
+  "asset": "assets/pokemon/6329b52580a6baa5.png"
+ },
+ {
+  "pokedex_number": 491,
+  "source": "images/0491_darkrai.png",
+  "asset": "assets/pokemon/79bb2618a2590871.png"
+ },
+ {
+  "pokedex_number": 492,
+  "source": "images/0492_shaymin.png",
+  "asset": "assets/pokemon/192ecc7767cba15c.png"
+ },
+ {
+  "pokedex_number": 493,
+  "source": "images/0493_arceus.png",
+  "asset": "assets/pokemon/2c33a80a60316f3b.png"
+ },
+ {
+  "pokedex_number": 494,
+  "source": "images/0494_victini.png",
+  "asset": "assets/pokemon/67cbd0d969f774d3.png"
+ },
+ {
+  "pokedex_number": 495,
+  "source": "images/0495_snivy.png",
+  "asset": "assets/pokemon/ca2af70fa2758010.png"
+ },
+ {
+  "pokedex_number": 496,
+  "source": "images/0496_servine.png",
+  "asset": "assets/pokemon/9ac810d7614bce14.png"
+ },
+ {
+  "pokedex_number": 497,
+  "source": "images/0497_serperior.png",
+  "asset": "assets/pokemon/9dd16782bae17e6e.png"
+ },
+ {
+  "pokedex_number": 498,
+  "source": "images/0498_tepig.png",
+  "asset": "assets/pokemon/ef4fe0e0a98f1096.png"
+ },
+ {
+  "pokedex_number": 499,
+  "source": "images/0499_pignite.png",
+  "asset": "assets/pokemon/f5a402fe53e04972.png"
+ },
+ {
+  "pokedex_number": 500,
+  "source": "images/0500_emboar.png",
+  "asset": "assets/pokemon/ab35dc92a353a2ca.png"
+ },
+ {
+  "pokedex_number": 501,
+  "source": "images/0501_oshawott.png",
+  "asset": "assets/pokemon/986a6dbcf939b25d.png"
+ },
+ {
+  "pokedex_number": 502,
+  "source": "images/0502_dewott.png",
+  "asset": "assets/pokemon/a908653e1304e8bb.png"
+ },
+ {
+  "pokedex_number": 503,
+  "source": "images/0503_samurott.png",
+  "asset": "assets/pokemon/192e0d2a7d4dffb8.png"
+ },
+ {
+  "pokedex_number": 504,
+  "source": "images/0504_patrat.png",
+  "asset": "assets/pokemon/81d5c2e4fd3ffa83.png"
+ },
+ {
+  "pokedex_number": 505,
+  "source": "images/0505_watchog.png",
+  "asset": "assets/pokemon/fa8cd921937fc584.png"
+ },
+ {
+  "pokedex_number": 506,
+  "source": "images/0506_lillipup.png",
+  "asset": "assets/pokemon/72b8d1e552d29b96.png"
+ },
+ {
+  "pokedex_number": 507,
+  "source": "images/0507_herdier.png",
+  "asset": "assets/pokemon/befc963f0ae86442.png"
+ },
+ {
+  "pokedex_number": 508,
+  "source": "images/0508_stoutland.png",
+  "asset": "assets/pokemon/9b65b7c432ee8d22.png"
+ },
+ {
+  "pokedex_number": 509,
+  "source": "images/0509_purrloin.png",
+  "asset": "assets/pokemon/74a6889f8b1c0089.png"
+ },
+ {
+  "pokedex_number": 510,
+  "source": "images/0510_liepard.png",
+  "asset": "assets/pokemon/94ec6871a6d61d2a.png"
+ },
+ {
+  "pokedex_number": 511,
+  "source": "images/0511_pansage.png",
+  "asset": "assets/pokemon/c3bd10ec1a841263.png"
+ },
+ {
+  "pokedex_number": 512,
+  "source": "images/0512_simisage.png",
+  "asset": "assets/pokemon/2ca68c33743ec3a8.png"
+ },
+ {
+  "pokedex_number": 513,
+  "source": "images/0513_pansear.png",
+  "asset": "assets/pokemon/f73072ddccc36ce0.png"
+ },
+ {
+  "pokedex_number": 514,
+  "source": "images/0514_simisear.png",
+  "asset": "assets/pokemon/2f6055eb94d61575.png"
+ },
+ {
+  "pokedex_number": 515,
+  "source": "images/0515_panpour.png",
+  "asset": "assets/pokemon/af2d1365b66e8ff7.png"
+ },
+ {
+  "pokedex_number": 516,
+  "source": "images/0516_simipour.png",
+  "asset": "assets/pokemon/76604cb8de67e6c7.png"
+ },
+ {
+  "pokedex_number": 517,
+  "source": "images/0517_munna.png",
+  "asset": "assets/pokemon/5e6f3f787979c615.png"
+ },
+ {
+  "pokedex_number": 518,
+  "source": "images/0518_musharna.png",
+  "asset": "assets/pokemon/01ebd4eef351ed06.png"
+ },
+ {
+  "pokedex_number": 519,
+  "source": "images/0519_pidove.png",
+  "asset": "assets/pokemon/393d61017474b0e2.png"
+ },
+ {
+  "pokedex_number": 520,
+  "source": "images/0520_tranquill.png",
+  "asset": "assets/pokemon/809211d227d96d85.png"
+ },
+ {
+  "pokedex_number": 521,
+  "source": "images/0521_unfezant.png",
+  "asset": "assets/pokemon/f6fd649ddfe7e3ea.png"
+ },
+ {
+  "pokedex_number": 522,
+  "source": "images/0522_blitzle.png",
+  "asset": "assets/pokemon/38764479d4e267ae.png"
+ },
+ {
+  "pokedex_number": 523,
+  "source": "images/0523_zebstrika.png",
+  "asset": "assets/pokemon/8542ec0d784aa98b.png"
+ },
+ {
+  "pokedex_number": 524,
+  "source": "images/0524_roggenrola.png",
+  "asset": "assets/pokemon/4728f9871f907995.png"
+ },
+ {
+  "pokedex_number": 525,
+  "source": "images/0525_boldore.png",
+  "asset": "assets/pokemon/e1c3ed211203b70c.png"
+ },
+ {
+  "pokedex_number": 526,
+  "source": "images/0526_gigalith.png",
+  "asset": "assets/pokemon/20ef2c82c3b76ecc.png"
+ },
+ {
+  "pokedex_number": 527,
+  "source": "images/0527_woobat.png",
+  "asset": "assets/pokemon/346849839f2b974c.png"
+ },
+ {
+  "pokedex_number": 528,
+  "source": "images/0528_swoobat.png",
+  "asset": "assets/pokemon/4aa8327b69ad4ac2.png"
+ },
+ {
+  "pokedex_number": 529,
+  "source": "images/0529_drilbur.png",
+  "asset": "assets/pokemon/0c7434e3ae9a65b4.png"
+ },
+ {
+  "pokedex_number": 530,
+  "source": "images/0530_excadrill.png",
+  "asset": "assets/pokemon/3f0376151a774ee6.png"
+ },
+ {
+  "pokedex_number": 531,
+  "source": "images/0531_audino.png",
+  "asset": "assets/pokemon/42c151039a91c9ed.png"
+ },
+ {
+  "pokedex_number": 532,
+  "source": "images/0532_timburr.png",
+  "asset": "assets/pokemon/1e7bcd32d0d2d25d.png"
+ },
+ {
+  "pokedex_number": 533,
+  "source": "images/0533_gurdurr.png",
+  "asset": "assets/pokemon/91834c12531f1808.png"
+ },
+ {
+  "pokedex_number": 534,
+  "source": "images/0534_conkeldurr.png",
+  "asset": "assets/pokemon/73d17912f1514274.png"
+ },
+ {
+  "pokedex_number": 535,
+  "source": "images/0535_tympole.png",
+  "asset": "assets/pokemon/1178e963b5740ee5.png"
+ },
+ {
+  "pokedex_number": 536,
+  "source": "images/0536_palpitoad.png",
+  "asset": "assets/pokemon/e915d1e241607e18.png"
+ },
+ {
+  "pokedex_number": 537,
+  "source": "images/0537_seismitoad.png",
+  "asset": "assets/pokemon/b59c85f0c4a26e3e.png"
+ },
+ {
+  "pokedex_number": 538,
+  "source": "images/0538_throh.png",
+  "asset": "assets/pokemon/33cb71ca696d5ecd.png"
+ },
+ {
+  "pokedex_number": 539,
+  "source": "images/0539_sawk.png",
+  "asset": "assets/pokemon/cd25f50e9486fcae.png"
+ },
+ {
+  "pokedex_number": 540,
+  "source": "images/0540_sewaddle.png",
+  "asset": "assets/pokemon/ca9ccd29e46e7901.png"
+ },
+ {
+  "pokedex_number": 541,
+  "source": "images/0541_swadloon.png",
+  "asset": "assets/pokemon/629ac7d8f25614b6.png"
+ },
+ {
+  "pokedex_number": 542,
+  "source": "images/0542_leavanny.png",
+  "asset": "assets/pokemon/31fea8e916facee8.png"
+ },
+ {
+  "pokedex_number": 543,
+  "source": "images/0543_venipede.png",
+  "asset": "assets/pokemon/fee7d82a90765854.png"
+ },
+ {
+  "pokedex_number": 544,
+  "source": "images/0544_whirlipede.png",
+  "asset": "assets/pokemon/f45d6631be956969.png"
+ },
+ {
+  "pokedex_number": 545,
+  "source": "images/0545_scolipede.png",
+  "asset": "assets/pokemon/1e804ecd2412fd23.png"
+ },
+ {
+  "pokedex_number": 546,
+  "source": "images/0546_cottonee.png",
+  "asset": "assets/pokemon/c2b0861ddccb1b17.png"
+ },
+ {
+  "pokedex_number": 547,
+  "source": "images/0547_whimsicott.png",
+  "asset": "assets/pokemon/1d6c01ad624a6e7c.png"
+ },
+ {
+  "pokedex_number": 548,
+  "source": "images/0548_petilil.png",
+  "asset": "assets/pokemon/86c828fdd1d172c1.png"
+ },
+ {
+  "pokedex_number": 549,
+  "source": "images/0549_lilligant.png",
+  "asset": "assets/pokemon/d4701f94f32cc1dc.png"
+ },
+ {
+  "pokedex_number": 550,
+  "source": "images/0550_basculin.png",
+  "asset": "assets/pokemon/d2cc77b7d0cc2f45.png"
+ },
+ {
+  "pokedex_number": 551,
+  "source": "images/0551_sandile.png",
+  "asset": "assets/pokemon/ccfa95b950fd954c.png"
+ },
+ {
+  "pokedex_number": 552,
+  "source": "images/0552_krokorok.png",
+  "asset": "assets/pokemon/5e5475ddeea4d780.png"
+ },
+ {
+  "pokedex_number": 553,
+  "source": "images/0553_krookodile.png",
+  "asset": "assets/pokemon/f9bea552e4bab77a.png"
+ },
+ {
+  "pokedex_number": 554,
+  "source": "images/0554_darumaka.png",
+  "asset": "assets/pokemon/beedd6598cef17fa.png"
+ },
+ {
+  "pokedex_number": 555,
+  "source": "images/0555_darmanitan.png",
+  "asset": "assets/pokemon/5d54239cf1186fd4.png"
+ },
+ {
+  "pokedex_number": 556,
+  "source": "images/0556_maractus.png",
+  "asset": "assets/pokemon/9e40c154376ffc8b.png"
+ },
+ {
+  "pokedex_number": 557,
+  "source": "images/0557_dwebble.png",
+  "asset": "assets/pokemon/38d364d4832cb1be.png"
+ },
+ {
+  "pokedex_number": 558,
+  "source": "images/0558_crustle.png",
+  "asset": "assets/pokemon/36c4e2929f9d5e39.png"
+ },
+ {
+  "pokedex_number": 559,
+  "source": "images/0559_scraggy.png",
+  "asset": "assets/pokemon/a5403e02a8807f18.png"
+ },
+ {
+  "pokedex_number": 560,
+  "source": "images/0560_scrafty.png",
+  "asset": "assets/pokemon/ff5559304f21daab.png"
+ },
+ {
+  "pokedex_number": 561,
+  "source": "images/0561_sigilyph.png",
+  "asset": "assets/pokemon/82ba33d1eec04187.png"
+ },
+ {
+  "pokedex_number": 562,
+  "source": "images/0562_yamask.png",
+  "asset": "assets/pokemon/7be9767a7f40a5f7.png"
+ },
+ {
+  "pokedex_number": 563,
+  "source": "images/0563_cofagrigus.png",
+  "asset": "assets/pokemon/7be39d69a8e069e1.png"
+ },
+ {
+  "pokedex_number": 564,
+  "source": "images/0564_tirtouga.png",
+  "asset": "assets/pokemon/6e46a53b903b7737.png"
+ },
+ {
+  "pokedex_number": 565,
+  "source": "images/0565_carracosta.png",
+  "asset": "assets/pokemon/c2744e4d86d33603.png"
+ },
+ {
+  "pokedex_number": 566,
+  "source": "images/0566_archen.png",
+  "asset": "assets/pokemon/daa0028c9395b360.png"
+ },
+ {
+  "pokedex_number": 567,
+  "source": "images/0567_archeops.png",
+  "asset": "assets/pokemon/bd06cf4157177489.png"
+ },
+ {
+  "pokedex_number": 568,
+  "source": "images/0568_trubbish.png",
+  "asset": "assets/pokemon/0a432a2e3c7d06f7.png"
+ },
+ {
+  "pokedex_number": 569,
+  "source": "images/0569_garbodor.png",
+  "asset": "assets/pokemon/89e02355cedd4ad5.png"
+ },
+ {
+  "pokedex_number": 570,
+  "source": "images/0570_zorua.png",
+  "asset": "assets/pokemon/eb5709d3487e6adc.png"
+ },
+ {
+  "pokedex_number": 571,
+  "source": "images/0571_zoroark.png",
+  "asset": "assets/pokemon/b9dc530c88c2baee.png"
+ },
+ {
+  "pokedex_number": 572,
+  "source": "images/0572_minccino.png",
+  "asset": "assets/pokemon/99fda45fbe11004c.png"
+ },
+ {
+  "pokedex_number": 573,
+  "source": "images/0573_cinccino.png",
+  "asset": "assets/pokemon/514d16d314349025.png"
+ },
+ {
+  "pokedex_number": 574,
+  "source": "images/0574_gothita.png",
+  "asset": "assets/pokemon/b7a2f6cc8acc8818.png"
+ },
+ {
+  "pokedex_number": 575,
+  "source": "images/0575_gothorita.png",
+  "asset": "assets/pokemon/d340f5fe4ddb098d.png"
+ },
+ {
+  "pokedex_number": 576,
+  "source": "images/0576_gothitelle.png",
+  "asset": "assets/pokemon/dc2b46b6af635a53.png"
+ },
+ {
+  "pokedex_number": 577,
+  "source": "images/0577_solosis.png",
+  "asset": "assets/pokemon/9d6a870a62deabd8.png"
+ },
+ {
+  "pokedex_number": 578,
+  "source": "images/0578_duosion.png",
+  "asset": "assets/pokemon/9db1d58dd327b206.png"
+ },
+ {
+  "pokedex_number": 579,
+  "source": "images/0579_reuniclus.png",
+  "asset": "assets/pokemon/a4fb21b2d0c32154.png"
+ },
+ {
+  "pokedex_number": 580,
+  "source": "images/0580_ducklett.png",
+  "asset": "assets/pokemon/8741588e03877920.png"
+ },
+ {
+  "pokedex_number": 581,
+  "source": "images/0581_swanna.png",
+  "asset": "assets/pokemon/483b96e51df1e2a0.png"
+ },
+ {
+  "pokedex_number": 582,
+  "source": "images/0582_vanillite.png",
+  "asset": "assets/pokemon/c1b6f50028659234.png"
+ },
+ {
+  "pokedex_number": 583,
+  "source": "images/0583_vanillish.png",
+  "asset": "assets/pokemon/3f2528877bfdc9e6.png"
+ },
+ {
+  "pokedex_number": 584,
+  "source": "images/0584_vanilluxe.png",
+  "asset": "assets/pokemon/8a85a247406db625.png"
+ },
+ {
+  "pokedex_number": 585,
+  "source": "images/0585_deerling.png",
+  "asset": "assets/pokemon/ae17cc7f8ed3e586.png"
+ },
+ {
+  "pokedex_number": 586,
+  "source": "images/0586_sawsbuck.png",
+  "asset": "assets/pokemon/5fc8412bd5b2606d.png"
+ },
+ {
+  "pokedex_number": 587,
+  "source": "images/0587_emolga.png",
+  "asset": "assets/pokemon/921748d60160341d.png"
+ },
+ {
+  "pokedex_number": 588,
+  "source": "images/0588_karrablast.png",
+  "asset": "assets/pokemon/083d8e747d3e3fb7.png"
+ },
+ {
+  "pokedex_number": 589,
+  "source": "images/0589_escavalier.png",
+  "asset": "assets/pokemon/09a9610bb86ab44b.png"
+ },
+ {
+  "pokedex_number": 590,
+  "source": "images/0590_foongus.png",
+  "asset": "assets/pokemon/7d901e9b6730b4e9.png"
+ },
+ {
+  "pokedex_number": 591,
+  "source": "images/0591_amoonguss.png",
+  "asset": "assets/pokemon/8a3b73d8604c2b53.png"
+ },
+ {
+  "pokedex_number": 592,
+  "source": "images/0592_frillish.png",
+  "asset": "assets/pokemon/ab3c489a54cfb3e9.png"
+ },
+ {
+  "pokedex_number": 593,
+  "source": "images/0593_jellicent.png",
+  "asset": "assets/pokemon/3df43b19e8f65429.png"
+ },
+ {
+  "pokedex_number": 594,
+  "source": "images/0594_alomomola.png",
+  "asset": "assets/pokemon/5f76e807d71733e7.png"
+ },
+ {
+  "pokedex_number": 595,
+  "source": "images/0595_joltik.png",
+  "asset": "assets/pokemon/418a618706800b5d.png"
+ },
+ {
+  "pokedex_number": 596,
+  "source": "images/0596_galvantula.png",
+  "asset": "assets/pokemon/92d2db400fd988c6.png"
+ },
+ {
+  "pokedex_number": 597,
+  "source": "images/0597_ferroseed.png",
+  "asset": "assets/pokemon/48b8044de34fed0b.png"
+ },
+ {
+  "pokedex_number": 598,
+  "source": "images/0598_ferrothorn.png",
+  "asset": "assets/pokemon/4f77c1949774a9ee.png"
+ },
+ {
+  "pokedex_number": 599,
+  "source": "images/0599_klink.png",
+  "asset": "assets/pokemon/52fd29f11d49f16a.png"
+ },
+ {
+  "pokedex_number": 600,
+  "source": "images/0600_klang.png",
+  "asset": "assets/pokemon/804e73b9a426afb9.png"
+ },
+ {
+  "pokedex_number": 601,
+  "source": "images/0601_klinklang.png",
+  "asset": "assets/pokemon/ff1918b925f1bc77.png"
+ },
+ {
+  "pokedex_number": 602,
+  "source": "images/0602_tynamo.png",
+  "asset": "assets/pokemon/102fc1bddc3ceafd.png"
+ },
+ {
+  "pokedex_number": 603,
+  "source": "images/0603_eelektrik.png",
+  "asset": "assets/pokemon/28fed624d6dd1bac.png"
+ },
+ {
+  "pokedex_number": 604,
+  "source": "images/0604_eelektross.png",
+  "asset": "assets/pokemon/57ecb34d9988e1bd.png"
+ },
+ {
+  "pokedex_number": 605,
+  "source": "images/0605_elgyem.png",
+  "asset": "assets/pokemon/ef5989e4d13d6b44.png"
+ },
+ {
+  "pokedex_number": 606,
+  "source": "images/0606_beheeyem.png",
+  "asset": "assets/pokemon/58c37b23da4e50a7.png"
+ },
+ {
+  "pokedex_number": 607,
+  "source": "images/0607_litwick.png",
+  "asset": "assets/pokemon/8fb735440a023222.png"
+ },
+ {
+  "pokedex_number": 608,
+  "source": "images/0608_lampent.png",
+  "asset": "assets/pokemon/123c0fad378ef535.png"
+ },
+ {
+  "pokedex_number": 609,
+  "source": "images/0609_chandelure.png",
+  "asset": "assets/pokemon/c4dc9669beb0d422.png"
+ },
+ {
+  "pokedex_number": 610,
+  "source": "images/0610_axew.png",
+  "asset": "assets/pokemon/15e9e58bad9a873c.png"
+ },
+ {
+  "pokedex_number": 611,
+  "source": "images/0611_fraxure.png",
+  "asset": "assets/pokemon/c49f4251e343c7d6.png"
+ },
+ {
+  "pokedex_number": 612,
+  "source": "images/0612_haxorus.png",
+  "asset": "assets/pokemon/47d8661a8a35d2a4.png"
+ },
+ {
+  "pokedex_number": 613,
+  "source": "images/0613_cubchoo.png",
+  "asset": "assets/pokemon/b17d9bb8be301a81.png"
+ },
+ {
+  "pokedex_number": 614,
+  "source": "images/0614_beartic.png",
+  "asset": "assets/pokemon/1de9e6735fc393bc.png"
+ },
+ {
+  "pokedex_number": 615,
+  "source": "images/0615_cryogonal.png",
+  "asset": "assets/pokemon/2f099d2cbe605d48.png"
+ },
+ {
+  "pokedex_number": 616,
+  "source": "images/0616_shelmet.png",
+  "asset": "assets/pokemon/e4ee39f1e96281cf.png"
+ },
+ {
+  "pokedex_number": 617,
+  "source": "images/0617_accelgor.png",
+  "asset": "assets/pokemon/b514dc10ef8d6309.png"
+ },
+ {
+  "pokedex_number": 618,
+  "source": "images/0618_stunfisk.png",
+  "asset": "assets/pokemon/d14f1c3fc8996308.png"
+ },
+ {
+  "pokedex_number": 619,
+  "source": "images/0619_mienfoo.png",
+  "asset": "assets/pokemon/0609d1e31636c9bb.png"
+ },
+ {
+  "pokedex_number": 620,
+  "source": "images/0620_mienshao.png",
+  "asset": "assets/pokemon/d1509d1b157a6c2a.png"
+ },
+ {
+  "pokedex_number": 621,
+  "source": "images/0621_druddigon.png",
+  "asset": "assets/pokemon/fe421255e2089bdd.png"
+ },
+ {
+  "pokedex_number": 622,
+  "source": "images/0622_golett.png",
+  "asset": "assets/pokemon/c520d2154a4a939f.png"
+ },
+ {
+  "pokedex_number": 623,
+  "source": "images/0623_golurk.png",
+  "asset": "assets/pokemon/0d59fcbba2fbdc98.png"
+ },
+ {
+  "pokedex_number": 624,
+  "source": "images/0624_pawniard.png",
+  "asset": "assets/pokemon/cf4fd510ef1e3593.png"
+ },
+ {
+  "pokedex_number": 625,
+  "source": "images/0625_bisharp.png",
+  "asset": "assets/pokemon/8132688fd2359a79.png"
+ },
+ {
+  "pokedex_number": 626,
+  "source": "images/0626_bouffalant.png",
+  "asset": "assets/pokemon/10e34abc6e0b4fea.png"
+ },
+ {
+  "pokedex_number": 627,
+  "source": "images/0627_rufflet.png",
+  "asset": "assets/pokemon/7008662244822290.png"
+ },
+ {
+  "pokedex_number": 628,
+  "source": "images/0628_braviary.png",
+  "asset": "assets/pokemon/e2122a71919d965d.png"
+ },
+ {
+  "pokedex_number": 629,
+  "source": "images/0629_vullaby.png",
+  "asset": "assets/pokemon/b3a91b69c11b0c07.png"
+ },
+ {
+  "pokedex_number": 630,
+  "source": "images/0630_mandibuzz.png",
+  "asset": "assets/pokemon/0229135fc7b79fde.png"
+ },
+ {
+  "pokedex_number": 631,
+  "source": "images/0631_heatmor.png",
+  "asset": "assets/pokemon/d2df82489a0d3342.png"
+ },
+ {
+  "pokedex_number": 632,
+  "source": "images/0632_durant.png",
+  "asset": "assets/pokemon/6c5a3e9ec82139c5.png"
+ },
+ {
+  "pokedex_number": 633,
+  "source": "images/0633_deino.png",
+  "asset": "assets/pokemon/c6fb335bf2eaa16b.png"
+ },
+ {
+  "pokedex_number": 634,
+  "source": "images/0634_zweilous.png",
+  "asset": "assets/pokemon/c7b4b95450cd3c22.png"
+ },
+ {
+  "pokedex_number": 635,
+  "source": "images/0635_hydreigon.png",
+  "asset": "assets/pokemon/74b0d31de02ec0c2.png"
+ },
+ {
+  "pokedex_number": 636,
+  "source": "images/0636_larvesta.png",
+  "asset": "assets/pokemon/6bb9aa1fafccc3d7.png"
+ },
+ {
+  "pokedex_number": 637,
+  "source": "images/0637_volcarona.png",
+  "asset": "assets/pokemon/05e4d5f86fd53f78.png"
+ },
+ {
+  "pokedex_number": 638,
+  "source": "images/0638_cobalion.png",
+  "asset": "assets/pokemon/55393632938b441c.png"
+ },
+ {
+  "pokedex_number": 639,
+  "source": "images/0639_terrakion.png",
+  "asset": "assets/pokemon/eb78e06204b5bff2.png"
+ },
+ {
+  "pokedex_number": 640,
+  "source": "images/0640_virizion.png",
+  "asset": "assets/pokemon/b799e77272958f3e.png"
+ },
+ {
+  "pokedex_number": 641,
+  "source": "images/0641_tornadus.png",
+  "asset": "assets/pokemon/7e6e719d01cc61f9.png"
+ },
+ {
+  "pokedex_number": 642,
+  "source": "images/0642_thundurus.png",
+  "asset": "assets/pokemon/16543f0765bfd48a.png"
+ },
+ {
+  "pokedex_number": 643,
+  "source": "images/0643_reshiram.png",
+  "asset": "assets/pokemon/a420e47a41e5b2b6.png"
+ },
+ {
+  "pokedex_number": 644,
+  "source": "images/0644_zekrom.png",
+  "asset": "assets/pokemon/de9c3fa59c8bd6a7.png"
+ },
+ {
+  "pokedex_number": 645,
+  "source": "images/0645_landorus.png",
+  "asset": "assets/pokemon/6016d0660db403e7.png"
+ },
+ {
+  "pokedex_number": 646,
+  "source": "images/0646_kyurem.png",
+  "asset": "assets/pokemon/419015e5cb6b62f7.png"
+ },
+ {
+  "pokedex_number": 647,
+  "source": "images/0647_keldeo.png",
+  "asset": "assets/pokemon/6c2f1405fa0dd41c.png"
+ },
+ {
+  "pokedex_number": 648,
+  "source": "images/0648_meloetta.png",
+  "asset": "assets/pokemon/c87ecc732330924e.png"
+ },
+ {
+  "pokedex_number": 649,
+  "source": "images/0649_genesect.png",
+  "asset": "assets/pokemon/7ea39dd909fa03ca.png"
+ },
+ {
+  "pokedex_number": 650,
+  "source": "images/0650_chespin.png",
+  "asset": "assets/pokemon/252f422be49a2424.png"
+ },
+ {
+  "pokedex_number": 651,
+  "source": "images/0651_quilladin.png",
+  "asset": "assets/pokemon/0bedcf915839b9d0.png"
+ },
+ {
+  "pokedex_number": 652,
+  "source": "images/0652_chesnaught.png",
+  "asset": "assets/pokemon/c180b69f7b59f6d4.png"
+ },
+ {
+  "pokedex_number": 653,
+  "source": "images/0653_fennekin.png",
+  "asset": "assets/pokemon/539b597e2b752af7.png"
+ },
+ {
+  "pokedex_number": 654,
+  "source": "images/0654_braixen.png",
+  "asset": "assets/pokemon/d3c4de1e4ccef749.png"
+ },
+ {
+  "pokedex_number": 655,
+  "source": "images/0655_delphox.png",
+  "asset": "assets/pokemon/6c96ec531064017b.png"
+ },
+ {
+  "pokedex_number": 656,
+  "source": "images/0656_froakie.png",
+  "asset": "assets/pokemon/cb3eacf9a63df2ac.png"
+ },
+ {
+  "pokedex_number": 657,
+  "source": "images/0657_frogadier.png",
+  "asset": "assets/pokemon/5c0292f030e5eff4.png"
+ },
+ {
+  "pokedex_number": 658,
+  "source": "images/0658_greninja.png",
+  "asset": "assets/pokemon/e88f4590ff53a8f8.png"
+ },
+ {
+  "pokedex_number": 659,
+  "source": "images/0659_bunnelby.png",
+  "asset": "assets/pokemon/34db791c902b1f0e.png"
+ },
+ {
+  "pokedex_number": 660,
+  "source": "images/0660_diggersby.png",
+  "asset": "assets/pokemon/47b02d33f186413c.png"
+ },
+ {
+  "pokedex_number": 661,
+  "source": "images/0661_fletchling.png",
+  "asset": "assets/pokemon/3de7b4d2ffda5bc1.png"
+ },
+ {
+  "pokedex_number": 662,
+  "source": "images/0662_fletchinder.png",
+  "asset": "assets/pokemon/3fa06d1768108ba0.png"
+ },
+ {
+  "pokedex_number": 663,
+  "source": "images/0663_talonflame.png",
+  "asset": "assets/pokemon/788d4828075299c0.png"
+ },
+ {
+  "pokedex_number": 664,
+  "source": "images/0664_scatterbug.png",
+  "asset": "assets/pokemon/065f037c11db34de.png"
+ },
+ {
+  "pokedex_number": 665,
+  "source": "images/0665_spewpa.png",
+  "asset": "assets/pokemon/8a14edb973536f63.png"
+ },
+ {
+  "pokedex_number": 666,
+  "source": "images/0666_vivillon.png",
+  "asset": "assets/pokemon/b3dbfb7060adb159.png"
+ },
+ {
+  "pokedex_number": 667,
+  "source": "images/0667_litleo.png",
+  "asset": "assets/pokemon/f5d868236b5d0c69.png"
+ },
+ {
+  "pokedex_number": 668,
+  "source": "images/0668_pyroar.png",
+  "asset": "assets/pokemon/518c0fe1bc3388e4.png"
+ },
+ {
+  "pokedex_number": 669,
+  "source": "images/0669_flabebe.png",
+  "asset": "assets/pokemon/b68b2b4a51551f0b.png"
+ },
+ {
+  "pokedex_number": 670,
+  "source": "images/0670_floette.png",
+  "asset": "assets/pokemon/f1ffc7a93334c4d2.png"
+ },
+ {
+  "pokedex_number": 671,
+  "source": "images/0671_florges.png",
+  "asset": "assets/pokemon/b6b4346ffb5b500b.png"
+ },
+ {
+  "pokedex_number": 672,
+  "source": "images/0672_skiddo.png",
+  "asset": "assets/pokemon/726f744ca8b7e154.png"
+ },
+ {
+  "pokedex_number": 673,
+  "source": "images/0673_gogoat.png",
+  "asset": "assets/pokemon/b6dbb8ecd6357744.png"
+ },
+ {
+  "pokedex_number": 674,
+  "source": "images/0674_pancham.png",
+  "asset": "assets/pokemon/3ee217f4650d176a.png"
+ },
+ {
+  "pokedex_number": 675,
+  "source": "images/0675_pangoro.png",
+  "asset": "assets/pokemon/8462e93ead3eb900.png"
+ },
+ {
+  "pokedex_number": 676,
+  "source": "images/0676_furfrou.png",
+  "asset": "assets/pokemon/2400c013fc624211.png"
+ },
+ {
+  "pokedex_number": 677,
+  "source": "images/0677_espurr.png",
+  "asset": "assets/pokemon/24248820faa907b6.png"
+ },
+ {
+  "pokedex_number": 678,
+  "source": "images/0678_meowstic.png",
+  "asset": "assets/pokemon/1a54e28587fcd161.png"
+ },
+ {
+  "pokedex_number": 679,
+  "source": "images/0679_honedge.png",
+  "asset": "assets/pokemon/794b2537bca45638.png"
+ },
+ {
+  "pokedex_number": 680,
+  "source": "images/0680_doublade.png",
+  "asset": "assets/pokemon/f8159dce7bca8810.png"
+ },
+ {
+  "pokedex_number": 681,
+  "source": "images/0681_aegislash.png",
+  "asset": "assets/pokemon/196fd293d3721a10.png"
+ },
+ {
+  "pokedex_number": 682,
+  "source": "images/0682_spritzee.png",
+  "asset": "assets/pokemon/3716581d7f5ea9c2.png"
+ },
+ {
+  "pokedex_number": 683,
+  "source": "images/0683_aromatisse.png",
+  "asset": "assets/pokemon/bced310d6f9983b0.png"
+ },
+ {
+  "pokedex_number": 684,
+  "source": "images/0684_swirlix.png",
+  "asset": "assets/pokemon/b271861b7296bbe0.png"
+ },
+ {
+  "pokedex_number": 685,
+  "source": "images/0685_slurpuff.png",
+  "asset": "assets/pokemon/4a3845d70de1b28d.png"
+ },
+ {
+  "pokedex_number": 686,
+  "source": "images/0686_inkay.png",
+  "asset": "assets/pokemon/5d2eb1f9387b64f3.png"
+ },
+ {
+  "pokedex_number": 687,
+  "source": "images/0687_malamar.png",
+  "asset": "assets/pokemon/81cf08a03b9498a9.png"
+ },
+ {
+  "pokedex_number": 688,
+  "source": "images/0688_binacle.png",
+  "asset": "assets/pokemon/86b07bbc97760a61.png"
+ },
+ {
+  "pokedex_number": 689,
+  "source": "images/0689_barbaracle.png",
+  "asset": "assets/pokemon/aadff3c90e5079de.png"
+ },
+ {
+  "pokedex_number": 690,
+  "source": "images/0690_skrelp.png",
+  "asset": "assets/pokemon/06666ee988a1221a.png"
+ },
+ {
+  "pokedex_number": 691,
+  "source": "images/0691_dragalge.png",
+  "asset": "assets/pokemon/946da7659dda770f.png"
+ },
+ {
+  "pokedex_number": 692,
+  "source": "images/0692_clauncher.png",
+  "asset": "assets/pokemon/af269f6c169792f0.png"
+ },
+ {
+  "pokedex_number": 693,
+  "source": "images/0693_clawitzer.png",
+  "asset": "assets/pokemon/f85dc9aa047b80f8.png"
+ },
+ {
+  "pokedex_number": 694,
+  "source": "images/0694_helioptile.png",
+  "asset": "assets/pokemon/6db8081c7d247dd4.png"
+ },
+ {
+  "pokedex_number": 695,
+  "source": "images/0695_heliolisk.png",
+  "asset": "assets/pokemon/9dbd958d586bb8d2.png"
+ },
+ {
+  "pokedex_number": 696,
+  "source": "images/0696_tyrunt.png",
+  "asset": "assets/pokemon/30e7b0ae6b7bc54d.png"
+ },
+ {
+  "pokedex_number": 697,
+  "source": "images/0697_tyrantrum.png",
+  "asset": "assets/pokemon/d8b0afca742d3812.png"
+ },
+ {
+  "pokedex_number": 698,
+  "source": "images/0698_amaura.png",
+  "asset": "assets/pokemon/dac5c105721f9320.png"
+ },
+ {
+  "pokedex_number": 699,
+  "source": "images/0699_aurorus.png",
+  "asset": "assets/pokemon/d62aac6f16364d73.png"
+ },
+ {
+  "pokedex_number": 700,
+  "source": "images/0700_sylveon.png",
+  "asset": "assets/pokemon/193777db6d89cdac.png"
+ },
+ {
+  "pokedex_number": 701,
+  "source": "images/0701_hawlucha.png",
+  "asset": "assets/pokemon/041072a1c2ef2b14.png"
+ },
+ {
+  "pokedex_number": 702,
+  "source": "images/0702_dedenne.png",
+  "asset": "assets/pokemon/505152d09bedbb30.png"
+ },
+ {
+  "pokedex_number": 703,
+  "source": "images/0703_carbink.png",
+  "asset": "assets/pokemon/777b7cb80e88deb9.png"
+ },
+ {
+  "pokedex_number": 704,
+  "source": "images/0704_goomy.png",
+  "asset": "assets/pokemon/c8cd709162e84b7a.png"
+ },
+ {
+  "pokedex_number": 705,
+  "source": "images/0705_sliggoo.png",
+  "asset": "assets/pokemon/007100638995124c.png"
+ },
+ {
+  "pokedex_number": 706,
+  "source": "images/0706_goodra.png",
+  "asset": "assets/pokemon/d7b5bfbaa321940e.png"
+ },
+ {
+  "pokedex_number": 707,
+  "source": "images/0707_klefki.png",
+  "asset": "assets/pokemon/617a8bd49051f91b.png"
+ },
+ {
+  "pokedex_number": 708,
+  "source": "images/0708_phantump.png",
+  "asset": "assets/pokemon/8d9c7109eac72c3f.png"
+ },
+ {
+  "pokedex_number": 709,
+  "source": "images/0709_trevenant.png",
+  "asset": "assets/pokemon/df23987bef7045c4.png"
+ },
+ {
+  "pokedex_number": 710,
+  "source": "images/0710_pumpkaboo.png",
+  "asset": "assets/pokemon/16200544e5e8ea5e.png"
+ },
+ {
+  "pokedex_number": 711,
+  "source": "images/0711_gourgeist.png",
+  "asset": "assets/pokemon/6c25b571f3d1eb23.png"
+ },
+ {
+  "pokedex_number": 712,
+  "source": "images/0712_bergmite.png",
+  "asset": "assets/pokemon/90b6c0b87260cce8.png"
+ },
+ {
+  "pokedex_number": 713,
+  "source": "images/0713_avalugg.png",
+  "asset": "assets/pokemon/fcf36b688c589f82.png"
+ },
+ {
+  "pokedex_number": 714,
+  "source": "images/0714_noibat.png",
+  "asset": "assets/pokemon/9da6299eb48ec56c.png"
+ },
+ {
+  "pokedex_number": 715,
+  "source": "images/0715_noivern.png",
+  "asset": "assets/pokemon/05ff4bc3bd6bbff5.png"
+ },
+ {
+  "pokedex_number": 716,
+  "source": "images/0716_xerneas.png",
+  "asset": "assets/pokemon/a5d68ad804772e28.png"
+ },
+ {
+  "pokedex_number": 717,
+  "source": "images/0717_yveltal.png",
+  "asset": "assets/pokemon/da87bb19271e8224.png"
+ },
+ {
+  "pokedex_number": 718,
+  "source": "images/0718_zygarde.png",
+  "asset": "assets/pokemon/d9f91e73e7ab1048.png"
+ },
+ {
+  "pokedex_number": 719,
+  "source": "images/0719_diancie.png",
+  "asset": "assets/pokemon/098efcbc65f7b9e6.png"
+ },
+ {
+  "pokedex_number": 720,
+  "source": "images/0720_hoopa.png",
+  "asset": "assets/pokemon/05542935ad3acd91.png"
+ },
+ {
+  "pokedex_number": 721,
+  "source": "images/0721_volcanion.png",
+  "asset": "assets/pokemon/f75f159016630dc2.png"
+ },
+ {
+  "pokedex_number": 722,
+  "source": "images/0722_rowlet.png",
+  "asset": "assets/pokemon/3f01bf45b33f9455.png"
+ },
+ {
+  "pokedex_number": 723,
+  "source": "images/0723_dartrix.png",
+  "asset": "assets/pokemon/9ca8d3c4f025c921.png"
+ },
+ {
+  "pokedex_number": 724,
+  "source": "images/0724_decidueye.png",
+  "asset": "assets/pokemon/bb6827d337596159.png"
+ },
+ {
+  "pokedex_number": 725,
+  "source": "images/0725_litten.png",
+  "asset": "assets/pokemon/ee500178dd047e9e.png"
+ },
+ {
+  "pokedex_number": 726,
+  "source": "images/0726_torracat.png",
+  "asset": "assets/pokemon/4a163d11748c17e9.png"
+ },
+ {
+  "pokedex_number": 727,
+  "source": "images/0727_incineroar.png",
+  "asset": "assets/pokemon/7978632503c045c8.png"
+ },
+ {
+  "pokedex_number": 728,
+  "source": "images/0728_popplio.png",
+  "asset": "assets/pokemon/1345549f6f2f4d73.png"
+ },
+ {
+  "pokedex_number": 729,
+  "source": "images/0729_brionne.png",
+  "asset": "assets/pokemon/5985e777d22fef8f.png"
+ },
+ {
+  "pokedex_number": 730,
+  "source": "images/0730_primarina.png",
+  "asset": "assets/pokemon/5af256ff00cd7592.png"
+ },
+ {
+  "pokedex_number": 731,
+  "source": "images/0731_pikipek.png",
+  "asset": "assets/pokemon/3b75e1fdb112afa3.png"
+ },
+ {
+  "pokedex_number": 732,
+  "source": "images/0732_trumbeak.png",
+  "asset": "assets/pokemon/a2d2aac69a3985c4.png"
+ },
+ {
+  "pokedex_number": 733,
+  "source": "images/0733_toucannon.png",
+  "asset": "assets/pokemon/3721f56828ca6512.png"
+ },
+ {
+  "pokedex_number": 734,
+  "source": "images/0734_yungoos.png",
+  "asset": "assets/pokemon/08eac9de12c8b924.png"
+ },
+ {
+  "pokedex_number": 735,
+  "source": "images/0735_gumshoos.png",
+  "asset": "assets/pokemon/f4e17b9382af42a0.png"
+ },
+ {
+  "pokedex_number": 736,
+  "source": "images/0736_grubbin.png",
+  "asset": "assets/pokemon/3a1ac3d8e8748638.png"
+ },
+ {
+  "pokedex_number": 737,
+  "source": "images/0737_charjabug.png",
+  "asset": "assets/pokemon/357cbe9134019b12.png"
+ },
+ {
+  "pokedex_number": 738,
+  "source": "images/0738_vikavolt.png",
+  "asset": "assets/pokemon/c023ca632e6a32a4.png"
+ },
+ {
+  "pokedex_number": 739,
+  "source": "images/0739_crabrawler.png",
+  "asset": "assets/pokemon/4f200bffc5760bd8.png"
+ },
+ {
+  "pokedex_number": 740,
+  "source": "images/0740_crabominable.png",
+  "asset": "assets/pokemon/1ad0547e4eab5960.png"
+ },
+ {
+  "pokedex_number": 741,
+  "source": "images/0741_oricorio.png",
+  "asset": "assets/pokemon/ee682fa178b18bdb.png"
+ },
+ {
+  "pokedex_number": 742,
+  "source": "images/0742_cutiefly.png",
+  "asset": "assets/pokemon/053d4806b3ea448a.png"
+ },
+ {
+  "pokedex_number": 743,
+  "source": "images/0743_ribombee.png",
+  "asset": "assets/pokemon/7f32ac2aad8fd014.png"
+ },
+ {
+  "pokedex_number": 744,
+  "source": "images/0744_rockruff.png",
+  "asset": "assets/pokemon/76ac65e948749407.png"
+ },
+ {
+  "pokedex_number": 745,
+  "source": "images/0745_lycanroc.png",
+  "asset": "assets/pokemon/bbf9857260d2b19f.png"
+ },
+ {
+  "pokedex_number": 746,
+  "source": "images/0746_wishiwashi.png",
+  "asset": "assets/pokemon/3268d172082a103f.png"
+ },
+ {
+  "pokedex_number": 747,
+  "source": "images/0747_mareanie.png",
+  "asset": "assets/pokemon/4e01252c8b5870bd.png"
+ },
+ {
+  "pokedex_number": 748,
+  "source": "images/0748_toxapex.png",
+  "asset": "assets/pokemon/2eb1c9e63f745228.png"
+ },
+ {
+  "pokedex_number": 749,
+  "source": "images/0749_mudbray.png",
+  "asset": "assets/pokemon/70a9e4b8b2454308.png"
+ },
+ {
+  "pokedex_number": 750,
+  "source": "images/0750_mudsdale.png",
+  "asset": "assets/pokemon/d4d7385c94b46031.png"
+ },
+ {
+  "pokedex_number": 751,
+  "source": "images/0751_dewpider.png",
+  "asset": "assets/pokemon/42fb5edf83ca76d3.png"
+ },
+ {
+  "pokedex_number": 752,
+  "source": "images/0752_araquanid.png",
+  "asset": "assets/pokemon/0cddae49061391f8.png"
+ },
+ {
+  "pokedex_number": 753,
+  "source": "images/0753_fomantis.png",
+  "asset": "assets/pokemon/56794646eb9bdc6a.png"
+ },
+ {
+  "pokedex_number": 754,
+  "source": "images/0754_lurantis.png",
+  "asset": "assets/pokemon/a39a9e817f013dab.png"
+ },
+ {
+  "pokedex_number": 755,
+  "source": "images/0755_morelull.png",
+  "asset": "assets/pokemon/320b550920a45d63.png"
+ },
+ {
+  "pokedex_number": 756,
+  "source": "images/0756_shiinotic.png",
+  "asset": "assets/pokemon/1e41216b1f04ca35.png"
+ },
+ {
+  "pokedex_number": 757,
+  "source": "images/0757_salandit.png",
+  "asset": "assets/pokemon/17a3b1c0a0fec56c.png"
+ },
+ {
+  "pokedex_number": 758,
+  "source": "images/0758_salazzle.png",
+  "asset": "assets/pokemon/6d0161102030370b.png"
+ },
+ {
+  "pokedex_number": 759,
+  "source": "images/0759_stufful.png",
+  "asset": "assets/pokemon/fc8b19f2ead8b59b.png"
+ },
+ {
+  "pokedex_number": 760,
+  "source": "images/0760_bewear.png",
+  "asset": "assets/pokemon/f6a1f2ecee4eebfc.png"
+ },
+ {
+  "pokedex_number": 761,
+  "source": "images/0761_bounsweet.png",
+  "asset": "assets/pokemon/56eadddd1ff856c1.png"
+ },
+ {
+  "pokedex_number": 762,
+  "source": "images/0762_steenee.png",
+  "asset": "assets/pokemon/81cf0fd60240660c.png"
+ },
+ {
+  "pokedex_number": 763,
+  "source": "images/0763_tsareena.png",
+  "asset": "assets/pokemon/d4c5f9bdfc2d8b5c.png"
+ },
+ {
+  "pokedex_number": 764,
+  "source": "images/0764_comfey.png",
+  "asset": "assets/pokemon/3133b1bb47d8a6d8.png"
+ },
+ {
+  "pokedex_number": 765,
+  "source": "images/0765_oranguru.png",
+  "asset": "assets/pokemon/a9e429e4330e9326.png"
+ },
+ {
+  "pokedex_number": 766,
+  "source": "images/0766_passimian.png",
+  "asset": "assets/pokemon/42834ce883954876.png"
+ },
+ {
+  "pokedex_number": 767,
+  "source": "images/0767_wimpod.png",
+  "asset": "assets/pokemon/a2dcfd3f94d4944b.png"
+ },
+ {
+  "pokedex_number": 768,
+  "source": "images/0768_golisopod.png",
+  "asset": "assets/pokemon/7484549ea7cb1115.png"
+ },
+ {
+  "pokedex_number": 769,
+  "source": "images/0769_sandygast.png",
+  "asset": "assets/pokemon/a94a73f8c6d4a894.png"
+ },
+ {
+  "pokedex_number": 770,
+  "source": "images/0770_palossand.png",
+  "asset": "assets/pokemon/bc617736fe7722d0.png"
+ },
+ {
+  "pokedex_number": 771,
+  "source": "images/0771_pyukumuku.png",
+  "asset": "assets/pokemon/c91a38d607cc2d19.png"
+ },
+ {
+  "pokedex_number": 772,
+  "source": "images/0772_type-null.png",
+  "asset": "assets/pokemon/3aadd36173e9fd8a.png"
+ },
+ {
+  "pokedex_number": 773,
+  "source": "images/0773_silvally.png",
+  "asset": "assets/pokemon/750e0c1cfc168a8c.png"
+ },
+ {
+  "pokedex_number": 774,
+  "source": "images/0774_minior.png",
+  "asset": "assets/pokemon/516a40a1fc1c136a.png"
+ },
+ {
+  "pokedex_number": 775,
+  "source": "images/0775_komala.png",
+  "asset": "assets/pokemon/ac0ea5568b67c5f0.png"
+ },
+ {
+  "pokedex_number": 776,
+  "source": "images/0776_turtonator.png",
+  "asset": "assets/pokemon/208cd4b9322d884a.png"
+ },
+ {
+  "pokedex_number": 777,
+  "source": "images/0777_togedemaru.png",
+  "asset": "assets/pokemon/67b2ab757d861b20.png"
+ },
+ {
+  "pokedex_number": 778,
+  "source": "images/0778_mimikyu.png",
+  "asset": "assets/pokemon/3f368b3fb05af171.png"
+ },
+ {
+  "pokedex_number": 779,
+  "source": "images/0779_bruxish.png",
+  "asset": "assets/pokemon/688c8602e28bcd8e.png"
+ },
+ {
+  "pokedex_number": 780,
+  "source": "images/0780_drampa.png",
+  "asset": "assets/pokemon/bf20e323b934fd06.png"
+ },
+ {
+  "pokedex_number": 781,
+  "source": "images/0781_dhelmise.png",
+  "asset": "assets/pokemon/a223f26f41bf7b79.png"
+ },
+ {
+  "pokedex_number": 782,
+  "source": "images/0782_jangmo-o.png",
+  "asset": "assets/pokemon/8751aff9a831d4d0.png"
+ },
+ {
+  "pokedex_number": 783,
+  "source": "images/0783_hakamo-o.png",
+  "asset": "assets/pokemon/f477c23a7140e818.png"
+ },
+ {
+  "pokedex_number": 784,
+  "source": "images/0784_kommo-o.png",
+  "asset": "assets/pokemon/882235f7647c8795.png"
+ },
+ {
+  "pokedex_number": 785,
+  "source": "images/0785_tapu-koko.png",
+  "asset": "assets/pokemon/0fbf6b58a557433d.png"
+ },
+ {
+  "pokedex_number": 786,
+  "source": "images/0786_tapu-lele.png",
+  "asset": "assets/pokemon/45c8866f0c0ca0e9.png"
+ },
+ {
+  "pokedex_number": 787,
+  "source": "images/0787_tapu-bulu.png",
+  "asset": "assets/pokemon/3b818bada8780560.png"
+ },
+ {
+  "pokedex_number": 788,
+  "source": "images/0788_tapu-fini.png",
+  "asset": "assets/pokemon/0ae8ca960c462d3a.png"
+ },
+ {
+  "pokedex_number": 789,
+  "source": "images/0789_cosmog.png",
+  "asset": "assets/pokemon/f99320a1705500e5.png"
+ },
+ {
+  "pokedex_number": 790,
+  "source": "images/0790_cosmoem.png",
+  "asset": "assets/pokemon/e6cf3d5ba6d5f9b5.png"
+ },
+ {
+  "pokedex_number": 791,
+  "source": "images/0791_solgaleo.png",
+  "asset": "assets/pokemon/c91563dd72cde89f.png"
+ },
+ {
+  "pokedex_number": 792,
+  "source": "images/0792_lunala.png",
+  "asset": "assets/pokemon/717cdd8c57ec70de.png"
+ },
+ {
+  "pokedex_number": 793,
+  "source": "images/0793_nihilego.png",
+  "asset": "assets/pokemon/598d15e46e2486a5.png"
+ },
+ {
+  "pokedex_number": 794,
+  "source": "images/0794_buzzwole.png",
+  "asset": "assets/pokemon/b968d3f74bf6e069.png"
+ },
+ {
+  "pokedex_number": 795,
+  "source": "images/0795_pheromosa.png",
+  "asset": "assets/pokemon/4b58fb37b70897ca.png"
+ },
+ {
+  "pokedex_number": 796,
+  "source": "images/0796_xurkitree.png",
+  "asset": "assets/pokemon/b2524e727e30254c.png"
+ },
+ {
+  "pokedex_number": 797,
+  "source": "images/0797_celesteela.png",
+  "asset": "assets/pokemon/14c2086199d5da85.png"
+ },
+ {
+  "pokedex_number": 798,
+  "source": "images/0798_kartana.png",
+  "asset": "assets/pokemon/94329b57e83b6a07.png"
+ },
+ {
+  "pokedex_number": 799,
+  "source": "images/0799_guzzlord.png",
+  "asset": "assets/pokemon/55f4c5c251ffea91.png"
+ },
+ {
+  "pokedex_number": 800,
+  "source": "images/0800_necrozma.png",
+  "asset": "assets/pokemon/30fe052d698c75e8.png"
+ },
+ {
+  "pokedex_number": 801,
+  "source": "images/0801_magearna.png",
+  "asset": "assets/pokemon/43e99c61172cbb6a.png"
+ },
+ {
+  "pokedex_number": 802,
+  "source": "images/0802_marshadow.png",
+  "asset": "assets/pokemon/8d26613e43312a7a.png"
+ },
+ {
+  "pokedex_number": 803,
+  "source": "images/0803_poipole.png",
+  "asset": "assets/pokemon/7697cce862777ca6.png"
+ },
+ {
+  "pokedex_number": 804,
+  "source": "images/0804_naganadel.png",
+  "asset": "assets/pokemon/2180f14516e0147a.png"
+ },
+ {
+  "pokedex_number": 805,
+  "source": "images/0805_stakataka.png",
+  "asset": "assets/pokemon/dbe9cc3be740aabd.png"
+ },
+ {
+  "pokedex_number": 806,
+  "source": "images/0806_blacephalon.png",
+  "asset": "assets/pokemon/878b35de2a51bdc9.png"
+ },
+ {
+  "pokedex_number": 807,
+  "source": "images/0807_zeraora.png",
+  "asset": "assets/pokemon/d4ded364e83349ed.png"
+ },
+ {
+  "pokedex_number": 808,
+  "source": "images/0808_meltan.png",
+  "asset": "assets/pokemon/dd7e2efd3963f0b8.png"
+ },
+ {
+  "pokedex_number": 809,
+  "source": "images/0809_melmetal.png",
+  "asset": "assets/pokemon/4c723df363bcb704.png"
+ },
+ {
+  "pokedex_number": 810,
+  "source": "images/0810_grookey.png",
+  "asset": "assets/pokemon/1fc66cc894bf94ea.png"
+ },
+ {
+  "pokedex_number": 811,
+  "source": "images/0811_thwackey.png",
+  "asset": "assets/pokemon/0be17ca9da2587b2.png"
+ },
+ {
+  "pokedex_number": 812,
+  "source": "images/0812_rillaboom.png",
+  "asset": "assets/pokemon/a742144d8f5c1bee.png"
+ },
+ {
+  "pokedex_number": 813,
+  "source": "images/0813_scorbunny.png",
+  "asset": "assets/pokemon/010defa49693d474.png"
+ },
+ {
+  "pokedex_number": 814,
+  "source": "images/0814_raboot.png",
+  "asset": "assets/pokemon/e69e66916bda6ab8.png"
+ },
+ {
+  "pokedex_number": 815,
+  "source": "images/0815_cinderace.png",
+  "asset": "assets/pokemon/835185034b1931d5.png"
+ },
+ {
+  "pokedex_number": 816,
+  "source": "images/0816_sobble.png",
+  "asset": "assets/pokemon/52d79b48fd83ed51.png"
+ },
+ {
+  "pokedex_number": 817,
+  "source": "images/0817_drizzile.png",
+  "asset": "assets/pokemon/29a8a525882a0e76.png"
+ },
+ {
+  "pokedex_number": 818,
+  "source": "images/0818_inteleon.png",
+  "asset": "assets/pokemon/3518769c1c7118b1.png"
+ },
+ {
+  "pokedex_number": 819,
+  "source": "images/0819_skwovet.png",
+  "asset": "assets/pokemon/8662a29772c6424e.png"
+ },
+ {
+  "pokedex_number": 820,
+  "source": "images/0820_greedent.png",
+  "asset": "assets/pokemon/ebdc7418061983f6.png"
+ },
+ {
+  "pokedex_number": 821,
+  "source": "images/0821_rookidee.png",
+  "asset": "assets/pokemon/25b033e7892f23c0.png"
+ },
+ {
+  "pokedex_number": 822,
+  "source": "images/0822_corvisquire.png",
+  "asset": "assets/pokemon/5d796a0755386bb2.png"
+ },
+ {
+  "pokedex_number": 823,
+  "source": "images/0823_corviknight.png",
+  "asset": "assets/pokemon/f6bc05f08b586cac.png"
+ },
+ {
+  "pokedex_number": 824,
+  "source": "images/0824_blipbug.png",
+  "asset": "assets/pokemon/3a9787ecca77dfa1.png"
+ },
+ {
+  "pokedex_number": 825,
+  "source": "images/0825_dottler.png",
+  "asset": "assets/pokemon/d6ddbeb4d8fd09b9.png"
+ },
+ {
+  "pokedex_number": 826,
+  "source": "images/0826_orbeetle.png",
+  "asset": "assets/pokemon/5f78cd2fc7f72ccd.png"
+ },
+ {
+  "pokedex_number": 827,
+  "source": "images/0827_nickit.png",
+  "asset": "assets/pokemon/f0fa6147aca0114f.png"
+ },
+ {
+  "pokedex_number": 828,
+  "source": "images/0828_thievul.png",
+  "asset": "assets/pokemon/8532c5ab0e06e5a8.png"
+ },
+ {
+  "pokedex_number": 829,
+  "source": "images/0829_gossifleur.png",
+  "asset": "assets/pokemon/2d45d6e335cffebf.png"
+ },
+ {
+  "pokedex_number": 830,
+  "source": "images/0830_eldegoss.png",
+  "asset": "assets/pokemon/066821d22eeedb02.png"
+ },
+ {
+  "pokedex_number": 831,
+  "source": "images/0831_wooloo.png",
+  "asset": "assets/pokemon/0e19e0cfa526a939.png"
+ },
+ {
+  "pokedex_number": 832,
+  "source": "images/0832_dubwool.png",
+  "asset": "assets/pokemon/7bc395828d7f05ba.png"
+ },
+ {
+  "pokedex_number": 833,
+  "source": "images/0833_chewtle.png",
+  "asset": "assets/pokemon/c281b4e38dc5df9c.png"
+ },
+ {
+  "pokedex_number": 834,
+  "source": "images/0834_drednaw.png",
+  "asset": "assets/pokemon/8405b3ea7d444c06.png"
+ },
+ {
+  "pokedex_number": 835,
+  "source": "images/0835_yamper.png",
+  "asset": "assets/pokemon/7568bf8dbcd181dd.png"
+ },
+ {
+  "pokedex_number": 836,
+  "source": "images/0836_boltund.png",
+  "asset": "assets/pokemon/8c27d3b83c915740.png"
+ },
+ {
+  "pokedex_number": 837,
+  "source": "images/0837_rolycoly.png",
+  "asset": "assets/pokemon/5948b5bf9b3e0dc8.png"
+ },
+ {
+  "pokedex_number": 838,
+  "source": "images/0838_carkol.png",
+  "asset": "assets/pokemon/5828b83b2c893a9e.png"
+ },
+ {
+  "pokedex_number": 839,
+  "source": "images/0839_coalossal.png",
+  "asset": "assets/pokemon/e68e12acb0c445f3.png"
+ },
+ {
+  "pokedex_number": 840,
+  "source": "images/0840_applin.png",
+  "asset": "assets/pokemon/45357e71fb6b207c.png"
+ },
+ {
+  "pokedex_number": 841,
+  "source": "images/0841_flapple.png",
+  "asset": "assets/pokemon/af602eef56e7b03a.png"
+ },
+ {
+  "pokedex_number": 842,
+  "source": "images/0842_appletun.png",
+  "asset": "assets/pokemon/f6bb74d71c5685b2.png"
+ },
+ {
+  "pokedex_number": 843,
+  "source": "images/0843_silicobra.png",
+  "asset": "assets/pokemon/894f1dfb830351ac.png"
+ },
+ {
+  "pokedex_number": 844,
+  "source": "images/0844_sandaconda.png",
+  "asset": "assets/pokemon/ba693d922b6c9990.png"
+ },
+ {
+  "pokedex_number": 845,
+  "source": "images/0845_cramorant.png",
+  "asset": "assets/pokemon/b919ec4f7b770dd3.png"
+ },
+ {
+  "pokedex_number": 846,
+  "source": "images/0846_arrokuda.png",
+  "asset": "assets/pokemon/fddc2aac85af7196.png"
+ },
+ {
+  "pokedex_number": 847,
+  "source": "images/0847_barraskewda.png",
+  "asset": "assets/pokemon/6b0c54e8e2a34114.png"
+ },
+ {
+  "pokedex_number": 848,
+  "source": "images/0848_toxel.png",
+  "asset": "assets/pokemon/c130838a5a8db544.png"
+ },
+ {
+  "pokedex_number": 849,
+  "source": "images/0849_toxtricity.png",
+  "asset": "assets/pokemon/7b9871deccdbc0b2.png"
+ },
+ {
+  "pokedex_number": 850,
+  "source": "images/0850_sizzlipede.png",
+  "asset": "assets/pokemon/42f7e6c6b3464bf1.png"
+ },
+ {
+  "pokedex_number": 851,
+  "source": "images/0851_centiskorch.png",
+  "asset": "assets/pokemon/846b6286647e66e5.png"
+ },
+ {
+  "pokedex_number": 852,
+  "source": "images/0852_clobbopus.png",
+  "asset": "assets/pokemon/f9d43d6b22ac4ce8.png"
+ },
+ {
+  "pokedex_number": 853,
+  "source": "images/0853_grapploct.png",
+  "asset": "assets/pokemon/c88671a2e8962116.png"
+ },
+ {
+  "pokedex_number": 854,
+  "source": "images/0854_sinistea.png",
+  "asset": "assets/pokemon/6067bb79867fe2c4.png"
+ },
+ {
+  "pokedex_number": 855,
+  "source": "images/0855_polteageist.png",
+  "asset": "assets/pokemon/bbec8f8a6dc14661.png"
+ },
+ {
+  "pokedex_number": 856,
+  "source": "images/0856_hatenna.png",
+  "asset": "assets/pokemon/9baf5feb24f70496.png"
+ },
+ {
+  "pokedex_number": 857,
+  "source": "images/0857_hattrem.png",
+  "asset": "assets/pokemon/c3466714fba7c5e1.png"
+ },
+ {
+  "pokedex_number": 858,
+  "source": "images/0858_hatterene.png",
+  "asset": "assets/pokemon/c78f9709fa359636.png"
+ },
+ {
+  "pokedex_number": 859,
+  "source": "images/0859_impidimp.png",
+  "asset": "assets/pokemon/1aa1cc2d772eeef3.png"
+ },
+ {
+  "pokedex_number": 860,
+  "source": "images/0860_morgrem.png",
+  "asset": "assets/pokemon/a50f22bb2ed44705.png"
+ },
+ {
+  "pokedex_number": 861,
+  "source": "images/0861_grimmsnarl.png",
+  "asset": "assets/pokemon/75b6f34affa4dadf.png"
+ },
+ {
+  "pokedex_number": 862,
+  "source": "images/0862_obstagoon.png",
+  "asset": "assets/pokemon/1b4a64689c96df56.png"
+ },
+ {
+  "pokedex_number": 863,
+  "source": "images/0863_perrserker.png",
+  "asset": "assets/pokemon/27dd34d7f1d7aee2.png"
+ },
+ {
+  "pokedex_number": 864,
+  "source": "images/0864_cursola.png",
+  "asset": "assets/pokemon/6e6767b46560db1c.png"
+ },
+ {
+  "pokedex_number": 865,
+  "source": "images/0865_sirfetchd.png",
+  "asset": "assets/pokemon/895383562ce46b98.png"
+ },
+ {
+  "pokedex_number": 866,
+  "source": "images/0866_mr-rime.png",
+  "asset": "assets/pokemon/a13c9d321795d21f.png"
+ },
+ {
+  "pokedex_number": 867,
+  "source": "images/0867_runerigus.png",
+  "asset": "assets/pokemon/a78afc57f11b3ff7.png"
+ },
+ {
+  "pokedex_number": 868,
+  "source": "images/0868_milcery.png",
+  "asset": "assets/pokemon/0bb50f38c6a1ed7b.png"
+ },
+ {
+  "pokedex_number": 869,
+  "source": "images/0869_alcremie.png",
+  "asset": "assets/pokemon/a196a287a56e322c.png"
+ },
+ {
+  "pokedex_number": 870,
+  "source": "images/0870_falinks.png",
+  "asset": "assets/pokemon/b56430d074b5b6a4.png"
+ },
+ {
+  "pokedex_number": 871,
+  "source": "images/0871_pincurchin.png",
+  "asset": "assets/pokemon/9b851a32c2e7efc7.png"
+ },
+ {
+  "pokedex_number": 872,
+  "source": "images/0872_snom.png",
+  "asset": "assets/pokemon/62e525b6ae7079ff.png"
+ },
+ {
+  "pokedex_number": 873,
+  "source": "images/0873_frosmoth.png",
+  "asset": "assets/pokemon/383fdf5c49ba51ef.png"
+ },
+ {
+  "pokedex_number": 874,
+  "source": "images/0874_stonjourner.png",
+  "asset": "assets/pokemon/5c7ee84877b0f085.png"
+ },
+ {
+  "pokedex_number": 875,
+  "source": "images/0875_eiscue.png",
+  "asset": "assets/pokemon/4ea3b0213c59be26.png"
+ },
+ {
+  "pokedex_number": 876,
+  "source": "images/0876_indeedee.png",
+  "asset": "assets/pokemon/55bdbe3c3f9651f7.png"
+ },
+ {
+  "pokedex_number": 877,
+  "source": "images/0877_morpeko.png",
+  "asset": "assets/pokemon/e6a1bd4f20df13dc.png"
+ },
+ {
+  "pokedex_number": 878,
+  "source": "images/0878_cufant.png",
+  "asset": "assets/pokemon/467f608731d4a8dd.png"
+ },
+ {
+  "pokedex_number": 879,
+  "source": "images/0879_copperajah.png",
+  "asset": "assets/pokemon/d00c1a87c6ca1ee2.png"
+ },
+ {
+  "pokedex_number": 880,
+  "source": "images/0880_dracozolt.png",
+  "asset": "assets/pokemon/7e1bb1ae05698b89.png"
+ },
+ {
+  "pokedex_number": 881,
+  "source": "images/0881_arctozolt.png",
+  "asset": "assets/pokemon/36f682158cd24923.png"
+ },
+ {
+  "pokedex_number": 882,
+  "source": "images/0882_dracovish.png",
+  "asset": "assets/pokemon/eb528ad7c925ba5a.png"
+ },
+ {
+  "pokedex_number": 883,
+  "source": "images/0883_arctovish.png",
+  "asset": "assets/pokemon/306e81503514feac.png"
+ },
+ {
+  "pokedex_number": 884,
+  "source": "images/0884_duraludon.png",
+  "asset": "assets/pokemon/440c1f106588df8a.png"
+ },
+ {
+  "pokedex_number": 885,
+  "source": "images/0885_dreepy.png",
+  "asset": "assets/pokemon/918befdfb7d69ee5.png"
+ },
+ {
+  "pokedex_number": 886,
+  "source": "images/0886_drakloak.png",
+  "asset": "assets/pokemon/358899a21e660038.png"
+ },
+ {
+  "pokedex_number": 887,
+  "source": "images/0887_dragapult.png",
+  "asset": "assets/pokemon/ee19f0d35c248baf.png"
+ },
+ {
+  "pokedex_number": 888,
+  "source": "images/0888_zacian.png",
+  "asset": "assets/pokemon/a8840e46fa40316d.png"
+ },
+ {
+  "pokedex_number": 889,
+  "source": "images/0889_zamazenta.png",
+  "asset": "assets/pokemon/1c4aa3fa7ed517eb.png"
+ },
+ {
+  "pokedex_number": 890,
+  "source": "images/0890_eternatus.png",
+  "asset": "assets/pokemon/657d0f2f2e233d63.png"
+ },
+ {
+  "pokedex_number": 891,
+  "source": "images/0891_kubfu.png",
+  "asset": "assets/pokemon/39edf2d44f29bcc8.png"
+ },
+ {
+  "pokedex_number": 892,
+  "source": "images/0892_urshifu.png",
+  "asset": "assets/pokemon/19f6d0a89f133408.png"
+ },
+ {
+  "pokedex_number": 893,
+  "source": "images/0893_zarude.png",
+  "asset": "assets/pokemon/20f63f9b2716a9e5.png"
+ },
+ {
+  "pokedex_number": 894,
+  "source": "images/0894_regieleki.png",
+  "asset": "assets/pokemon/9973ad0f458f4a29.png"
+ },
+ {
+  "pokedex_number": 895,
+  "source": "images/0895_regidrago.png",
+  "asset": "assets/pokemon/ff3e2bd5ea383e8e.png"
+ },
+ {
+  "pokedex_number": 896,
+  "source": "images/0896_glastrier.png",
+  "asset": "assets/pokemon/3205f7264b92a69c.png"
+ },
+ {
+  "pokedex_number": 897,
+  "source": "images/0897_spectrier.png",
+  "asset": "assets/pokemon/e86449cf5723f5cc.png"
+ },
+ {
+  "pokedex_number": 898,
+  "source": "images/0898_calyrex.png",
+  "asset": "assets/pokemon/f03e28294fed6c7f.png"
+ },
+ {
+  "pokedex_number": 899,
+  "source": "images/0899_wyrdeer.png",
+  "asset": "assets/pokemon/f131e4c94627dfaa.png"
+ },
+ {
+  "pokedex_number": 900,
+  "source": "images/0900_kleavor.png",
+  "asset": "assets/pokemon/58e2ac2b61210efc.png"
+ },
+ {
+  "pokedex_number": 901,
+  "source": "images/0901_ursaluna.png",
+  "asset": "assets/pokemon/3a94a25275a5190d.png"
+ },
+ {
+  "pokedex_number": 902,
+  "source": "images/0902_basculegion.png",
+  "asset": "assets/pokemon/52d42b194bb8421c.png"
+ },
+ {
+  "pokedex_number": 903,
+  "source": "images/0903_sneasler.png",
+  "asset": "assets/pokemon/5668b45d33b097e8.png"
+ },
+ {
+  "pokedex_number": 904,
+  "source": "images/0904_overqwil.png",
+  "asset": "assets/pokemon/4a0a3ed47bd9f711.png"
+ },
+ {
+  "pokedex_number": 905,
+  "source": "images/0905_enamorus.png",
+  "asset": "assets/pokemon/278667e0a004fbcd.png"
+ },
+ {
+  "pokedex_number": 906,
+  "source": "images/0906_sprigatito.png",
+  "asset": "assets/pokemon/f7fe06163f39cfee.png"
+ },
+ {
+  "pokedex_number": 907,
+  "source": "images/0907_floragato.png",
+  "asset": "assets/pokemon/98bfc82f0be1a837.png"
+ },
+ {
+  "pokedex_number": 908,
+  "source": "images/0908_meowscarada.png",
+  "asset": "assets/pokemon/c8f79c0bb80a6f1f.png"
+ },
+ {
+  "pokedex_number": 909,
+  "source": "images/0909_fuecoco.png",
+  "asset": "assets/pokemon/7d6312f093730bcc.png"
+ },
+ {
+  "pokedex_number": 910,
+  "source": "images/0910_crocalor.png",
+  "asset": "assets/pokemon/bbb42ad144e27bfc.png"
+ },
+ {
+  "pokedex_number": 911,
+  "source": "images/0911_skeledirge.png",
+  "asset": "assets/pokemon/b6b4449d6841c303.png"
+ },
+ {
+  "pokedex_number": 912,
+  "source": "images/0912_quaxly.png",
+  "asset": "assets/pokemon/fe7da5a104ab251a.png"
+ },
+ {
+  "pokedex_number": 913,
+  "source": "images/0913_quaxwell.png",
+  "asset": "assets/pokemon/681e22850ba030b5.png"
+ },
+ {
+  "pokedex_number": 914,
+  "source": "images/0914_quaquaval.png",
+  "asset": "assets/pokemon/03d904ef91565599.png"
+ },
+ {
+  "pokedex_number": 915,
+  "source": "images/0915_lechonk.png",
+  "asset": "assets/pokemon/e56c7591d9cd23b5.png"
+ },
+ {
+  "pokedex_number": 916,
+  "source": "images/0916_oinkologne.png",
+  "asset": "assets/pokemon/3c19daa02d70767f.png"
+ },
+ {
+  "pokedex_number": 917,
+  "source": "images/0917_tarountula.png",
+  "asset": "assets/pokemon/193e6e3fcd0f7d45.png"
+ },
+ {
+  "pokedex_number": 918,
+  "source": "images/0918_spidops.png",
+  "asset": "assets/pokemon/3aee8a2f36401b91.png"
+ },
+ {
+  "pokedex_number": 919,
+  "source": "images/0919_nymble.png",
+  "asset": "assets/pokemon/bcf02c090fe80441.png"
+ },
+ {
+  "pokedex_number": 920,
+  "source": "images/0920_lokix.png",
+  "asset": "assets/pokemon/705e4baf8b145a4f.png"
+ },
+ {
+  "pokedex_number": 921,
+  "source": "images/0921_pawmi.png",
+  "asset": "assets/pokemon/040ce3432e377d6d.png"
+ },
+ {
+  "pokedex_number": 922,
+  "source": "images/0922_pawmo.png",
+  "asset": "assets/pokemon/6257b0e4446d9640.png"
+ },
+ {
+  "pokedex_number": 923,
+  "source": "images/0923_pawmot.png",
+  "asset": "assets/pokemon/405267f8bd37a4b9.png"
+ },
+ {
+  "pokedex_number": 924,
+  "source": "images/0924_tandemaus.png",
+  "asset": "assets/pokemon/c6d5da7410f8e472.png"
+ },
+ {
+  "pokedex_number": 925,
+  "source": "images/0925_maushold.png",
+  "asset": "assets/pokemon/3ad979acad528c61.png"
+ },
+ {
+  "pokedex_number": 926,
+  "source": "images/0926_fidough.png",
+  "asset": "assets/pokemon/acbc01d1c43cd008.png"
+ },
+ {
+  "pokedex_number": 927,
+  "source": "images/0927_dachsbun.png",
+  "asset": "assets/pokemon/875dcd8b01da7dcc.png"
+ },
+ {
+  "pokedex_number": 928,
+  "source": "images/0928_smoliv.png",
+  "asset": "assets/pokemon/8f1f9102034cb762.png"
+ },
+ {
+  "pokedex_number": 929,
+  "source": "images/0929_dolliv.png",
+  "asset": "assets/pokemon/b56eafe3e5ebf1b9.png"
+ },
+ {
+  "pokedex_number": 930,
+  "source": "images/0930_arboliva.png",
+  "asset": "assets/pokemon/bc6daee22ed527ab.png"
+ },
+ {
+  "pokedex_number": 931,
+  "source": "images/0931_squawkabilly.png",
+  "asset": "assets/pokemon/f7f38ea017f4bbe6.png"
+ },
+ {
+  "pokedex_number": 932,
+  "source": "images/0932_nacli.png",
+  "asset": "assets/pokemon/d146200df96ce7df.png"
+ },
+ {
+  "pokedex_number": 933,
+  "source": "images/0933_naclstack.png",
+  "asset": "assets/pokemon/5c696f91f791d49c.png"
+ },
+ {
+  "pokedex_number": 934,
+  "source": "images/0934_garganacl.png",
+  "asset": "assets/pokemon/6419081de708795d.png"
+ },
+ {
+  "pokedex_number": 935,
+  "source": "images/0935_charcadet.png",
+  "asset": "assets/pokemon/9dbd289d45b4f512.png"
+ },
+ {
+  "pokedex_number": 936,
+  "source": "images/0936_armarouge.png",
+  "asset": "assets/pokemon/b0ff7cab861612f6.png"
+ },
+ {
+  "pokedex_number": 937,
+  "source": "images/0937_ceruledge.png",
+  "asset": "assets/pokemon/0013d5f503037eb0.png"
+ },
+ {
+  "pokedex_number": 938,
+  "source": "images/0938_tadbulb.png",
+  "asset": "assets/pokemon/2b38877fecc41172.png"
+ },
+ {
+  "pokedex_number": 939,
+  "source": "images/0939_bellibolt.png",
+  "asset": "assets/pokemon/9dc693989f83c507.png"
+ },
+ {
+  "pokedex_number": 940,
+  "source": "images/0940_wattrel.png",
+  "asset": "assets/pokemon/e5c8e019ce18b26a.png"
+ },
+ {
+  "pokedex_number": 941,
+  "source": "images/0941_kilowattrel.png",
+  "asset": "assets/pokemon/3e7d2af86f4aa69c.png"
+ },
+ {
+  "pokedex_number": 942,
+  "source": "images/0942_maschiff.png",
+  "asset": "assets/pokemon/f81e5465fb225eb7.png"
+ },
+ {
+  "pokedex_number": 943,
+  "source": "images/0943_mabosstiff.png",
+  "asset": "assets/pokemon/8a636622b570fb82.png"
+ },
+ {
+  "pokedex_number": 944,
+  "source": "images/0944_shroodle.png",
+  "asset": "assets/pokemon/07be9807be812cd3.png"
+ },
+ {
+  "pokedex_number": 945,
+  "source": "images/0945_grafaiai.png",
+  "asset": "assets/pokemon/3f4fff36d20fd0f5.png"
+ },
+ {
+  "pokedex_number": 946,
+  "source": "images/0946_bramblin.png",
+  "asset": "assets/pokemon/2180523364b79dc8.png"
+ },
+ {
+  "pokedex_number": 947,
+  "source": "images/0947_brambleghast.png",
+  "asset": "assets/pokemon/d4a1f6cbce12e214.png"
+ },
+ {
+  "pokedex_number": 948,
+  "source": "images/0948_toedscool.png",
+  "asset": "assets/pokemon/214fd1f4e0483fc6.png"
+ },
+ {
+  "pokedex_number": 949,
+  "source": "images/0949_toedscruel.png",
+  "asset": "assets/pokemon/73f897ae2cdc281b.png"
+ },
+ {
+  "pokedex_number": 950,
+  "source": "images/0950_klawf.png",
+  "asset": "assets/pokemon/fbd8c9dd63d8e4fe.png"
+ },
+ {
+  "pokedex_number": 951,
+  "source": "images/0951_capsakid.png",
+  "asset": "assets/pokemon/e3200cb925f44539.png"
+ },
+ {
+  "pokedex_number": 952,
+  "source": "images/0952_scovillain.png",
+  "asset": "assets/pokemon/532b8c959d44a45f.png"
+ },
+ {
+  "pokedex_number": 953,
+  "source": "images/0953_rellor.png",
+  "asset": "assets/pokemon/80f95d2c563cad00.png"
+ },
+ {
+  "pokedex_number": 954,
+  "source": "images/0954_rabsca.png",
+  "asset": "assets/pokemon/9f5d10d1a6b50cb2.png"
+ },
+ {
+  "pokedex_number": 955,
+  "source": "images/0955_flittle.png",
+  "asset": "assets/pokemon/480ae07ecd8d2979.png"
+ },
+ {
+  "pokedex_number": 956,
+  "source": "images/0956_espathra.png",
+  "asset": "assets/pokemon/7352ce61e917db10.png"
+ },
+ {
+  "pokedex_number": 957,
+  "source": "images/0957_tinkatink.png",
+  "asset": "assets/pokemon/dbf3a19dd4d2291b.png"
+ },
+ {
+  "pokedex_number": 958,
+  "source": "images/0958_tinkatuff.png",
+  "asset": "assets/pokemon/baf31ca0becee001.png"
+ },
+ {
+  "pokedex_number": 959,
+  "source": "images/0959_tinkaton.png",
+  "asset": "assets/pokemon/b7825d0857e446d7.png"
+ },
+ {
+  "pokedex_number": 960,
+  "source": "images/0960_wiglett.png",
+  "asset": "assets/pokemon/93d94ddaf26fe50e.png"
+ },
+ {
+  "pokedex_number": 961,
+  "source": "images/0961_wugtrio.png",
+  "asset": "assets/pokemon/212aba3630340188.png"
+ },
+ {
+  "pokedex_number": 962,
+  "source": "images/0962_bombirdier.png",
+  "asset": "assets/pokemon/a7a0ca560f22d06c.png"
+ },
+ {
+  "pokedex_number": 963,
+  "source": "images/0963_finizen.png",
+  "asset": "assets/pokemon/d55cddebe790e324.png"
+ },
+ {
+  "pokedex_number": 964,
+  "source": "images/0964_palafin.png",
+  "asset": "assets/pokemon/60a2225a9b929e70.png"
+ },
+ {
+  "pokedex_number": 965,
+  "source": "images/0965_varoom.png",
+  "asset": "assets/pokemon/1b4d2ba4e9183bd8.png"
+ },
+ {
+  "pokedex_number": 966,
+  "source": "images/0966_revavroom.png",
+  "asset": "assets/pokemon/fe8679fe9035450d.png"
+ },
+ {
+  "pokedex_number": 967,
+  "source": "images/0967_cyclizar.png",
+  "asset": "assets/pokemon/ae21cb4970db5f49.png"
+ },
+ {
+  "pokedex_number": 968,
+  "source": "images/0968_orthworm.png",
+  "asset": "assets/pokemon/e7e82066607fe0f8.png"
+ },
+ {
+  "pokedex_number": 969,
+  "source": "images/0969_glimmet.png",
+  "asset": "assets/pokemon/bcbb0320d4053fa8.png"
+ },
+ {
+  "pokedex_number": 970,
+  "source": "images/0970_glimmora.png",
+  "asset": "assets/pokemon/de55a14c4c684b8a.png"
+ },
+ {
+  "pokedex_number": 971,
+  "source": "images/0971_greavard.png",
+  "asset": "assets/pokemon/36565f91e9fbb1a1.png"
+ },
+ {
+  "pokedex_number": 972,
+  "source": "images/0972_houndstone.png",
+  "asset": "assets/pokemon/33bb46e621c1f651.png"
+ },
+ {
+  "pokedex_number": 973,
+  "source": "images/0973_flamigo.png",
+  "asset": "assets/pokemon/bfbafacd30997346.png"
+ },
+ {
+  "pokedex_number": 974,
+  "source": "images/0974_cetoddle.png",
+  "asset": "assets/pokemon/f750ac04ab9049c2.png"
+ },
+ {
+  "pokedex_number": 975,
+  "source": "images/0975_cetitan.png",
+  "asset": "assets/pokemon/3e79e47f43b2dee8.png"
+ },
+ {
+  "pokedex_number": 976,
+  "source": "images/0976_veluza.png",
+  "asset": "assets/pokemon/c47d3c4cfa3087ac.png"
+ },
+ {
+  "pokedex_number": 977,
+  "source": "images/0977_dondozo.png",
+  "asset": "assets/pokemon/42182835fcd021a2.png"
+ },
+ {
+  "pokedex_number": 978,
+  "source": "images/0978_tatsugiri.png",
+  "asset": "assets/pokemon/e275ec2ad4a95be3.png"
+ },
+ {
+  "pokedex_number": 979,
+  "source": "images/0979_annihilape.png",
+  "asset": "assets/pokemon/b54f191d19ff3ad2.png"
+ },
+ {
+  "pokedex_number": 980,
+  "source": "images/0980_clodsire.png",
+  "asset": "assets/pokemon/e9538746be344db1.png"
+ },
+ {
+  "pokedex_number": 981,
+  "source": "images/0981_farigiraf.png",
+  "asset": "assets/pokemon/b9d80d1269272723.png"
+ },
+ {
+  "pokedex_number": 982,
+  "source": "images/0982_dudunsparce.png",
+  "asset": "assets/pokemon/ac1c5b977951ea34.png"
+ },
+ {
+  "pokedex_number": 983,
+  "source": "images/0983_kingambit.png",
+  "asset": "assets/pokemon/6b5ba19f7c1c880e.png"
+ },
+ {
+  "pokedex_number": 984,
+  "source": "images/0984_great-tusk.png",
+  "asset": "assets/pokemon/36227e89ce10b820.png"
+ },
+ {
+  "pokedex_number": 985,
+  "source": "images/0985_scream-tail.png",
+  "asset": "assets/pokemon/76a0703d1aa8b9a2.png"
+ },
+ {
+  "pokedex_number": 986,
+  "source": "images/0986_brute-bonnet.png",
+  "asset": "assets/pokemon/5fc166a326b7111a.png"
+ },
+ {
+  "pokedex_number": 987,
+  "source": "images/0987_flutter-mane.png",
+  "asset": "assets/pokemon/0e03ce7cbf1b80a4.png"
+ },
+ {
+  "pokedex_number": 988,
+  "source": "images/0988_slither-wing.png",
+  "asset": "assets/pokemon/3f14f6137f5f21d8.png"
+ },
+ {
+  "pokedex_number": 989,
+  "source": "images/0989_sandy-shocks.png",
+  "asset": "assets/pokemon/b480c422a6df27d6.png"
+ },
+ {
+  "pokedex_number": 990,
+  "source": "images/0990_iron-treads.png",
+  "asset": "assets/pokemon/638e6a14d8972d79.png"
+ },
+ {
+  "pokedex_number": 991,
+  "source": "images/0991_iron-bundle.png",
+  "asset": "assets/pokemon/e8ba49c48502b741.png"
+ },
+ {
+  "pokedex_number": 992,
+  "source": "images/0992_iron-hands.png",
+  "asset": "assets/pokemon/5bf82f6ffb91278e.png"
+ },
+ {
+  "pokedex_number": 993,
+  "source": "images/0993_iron-jugulis.png",
+  "asset": "assets/pokemon/7801ef3f671bc95b.png"
+ },
+ {
+  "pokedex_number": 994,
+  "source": "images/0994_iron-moth.png",
+  "asset": "assets/pokemon/2f4d635fda11eeda.png"
+ },
+ {
+  "pokedex_number": 995,
+  "source": "images/0995_iron-thorns.png",
+  "asset": "assets/pokemon/ea7f9402711515ab.png"
+ },
+ {
+  "pokedex_number": 996,
+  "source": "images/0996_frigibax.png",
+  "asset": "assets/pokemon/dddaee3388f0e5d6.png"
+ },
+ {
+  "pokedex_number": 997,
+  "source": "images/0997_arctibax.png",
+  "asset": "assets/pokemon/d2a421f46446e6d4.png"
+ },
+ {
+  "pokedex_number": 998,
+  "source": "images/0998_baxcalibur.png",
+  "asset": "assets/pokemon/a84f278d8c3be892.png"
+ },
+ {
+  "pokedex_number": 999,
+  "source": "images/0999_gimmighoul.png",
+  "asset": "assets/pokemon/72281b98760eea5d.png"
+ },
+ {
+  "pokedex_number": 1000,
+  "source": "images/1000_gholdengo.png",
+  "asset": "assets/pokemon/0711a486bf76284a.png"
+ },
+ {
+  "pokedex_number": 1001,
+  "source": "images/1001_wo-chien.png",
+  "asset": "assets/pokemon/c839a0ae0d5aea1b.png"
+ },
+ {
+  "pokedex_number": 1002,
+  "source": "images/1002_chien-pao.png",
+  "asset": "assets/pokemon/4b45094d59ac3396.png"
+ },
+ {
+  "pokedex_number": 1003,
+  "source": "images/1003_ting-lu.png",
+  "asset": "assets/pokemon/b3c281f47d40fc33.png"
+ },
+ {
+  "pokedex_number": 1004,
+  "source": "images/1004_chi-yu.png",
+  "asset": "assets/pokemon/cf4ac0b620ca7d82.png"
+ },
+ {
+  "pokedex_number": 1005,
+  "source": "images/1005_roaring-moon.png",
+  "asset": "assets/pokemon/51f12dedb2f8732b.png"
+ },
+ {
+  "pokedex_number": 1006,
+  "source": "images/1006_iron-valiant.png",
+  "asset": "assets/pokemon/c2212c6a0b0440c7.png"
+ },
+ {
+  "pokedex_number": 1007,
+  "source": "images/1007_koraidon.png",
+  "asset": "assets/pokemon/21ad2b6f5dd2f046.png"
+ },
+ {
+  "pokedex_number": 1008,
+  "source": "images/1008_miraidon.png",
+  "asset": "assets/pokemon/ad6fa8d1db38f65b.png"
+ },
+ {
+  "pokedex_number": 1009,
+  "source": "images/1009_walking-wake.png",
+  "asset": "assets/pokemon/b54d872a128d62a4.png"
+ },
+ {
+  "pokedex_number": 1010,
+  "source": "images/1010_iron-leaves.png",
+  "asset": "assets/pokemon/a845d5789094b3c3.png"
+ },
+ {
+  "pokedex_number": 1011,
+  "source": "images/1011_dipplin.png",
+  "asset": "assets/pokemon/608eaac43399f209.png"
+ },
+ {
+  "pokedex_number": 1012,
+  "source": "images/1012_poltchageist.png",
+  "asset": "assets/pokemon/ba9b7ec02b3cae52.png"
+ },
+ {
+  "pokedex_number": 1013,
+  "source": "images/1013_sinistcha.png",
+  "asset": "assets/pokemon/2d9f5d4a4a9154a6.png"
+ },
+ {
+  "pokedex_number": 1014,
+  "source": "images/1014_okidogi.png",
+  "asset": "assets/pokemon/4b066d61616b00af.png"
+ },
+ {
+  "pokedex_number": 1015,
+  "source": "images/1015_munkidori.png",
+  "asset": "assets/pokemon/ce412c9fcd2df51e.png"
+ },
+ {
+  "pokedex_number": 1016,
+  "source": "images/1016_fezandipiti.png",
+  "asset": "assets/pokemon/779bd8ae257b0af5.png"
+ },
+ {
+  "pokedex_number": 1017,
+  "source": "images/1017_ogerpon.png",
+  "asset": "assets/pokemon/997271ed7e2c2822.png"
+ },
+ {
+  "pokedex_number": 1018,
+  "source": "images/1018_archaludon.png",
+  "asset": "assets/pokemon/00dc356abdfec19f.png"
+ },
+ {
+  "pokedex_number": 1019,
+  "source": "images/1019_hydrapple.png",
+  "asset": "assets/pokemon/2ce688f10809dfc1.png"
+ },
+ {
+  "pokedex_number": 1020,
+  "source": "images/1020_gouging-fire.png",
+  "asset": "assets/pokemon/e3ccd6555e524df0.png"
+ },
+ {
+  "pokedex_number": 1021,
+  "source": "images/1021_raging-bolt.png",
+  "asset": "assets/pokemon/83c1e54856917a44.png"
+ },
+ {
+  "pokedex_number": 1022,
+  "source": "images/1022_iron-boulder.png",
+  "asset": "assets/pokemon/989d7b5a92adfc61.png"
+ },
+ {
+  "pokedex_number": 1023,
+  "source": "images/1023_iron-crown.png",
+  "asset": "assets/pokemon/a098afb185256348.png"
+ },
+ {
+  "pokedex_number": 1024,
+  "source": "images/1024_terapagos.png",
+  "asset": "assets/pokemon/d3facc3362655145.png"
+ },
+ {
+  "pokedex_number": 1025,
+  "source": "images/1025_pecharunt.png",
+  "asset": "assets/pokemon/d9293ebbf58c8388.png"
+ }
+]

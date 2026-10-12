@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+test-results/
+playwright-report/
+__pycache__/
+*.tsbuildinfo
+.DS_Store
+*.tmp
+
+# Source archive is 132 MB (over GitHub's 100 MB limit); keep it locally only.
+source_assets/*.zip
