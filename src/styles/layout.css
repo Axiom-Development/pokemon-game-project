@@ -4,6 +4,13 @@
   padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom));
 }
 
+/* Main only receives focus so screen readers land on the new screen; no ring needed. */
+.main:focus,
+.main:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
 .main {
   width: 100%;
   max-width: var(--content-max);

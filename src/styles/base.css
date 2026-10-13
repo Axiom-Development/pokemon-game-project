@@ -25,6 +25,63 @@ body {
   font-synthesis: none;
 }
 
+/* ---- Scrollbars: a chunky handheld-style thumb instead of the browser default ---- */
+/* Chrome, Edge, Safari. (Chrome ignores these when scrollbar-color is set,
+   so the standard properties below are limited to Firefox.) */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-deep);
+  border-left: 2px solid var(--ink);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  /* Pale highlight down the middle, like a plastic slider. */
+  box-shadow: inset 3px 0 0 var(--blue-ray), inset -3px 0 0 var(--blue-deep);
+  min-height: 48px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-deep);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--yellow);
+  box-shadow: inset 3px 0 0 var(--yellow-soft), inset -3px 0 0 var(--yellow-dark);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--cream-deep);
+}
+
+/* Smaller scroll areas inside panels get a slimmer bar. */
+.summary__seen::-webkit-scrollbar,
+.entry::-webkit-scrollbar,
+.confirm::-webkit-scrollbar {
+  width: 12px;
+}
+
+.summary__seen::-webkit-scrollbar-track,
+.entry::-webkit-scrollbar-track {
+  border-left: 0;
+  border-radius: 6px;
+}
+
+/* Firefox only supports colours. */
+@supports (-moz-appearance: none) {
+  html,
+  .summary__seen,
+  .entry {
+    scrollbar-color: var(--blue) var(--cream-deep);
+  }
+}
+
 img {
   max-width: 100%;
   display: block;
