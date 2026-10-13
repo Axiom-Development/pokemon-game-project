@@ -76,6 +76,7 @@ body {
 /* Firefox only supports colours. */
 @supports (-moz-appearance: none) {
   html,
+  .scroller,
   .summary__seen,
   .entry {
     scrollbar-color: var(--blue) var(--cream-deep);

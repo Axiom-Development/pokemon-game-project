@@ -85,6 +85,9 @@ function Game() {
   const [status, setStatus] = useState<{ score: number; streak: number } | null>(null);
   const [lastMode, setLastMode] = useState<ModeId>("classic");
   const mainRef = useRef<HTMLElement>(null);
+  // The page itself doesn't scroll; this area under the header does, so its
+  // scrollbar starts below the ribbon instead of running up beside it.
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => void saveSettings(settings), [settings]);
   useEffect(() => void saveStats(stats), [stats]);
@@ -113,7 +116,7 @@ function Game() {
   }, []);
   useEffect(() => {
     if (screen !== "play") mainRef.current?.focus({ preventScroll: true });
-    window.scrollTo({ top: 0 });
+    scrollRef.current?.scrollTo({ top: 0 });
   }, [screen]);
 
   // ---- Runs
@@ -225,6 +228,7 @@ function Game() {
       </a>
       <Header screen={screen} onNavigate={navigate} status={screen === "play" && !showDailyDone ? status : null} />
 
+      <div className="scroller" ref={scrollRef}>
       <main id="main" className="main" ref={mainRef} tabIndex={-1}>
         {repaired && (
           <div className="notice" role="alert">
@@ -277,6 +281,7 @@ function Game() {
           />
         )}
       </main>
+      </div>
     </div>
   );
 }
