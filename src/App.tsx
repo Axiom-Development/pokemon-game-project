@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { sfx } from "./audio/sfx";
 import { loadPokemon } from "./data/loadPokemon";
 import { dateKey } from "./game/daily";
@@ -65,6 +66,7 @@ export function App() {
   return (
     <GameDataContext.Provider value={data}>
       <Game />
+      <Analytics />
     </GameDataContext.Provider>
   );
 }
