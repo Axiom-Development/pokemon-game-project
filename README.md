@@ -98,6 +98,8 @@ Outside Hardcore, three kinds of input don't use up a guess: names that aren't a
 
 Hints, from vague to specific: generation → primary type → second type → Pokédex band of 50 → height and weight → category. Hints only use data that exists in the dataset.
 
+Each hint also reveals one more letter of the name, shown as tiles (`P _ _ _ _ _ _`), up to three letters. At least two letters always stay hidden, so short names like Mew only ever show their first letter. Spaces and punctuation are visible from the first hint.
+
 ## Progress and storage
 
 Everything lives in `localStorage` under versioned keys (`wtp.settings.v1`, `wtp.stats.v1`, `wtp.daily.v1`).
@@ -135,8 +137,8 @@ The round logic is a pure reducer (`src/game/run.ts`): `loading → guessing →
 ## Tests
 
 ```bash
-npm test                          # 68 unit tests (Vitest): matching, scoring, rules, run flow, daily, persistence
-npm run build && npm run test:e2e # 17 end-to-end tests (Playwright) against the production build
+npm test                          # 71 unit tests (Vitest): matching, scoring, rules, run flow, daily, persistence
+npm run build && npm run test:e2e # 18 end-to-end tests (Playwright) against the production build
 ```
 
 The end-to-end suite runs against Playwright's bundled Chromium (`npx playwright install chromium`). To use an installed Chrome instead, run it as `PW_CHANNEL=chrome npm run test:e2e`.

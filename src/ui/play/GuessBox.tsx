@@ -1,6 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent } from "react";
 import { suggestNames } from "../../game/names";
-import type { Hint } from "../../game/hints";
+import type { Hint, PatternCell } from "../../game/hints";
 import { autocompleteSettings, type RoundRules } from "../../game/rules";
 import type { Feedback } from "../../game/run";
 import { HINT_PENALTY } from "../../game/scoring";
@@ -14,6 +14,8 @@ interface GuessBoxProps {
   feedback: Feedback | null;
   hints: Hint[];
   hintsUsed: number;
+  /** Name with only the hint-revealed letters filled in (never the full answer). */
+  pattern: PatternCell[] | null;
   active: boolean;
   focusKey: string;
   onSubmit(guess: string): void;
@@ -21,8 +23,15 @@ interface GuessBoxProps {
   onGiveUp(): void;
 }
 
+/** Screen-reader description of the letter hint, e.g. "Starts with Pi, 7 letters". */
+function patternLabel(pattern: PatternCell[]): string {
+  const letters = pattern.filter((c) => c.letter);
+  const shown = letters.filter((c) => !c.hidden).map((c) => c.char).join("");
+  return `Starts with ${shown}, ${letters.length} letters`;
+}
+
 export function GuessBox(props: GuessBoxProps) {
-  const { rules, names, guessesUsed, feedback, hints, hintsUsed, active, focusKey, onSubmit, onHint, onGiveUp } = props;
+  const { rules, names, guessesUsed, feedback, hints, hintsUsed, pattern, active, focusKey, onSubmit, onHint, onGiveUp } = props;
   const [value, setValue] = useState("");
   const [activeIndex, setActiveIndex] = useState(-1);
   const [open, setOpen] = useState(false);
@@ -184,6 +193,25 @@ export function GuessBox(props: GuessBoxProps) {
           </>
         )}
       </p>
+
+      {hintsUsed > 0 && pattern && (
+        <p className="name-pattern">
+          <span className="hint__label">Name</span>
+          <span className="name-pattern__cells" aria-label={patternLabel(pattern)} role="img">
+            {pattern.map((cell, i) =>
+              cell.letter ? (
+                <span key={i} className={`name-pattern__cell ${cell.hidden ? "is-hidden" : ""}`} aria-hidden="true">
+                  {cell.char}
+                </span>
+              ) : (
+                <span key={i} className="name-pattern__gap" aria-hidden="true">
+                  {cell.char.trim()}
+                </span>
+              ),
+            )}
+          </span>
+        </p>
+      )}
 
       {hintsUsed > 0 && (
         <ol className="hints" aria-label="Hints">

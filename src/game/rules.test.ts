@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { dailyPokemonId, dateKey, previousDateKey } from "./daily";
-import { buildHints } from "./hints";
+import { buildHints, letterCount, namePattern, revealedLetterCount } from "./hints";
 import { Deck, mulberry32 } from "./random";
 import { buildRunConfig, defaultGenerationsFor, type RunOptions } from "./rules";
 import type { Pokemon } from "../data/types";
@@ -101,5 +101,30 @@ describe("hints", () => {
     const hints = buildHints({ ...p, heightM: null, weightKg: null, genus: null }, 1025);
     expect(hints.map((h) => h.label)).not.toContain("Size");
     expect(hints.map((h) => h.label)).not.toContain("Category");
+  });
+});
+
+describe("letter hints", () => {
+  const shown = (name: string, hints: number) =>
+    namePattern(name, revealedLetterCount(name, hints)).map((c) => (c.letter ? c.char || "_" : c.char)).join("");
+
+  it("reveal one letter per hint, at most three", () => {
+    expect(shown("Pikachu", 1)).toBe("P______");
+    expect(shown("Pikachu", 2)).toBe("Pi_____");
+    expect(shown("Pikachu", 3)).toBe("Pik____");
+    expect(shown("Pikachu", 5)).toBe("Pik____");
+  });
+
+  it("never give away a short name", () => {
+    expect(revealedLetterCount("Mew", 3)).toBe(1);
+    expect(revealedLetterCount("Abra", 3)).toBe(2);
+    expect(revealedLetterCount("Mew", 0)).toBe(0);
+  });
+
+  it("keep spaces and punctuation visible and hide gender symbols", () => {
+    expect(shown("Mr. Mime", 3)).toBe("Mr. M___");
+    expect(shown("Type: Null", 1)).toBe("T___: ____");
+    expect(shown("Nidoran♀", 3)).toBe("Nid_____");
+    expect(letterCount("Nidoran♀")).toBe(8);
   });
 });

@@ -283,3 +283,19 @@ test("no horizontal overflow on any screen @mobile", async ({ page }) => {
     expect(overflow, screen).toBeLessThanOrEqual(0);
   }
 });
+
+test("hints reveal the first letters of the name, three at most", async ({ page }) => {
+  await page.goto("#options");
+  await page.getByRole("radio", { name: "Easy" }).click(); // 5 hints available
+  await page.goto("#play");
+  const mon = await current(page);
+  const letters = [...mon.name].filter((c) => /[\p{L}\p{N}♀♂]/u.test(c));
+  const cap = Math.max(0, Math.min(3, letters.length - 2));
+  const pattern = page.locator(".name-pattern__cells");
+  for (let i = 1; i <= 4; i++) {
+    await page.getByRole("button", { name: /Hint/ }).click();
+    const n = Math.min(i, cap);
+    await expect(pattern).toHaveAttribute("aria-label", `Starts with ${letters.slice(0, n).join("")}, ${letters.length} letters`);
+  }
+  await expect(page.locator(".name-pattern__cell:not(.is-hidden)")).toHaveCount(cap);
+});

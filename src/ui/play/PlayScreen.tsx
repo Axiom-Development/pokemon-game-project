@@ -1,5 +1,6 @@
 import { useEffect, useMemo, type ReactNode } from "react";
 import { useGameData } from "../../game/GameData";
+import { namePattern, revealedLetterCount } from "../../game/hints";
 import { modeInfo, DIFFICULTIES } from "../../game/rules";
 import { useRun, type RunCallbacks, type RunRequest } from "../../game/useRun";
 import { Clock, PokeBall } from "../icons";
@@ -39,6 +40,12 @@ export function PlayScreen({ request, callbacks, reducedMotion, visible, onStatu
         .map((p) => p.name)
         .sort((a, b) => a.localeCompare(b)),
     [data, config.generations],
+  );
+
+  // Only the revealed letters leave this component; the guess box never sees the answer.
+  const pattern = useMemo(
+    () => (round.hintsUsed > 0 ? namePattern(pokemon.name, revealedLetterCount(pokemon.name, round.hintsUsed)) : null),
+    [pokemon.name, round.hintsUsed],
   );
 
   useEffect(() => {
@@ -125,6 +132,7 @@ export function PlayScreen({ request, callbacks, reducedMotion, visible, onStatu
             feedback={state.feedback}
             hints={hints}
             hintsUsed={round.hintsUsed}
+            pattern={pattern}
             active={phase === "guessing" && visible}
             focusKey={round.key}
             onSubmit={actions.submit}

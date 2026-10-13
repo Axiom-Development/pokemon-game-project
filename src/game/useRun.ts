@@ -186,15 +186,18 @@ export function useRun(data: GameData, request: RunRequest, callbacks: RunCallba
       const id = window.setTimeout(() => dispatch({ type: "REVEAL_DONE" }), 450);
       return () => window.clearTimeout(id);
     }
-    const timers = [
-      window.setTimeout(() => {
-        step("flash");
-        sfx.play("reveal");
-      }, t.hold),
-      window.setTimeout(() => step("named"), t.hold + t.flash),
-      window.setTimeout(() => dispatch({ type: "REVEAL_DONE" }), t.hold + t.flash + t.named),
-    ];
-    return () => timers.forEach((id) => window.clearTimeout(id));
+    // Chained, not scheduled up front: each step starts its own countdown only
+    // once it has run, so a busy main thread can't merge the flash and the
+    // name into one render and skip the flash.
+    let timer = window.setTimeout(() => {
+      step("flash");
+      sfx.play("reveal");
+      timer = window.setTimeout(() => {
+        step("named");
+        timer = window.setTimeout(() => dispatch({ type: "REVEAL_DONE" }), t.named);
+      }, t.flash);
+    }, t.hold);
+    return () => window.clearTimeout(timer);
   }, [state.phase, roundKey, config.rules.quickReveal, reducedMotion]);
 
   // ---- Round resolution sounds (once per round key; saving happens in dispatch)

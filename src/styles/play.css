@@ -200,6 +200,60 @@
   font-weight: 600;
 }
 
+/* Letter hint: the name as blank tiles, first letters filled in. */
+.name-pattern {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: var(--s2);
+}
+
+.name-pattern .hint__label {
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+}
+
+.name-pattern__cells {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.name-pattern__cell {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 30px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: var(--yellow);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.name-pattern__cell.is-hidden {
+  background: var(--cream);
+  border-style: dashed;
+  border-color: var(--ink-soft);
+}
+
+.name-pattern__gap {
+  min-width: 10px;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}
+
+@media (max-width: 720px) {
+  .name-pattern__cell {
+    width: 22px;
+    height: 26px;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 720px) {
   .guess__row {
     gap: var(--s2);
