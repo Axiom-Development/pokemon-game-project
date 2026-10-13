@@ -58,6 +58,19 @@ It exits non-zero if any errors are found. The repo already contains its output,
 - **Result:** 0 errors, 0 warnings. See `reports/asset-validation.md`.
 - **Excluded field:** `image_url` (a PokeAPI link) is consistency-checked but deliberately left out of the game data, so gameplay never depends on it.
 
+## Search engines and sharing
+
+- **Built in:** `index.html` carries the title, description, Open Graph/Twitter preview tags (`public/og-image.png`), icons and a web manifest. It also includes a short readable description inside `#root` for crawlers, which React replaces when the game starts.
+- **Added at build time** by the `seo` plugin in `vite.config.ts`, using the site's public address:
+  - canonical link
+  - absolute image URLs
+  - `VideoGame` structured data (JSON-LD)
+  - `robots.txt`
+  - `sitemap.xml`
+- **The address** comes from `SITE_URL` if set (use this for a custom domain), otherwise from Vercel's `VERCEL_PROJECT_PRODUCTION_URL`.
+- **Previews:** preview deployments are marked `noindex` and disallowed in `robots.txt`, so only production is indexed.
+- **Search Console:** set `GOOGLE_SITE_VERIFICATION` to add Google's verification meta tag.
+
 ## Game modes
 
 | Mode | Rules |

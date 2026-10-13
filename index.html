@@ -3,13 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Who's That Pokémon? – Guess the Pokémon from its silhouette</title>
+    <meta
+      name="description"
+      content="A free browser game: name the Pokémon from its black silhouette, then watch the anime-style reveal. All 1,025 Pokémon across nine generations, six game modes, a daily challenge and a Pokédex to fill."
+    />
     <meta name="theme-color" content="#2a75bb" />
-    <meta name="description" content="Name the Pokémon from its silhouette." />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <title>Who's That Pokémon?</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Who's That Pokémon?" />
+    <meta property="og:title" content="Who's That Pokémon?" />
+    <meta property="og:description" content="Name the Pokémon from its silhouette. 1,025 Pokémon, six game modes and a daily challenge." />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A black Pokémon silhouette on blue rays under the title Who's That Pokémon?" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- seo:site — canonical URL, absolute image URLs, robots and structured data are added at build time -->
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Readable before the game loads (and for crawlers); React replaces it on start. -->
+      <main style="max-width: 640px; margin: 0 auto; padding: 48px 16px; font-family: system-ui, sans-serif; color: #222224">
+        <h1>Who's That Pokémon?</h1>
+        <p>
+          The classic anime segment as a browser game. A black silhouette appears on a blue ray burst; type the
+          Pokémon's name, then watch it flash into full colour.
+        </p>
+        <ul>
+          <li>Classic, Timed Challenge, Generation Challenge, Survival, Daily Pokémon and Hardcore modes</li>
+          <li>All 1,025 Pokémon from Generations I–IX</li>
+          <li>Hints, streaks, a Trainer Card and a Pokédex to complete</li>
+        </ul>
+        <p>Loading the game…</p>
+      </main>
+    </div>
     <noscript>Who's That Pokémon? needs JavaScript to run.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
