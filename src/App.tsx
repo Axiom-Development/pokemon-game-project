@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { sfx } from "./audio/sfx";
 import { loadPokemon } from "./data/loadPokemon";
 import { dateKey } from "./game/daily";
@@ -65,6 +66,7 @@ export function App() {
   return (
     <GameDataContext.Provider value={data}>
       <Game />
+      <SpeedInsights />
     </GameDataContext.Provider>
   );
 }
