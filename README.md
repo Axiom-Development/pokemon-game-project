@@ -167,19 +167,20 @@ It covers:
 
 ## Design notes
 
-The art direction is a Gen-3 handheld (FireRed/LeafGreen) crossed with the anime title card. It deliberately isn't a web app.
+The game runs *on* a Pokédex. The device is the frame: red body, green LCD screens, cream bezels, indicator lights and angled corners. The anime "Who's That Pokémon?" title card is what plays on its main screen.
 
-- **Colour:** Pokémon Yellow and Blue lead; Red is kept for the Guess button and the Pokédex shell. Everything uses solid fills with 3px ink outlines and flat offset shadows. There are no gradients beyond the hard-edged ray stripes, no glass effects and no glows.
-- **Type:** Lilita One for display, Rubik for UI text, and Silkscreen strictly for numbers and readouts. All three are OFL-licensed and bundled locally.
-- **Screens:**
-  - The guess input lives in a dialogue box.
-  - Modes is a start-menu list with a ▶ cursor.
-  - Stats is a Trainer Card.
-  - Settings is an Options menu.
-  - The Pokédex is a red device frame.
-- **Icons:** all hand-drawn SVGs; no icon library or emoji.
-- **Motion:** only the reveal really animates (rays wind up, white flash, name pops in). The "Reduced motion" setting and the OS preference both swap this for an instant reveal.
-- **Sound:** original chiptune blips synthesised with Web Audio, with no recorded audio. It's off until the first user interaction, and there's a toggle and volume control. No music is included.
+- **Colour:** Pokédex red and LCD green lead, with cream bezels and ink outlines. Blue and yellow belong to the anime title card on the stage (ray burst, outlined title, reveal).
+- **Type:**
+  - Bowlby One SC for device headings.
+  - Lilita One only for the anime title card ("Who's That Pokémon?", "It's Pikachu!").
+  - Rubik for UI text, and Silkscreen strictly for numbers and readouts.
+  - All four are OFL-licensed and bundled locally.
+- **Shape:** 3px ink outlines and flat offset shadows, with no blur. Corners are bevelled with `corner-shape: bevel` where the browser supports it, and rounded elsewhere.
+- **Surfaces:** a dot-grid "speaker grille" background. LCD panels with faint scanlines in cream bezels. The header is the device top, with the lens and three indicator lights.
+- **Where it lives:** the skin is in `src/styles/device.css`, loaded after the layout styles, so layout and skin stay separate.
+- **Icons:** all hand-drawn SVGs, with no icon library or emoji.
+- **Motion:** only the reveal really animates (rays wind up, white flash, name pops in), plus a short "power-on" wipe when a Pokédex entry opens. "Reduced motion" and the OS preference turn these into instant changes.
+- **Sound:** original chiptune blips synthesised with Web Audio, with no recorded audio.
 
 ## Known limitations
 
