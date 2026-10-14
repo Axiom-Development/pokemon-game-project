@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Card, Dex, Flame, Gear, Menu, Play } from "./icons";
+import { Card, Dex, Flame, Gear, Menu, Play, PokeBall } from "./icons";
 
 export type Screen = "play" | "modes" | "pokedex" | "trainer" | "options";
 
@@ -29,12 +29,7 @@ export function Header({ screen, onNavigate, status }: HeaderProps) {
             onNavigate("play");
           }}
         >
-          <span className="brand__lens" aria-hidden="true" />
-          <span className="brand__lights" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-          </span>
+          <PokeBall size={30} />
           <span className="brand__text">
             Who's That <span>Pokémon?</span>
           </span>

@@ -18,26 +18,12 @@
   --ink: #222224;
   --ink-soft: #55555c;
   --white: #ffffff;
-  /* Pokédex device: red body, green LCD screens, cream bezels, indicator lights. */
-  --dex-red: #e3350d;
-  --dex-red-dark: #a8200a;
-  --dex-red-glint: #ff6a4d;
-  --lcd: #c7e6b8;
-  --lcd-dark: #1d3b17;
-  --lcd-line: #a9cf98;
-  --bezel: #e9e4d4;
-  --bezel-dark: #d9d2bd;
-  --light-red: #ff4b3e;
-  --light-yellow: #ffd93b;
-  --light-green: #59d96a;
   --good: #1f7a3a;
   --good-bg: #e3f4e5;
   --bad: #b00f0f;
   --bad-bg: #fde6e4;
 
-  /* Device headings; Lilita One stays for the anime title card on the stage. */
-  --font-display: "Bowlby One SC", "Arial Black", sans-serif;
-  --font-anime: "Lilita One", "Arial Rounded MT Bold", "Arial Black", sans-serif;
+  --font-display: "Lilita One", "Arial Rounded MT Bold", "Arial Black", sans-serif;
   --font-ui: "Rubik Variable", "Trebuchet MS", system-ui, sans-serif;
   /* Pixel face for numbers and readouts only — never for running text. */
   --font-pixel: "Silkscreen", ui-monospace, "Courier New", monospace;
